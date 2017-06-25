@@ -1,0 +1,711 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2\doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{88}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Tao \latin{et~al.}(2009)Tao, Bernasek, and Xu]{tao_electronic_2009}
+Tao,~F.; Bernasek,~S.~L.; Xu,~G.-Q. \emph{Chem. Rev.} \textbf{2009},
+  \emph{109}, 3991--4024\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bent(2002)]{bent_organic_2002}
+Bent,~S.~F. \emph{Surf. Sci.} \textbf{2002}, \emph{500}, 879--903\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Filler and Bent(2003)Filler, and Bent]{filler_surface_2003}
+Filler,~M.~A.; Bent,~S.~F. \emph{Prog. Surf. Sci.} \textbf{2003}, \emph{73},
+  1--56\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wolkow(1999)]{wolkow_controlled_1999}
+Wolkow,~R.~A. \emph{Annu. Rev. Phys. Chem.} \textbf{1999}, \emph{50},
+  413--441\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Karthäuser(2011)]{karthauser_control_2011}
+Karthäuser,~S. \emph{J. Phys.: Condens. Matter} \textbf{2011}, \emph{23},
+  013001\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mentovich \latin{et~al.}(2008)Mentovich, Kalifa, Tsukernik, Caster,
+  Rosenberg-Shraga, Marom, Gozin, and Richter]{mentovich_multipeak_2008}
+Mentovich,~E.; Kalifa,~I.; Tsukernik,~A.; Caster,~A.; Rosenberg-Shraga,~N.;
+  Marom,~H.; Gozin,~M.; Richter,~S. \emph{Small} \textbf{2008}, \emph{4},
+  55--58\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Joachim \latin{et~al.}(2000)Joachim, Gimzewski, and
+  Aviram]{joachim_electronics_2000}
+Joachim,~C.; Gimzewski,~J.~K.; Aviram,~A. \emph{Nature} \textbf{2000},
+  \emph{408}, 541--548\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mayne \latin{et~al.}(2004)Mayne, Lastapis, Baffou, Soukiassian,
+  Comtet, Hellner, and Dujardin]{mayne_chemisorbed_2004}
+Mayne,~A.~J.; Lastapis,~M.; Baffou,~G.; Soukiassian,~L.; Comtet,~G.;
+  Hellner,~L.; Dujardin,~G. \emph{Phys. Rev. B} \textbf{2004}, \emph{69},
+  045409\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lu(2003)]{lu_diradical_2003}
+Lu,~X. \emph{J. Am. Chem. Soc.} \textbf{2003}, \emph{125}, 6384--6385\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Taguchi \latin{et~al.}(1991)Taguchi, Fujisawa, Takaoka, Okada, and
+  Nishijima]{taguchi_adsorbed_1991}
+Taguchi,~Y.; Fujisawa,~M.; Takaoka,~T.; Okada,~T.; Nishijima,~M. \emph{J. Chem.
+  Phys.} \textbf{1991}, \emph{95}, 6870--6876\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sinniah \latin{et~al.}(1989)Sinniah, Sherman, Lewis, Weinberg, Yates,
+  and Janda]{sinniah_new_1989}
+Sinniah,~K.; Sherman,~M.~G.; Lewis,~L.~B.; Weinberg,~W.~H.; Yates,~J.~T.;
+  Janda,~K.~C. \emph{Phys. Rev. Lett.} \textbf{1989}, \emph{62}, 567--570\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao \latin{et~al.}(2017)Zhao, Noffke, Raghavachari, and
+  Teplyakov]{zhao_temperature-programmed_2017}
+Zhao,~J.; Noffke,~B.~W.; Raghavachari,~K.; Teplyakov,~A.~V. \emph{J. Phys.
+  Chem. C} \textbf{2017}, \emph{121}, 7208--7213\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Akagi and Yoshinobu(2016)Akagi, and Yoshinobu]{akagi_chemistry_2016}
+Akagi,~K.; Yoshinobu,~J. \emph{Surf. Sci.} \textbf{2016}, \emph{652},
+  304--311\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Konečný and Doren(1998)Konečný, and
+  Doren]{konecny_cycloaddition_1998}
+Konečný,~R.; Doren,~D.~J. \emph{Surf. Sci.} \textbf{1998}, \emph{417},
+  169--188\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lu \latin{et~al.}(2002)Lu, Xu, Wu, Wang, and
+  Zhang]{lu_chemisorption_2002}
+Lu,~X.; Xu,~X.; Wu,~J.; Wang,~N.; Zhang,~Q. \emph{New J. Chem.} \textbf{2002},
+  \emph{26}, 160--164\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Qu and Han(2004)Qu, and Han]{qu_theoretical_2004}
+Qu,~Y.-Q.; Han,~K.-L. \emph{J. Phys. Chem. B} \textbf{2004}, \emph{108},
+  8305--8310\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tao \latin{et~al.}(2002)Tao, Wang, and Xu]{tao_formation_2002}
+Tao,~F.; Wang,~Z.~H.; Xu,~G.~Q. \emph{J. Phys. Chem. B} \textbf{2002},
+  \emph{106}, 3557--3563\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kong \latin{et~al.}(1998)Kong, Teplyakov, Lyubovitsky, and
+  Bent]{kong_nexafs_1998}
+Kong,~M.~J.; Teplyakov,~A.~V.; Lyubovitsky,~J.~G.; Bent,~S.~F. \emph{Surf.
+  Sci.} \textbf{1998}, \emph{411}, 286--293\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang \latin{et~al.}(2003)Wang, Mui, Tannaci, Filler, Musgrave, and
+  Bent]{wang_reactions_2003}
+Wang,~G.~T.; Mui,~C.; Tannaci,~J.~F.; Filler,~M.~A.; Musgrave,~C.~B.;
+  Bent,~S.~F. \emph{J. Phys. Chem. B} \textbf{2003}, \emph{107},
+  4982--4996\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Romeo \latin{et~al.}(2014)Romeo, Balducci, Stener, and
+  Fronzoni]{romeo_n1s_2014}
+Romeo,~M.; Balducci,~G.; Stener,~M.; Fronzoni,~G. \emph{J. Phys. Chem. C}
+  \textbf{2014}, \emph{118}, 1049--1061\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tao \latin{et~al.}(2003)Tao, Qiao, Wang, and Xu]{tao_dative_2003}
+Tao,~F.; Qiao,~M.~H.; Wang,~Z.~H.; Xu,~G.~Q. \emph{J. Phys. Chem. B}
+  \textbf{2003}, \emph{107}, 6384--6390\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Miwa \latin{et~al.}(2005)Miwa, Eves, Rosei, and
+  Lopinski]{miwa_selective_2005}
+Miwa,~J.~A.; Eves,~B.~J.; Rosei,~F.; Lopinski,~G.~P. \emph{J. Phys. Chem. B}
+  \textbf{2005}, \emph{109}, 20055--20059\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Weier \latin{et~al.}(2011)Weier, Lühr, Beimborn, Schönbohm, Döring,
+  Berges, and Westphal]{weier_local_2011}
+Weier,~D.; Lühr,~T.; Beimborn,~A.; Schönbohm,~F.; Döring,~S.; Berges,~U.;
+  Westphal,~C. \emph{Surf. Sci.} \textbf{2011}, \emph{605}, 1784--1790\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ardalan \latin{et~al.}(2011)Ardalan, Dupont, and
+  Musgrave]{ardalan_reactions_2011}
+Ardalan,~P.; Dupont,~G.; Musgrave,~C.~B. \emph{J. Phys. Chem. C} \textbf{2011},
+  \emph{115}, 7477--7486\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chatterjee \latin{et~al.}(2013)Chatterjee, Zhang, and
+  Leung]{chatterjee_self-directed_2013}
+Chatterjee,~A.; Zhang,~L.; Leung,~K.~T. \emph{Langmuir} \textbf{2013},
+  \emph{29}, 9369--9377\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jung and Kang(2009)Jung, and Kang]{jung_adsorption_2009}
+Jung,~S.~C.; Kang,~M.~H. \emph{Phys. Rev. B} \textbf{2009}, \emph{80},
+  235312\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Huang \latin{et~al.}(2004)Huang, Huang, Ning, and
+  Xu]{huang_selective_2004}
+Huang,~H.~G.; Huang,~J.~Y.; Ning,~Y.~S.; Xu,~G.~Q. \emph{J. Chem. Phys.}
+  \textbf{2004}, \emph{121}, 4820--4825\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lee \latin{et~al.}(2012)Lee, Park, Kim, Kim, Park, Shin, Lee, Singh,
+  Thakur, and Kim]{lee_selective_2012}
+Lee,~H.-K.; Park,~J.; Kim,~I.; Kim,~H.-D.; Park,~B.-G.; Shin,~H.-J.;
+  Lee,~I.-J.; Singh,~A.~P.; Thakur,~A.; Kim,~J.-Y. \emph{J. Phys. Chem. C}
+  \textbf{2012}, \emph{116}, 722--725\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lu and Lin(2002)Lu, and Lin]{lu_reactions_2002}
+Lu,~X.; Lin,~M. \emph{Int. Rev. Phys. Chem.} \textbf{2002}, \emph{21},
+  137--184\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ng \latin{et~al.}(2013)Ng, Sun, Liu, and Liu]{ng_mechanism_2013}
+Ng,~W. K.~H.; Sun,~S.~T.; Liu,~J.~W.; Liu,~Z.~F. \emph{J. Phys. Chem. C}
+  \textbf{2013}, \emph{117}, 15749--15753\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Omiya \latin{et~al.}(2012)Omiya, Yokohara, and
+  Shimomura]{omiya_well-oriented_2012}
+Omiya,~T.; Yokohara,~H.; Shimomura,~M. \emph{J. Phys. Chem. C} \textbf{2012},
+  \emph{116}, 9980--9984\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shimomura(2013)]{shimomura_behaviour_2013}
+Shimomura,~M. \emph{Asian J. Chem.} \textbf{2013}, \emph{25}, S35\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stöhr(1992)]{stohr_nexafs_1992}
+Stöhr,~J. \emph{{NEXAFS} {Spectroscopy}}; Springer: Berlin, 1992;
+  Vol.~25\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Penner-Hahn(1999)]{penner-hahn_x-ray_1999}
+Penner-Hahn,~J.~E. \emph{Coord. Chem. Rev.} \textbf{1999}, \emph{190–192},
+  1101--1123\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Garino \latin{et~al.}(2014)Garino, Borfecchia, Gobetto, van Bokhoven,
+  and Lamberti]{garino_determination_2014}
+Garino,~C.; Borfecchia,~E.; Gobetto,~R.; van Bokhoven,~J.~A.; Lamberti,~C.
+  \emph{Coord. Chem. Rev.} \textbf{2014}, \emph{277–278}, 130--186\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tourillon \latin{et~al.}(1988)Tourillon, Mahatsekake, Andrieu,
+  Williams, Garrett, and Braun]{tourillon_electronic_1988}
+Tourillon,~G.; Mahatsekake,~C.; Andrieu,~C.; Williams,~G.~P.; Garrett,~R.~F.;
+  Braun,~W. \emph{Surf. Sci.} \textbf{1988}, \emph{201}, 171--184\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rosenberg \latin{et~al.}(1986)Rosenberg, Love, and
+  Rehn]{rosenberg_polarization-dependent_1986}
+Rosenberg,~R.~A.; Love,~P.~J.; Rehn,~V. \emph{Phys. Rev. B} \textbf{1986},
+  \emph{33}, 4034--4037\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shimoyama \latin{et~al.}(2000)Shimoyama, Wu, Sekiguchi, and
+  Baba]{shimoyama_evidence_2000}
+Shimoyama,~I.; Wu,~G.; Sekiguchi,~T.; Baba,~Y. \emph{Phys. Rev. B}
+  \textbf{2000}, \emph{62}, R6053--R6056\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stöhr and Outka(1987)Stöhr, and Outka]{stohr_determination_1987}
+Stöhr,~J.; Outka,~D.~A. \emph{Phys. Rev. B} \textbf{1987}, \emph{36},
+  7891--7905\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Note1()]{Note1}
+This L stands for Langmuir, it is a standard unit to quantify exposure of a
+  surface to a gaseous sample. The quantity is obtained by multiplying the
+  pressure of the gas by the time of exposure.\relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Triguero \latin{et~al.}(1998)Triguero, Pettersson, and
+  {\textbackslash}AAgren]{triguero_calculations_1998}
+Triguero,~L.; Pettersson,~L. G.~M.; {\textbackslash}AAgren,~H. \emph{Phys. Rev.
+  B} \textbf{1998}, \emph{58}, 8097--8110\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Besley and Noble(2007)Besley, and Noble]{besley_time-dependent_2007}
+Besley,~N.~A.; Noble,~A. \emph{J. Phys. Chem. C} \textbf{2007}, \emph{111},
+  3333--3340\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fronzoni \latin{et~al.}(2012)Fronzoni, Balducci, De~Francesco, Romeo,
+  and Stener]{fronzoni_density_2012}
+Fronzoni,~G.; Balducci,~G.; De~Francesco,~R.; Romeo,~M.; Stener,~M. \emph{J.
+  Phys. Chem. C} \textbf{2012}, \emph{116}, 18910--18919\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[De~Francesco \latin{et~al.}(2007)De~Francesco, Stener, and
+  Fronzoni]{de_francesco_tddft_2007}
+De~Francesco,~R.; Stener,~M.; Fronzoni,~G. \emph{J. Phys. Chem. C}
+  \textbf{2007}, \emph{111}, 13554--13563\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Coustel \latin{et~al.}(2012)Coustel, Carniato, Rochet, and
+  Witkowski]{coustel_pyridine_2012}
+Coustel,~R.; Carniato,~S.; Rochet,~F.; Witkowski,~N. \emph{Phys. Rev. B}
+  \textbf{2012}, \emph{85}, 035323\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rangan \latin{et~al.}(2005)Rangan, Gallet, Bournel, Kubsky, Le~Guen,
+  Dufour, Rochet, Sirotti, Carniato, and Ilakovac]{rangan_adsorption_2005}
+Rangan,~S.; Gallet,~J.-J.; Bournel,~F.; Kubsky,~S.; Le~Guen,~K.; Dufour,~G.;
+  Rochet,~F.; Sirotti,~F.; Carniato,~S.; Ilakovac,~V. \emph{Phys. Rev. B}
+  \textbf{2005}, \emph{71}, 165318\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rangan \latin{et~al.}(2005)Rangan, Bournel, Gallet, Kubsky, Le~Guen,
+  Dufour, Rochet, Sirotti, Carniato, and Ilakovac]{rangan_experimental_2005}
+Rangan,~S.; Bournel,~F.; Gallet,~J.-J.; Kubsky,~S.; Le~Guen,~K.; Dufour,~G.;
+  Rochet,~F.; Sirotti,~F.; Carniato,~S.; Ilakovac,~V. \emph{Phys. Rev. B}
+  \textbf{2005}, \emph{71}, 165319\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fransson \latin{et~al.}(2013)Fransson, Coriani, Christiansen, and
+  Norman]{fransson_carbon_2013}
+Fransson,~T.; Coriani,~S.; Christiansen,~O.; Norman,~P. \emph{J. Chem. Phys.}
+  \textbf{2013}, \emph{138}, 124311\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Besley(2012)]{besley_equation_2012}
+Besley,~N.~A. \emph{Chem. Phys. Lett.} \textbf{2012}, \emph{542}, 42--46\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Coriani \latin{et~al.}(2012)Coriani, Christiansen, Fransson, and
+  Norman]{coriani_coupled-cluster_2012}
+Coriani,~S.; Christiansen,~O.; Fransson,~T.; Norman,~P. \emph{Phys. Rev. A.}
+  \textbf{2012}, \emph{85}, 022507\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Coriani \latin{et~al.}(2012)Coriani, Fransson, Christiansen, and
+  Norman]{coriani_asymmetric-lanczos-chain-driven_2012}
+Coriani,~S.; Fransson,~T.; Christiansen,~O.; Norman,~P. \emph{J. Chem. Theory
+  Comput.} \textbf{2012}, \emph{8}, 1616--1628\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Myhre \latin{et~al.}(2016)Myhre, Coriani, and
+  Koch]{myhre_near-edge_2016}
+Myhre,~R.~H.; Coriani,~S.; Koch,~H. \emph{J. Chem. Theory Comput.}
+  \textbf{2016}, \emph{12}, 2633--2643\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Maganas \latin{et~al.}(2014)Maganas, Kristiansen, Duda, Knop-Gericke,
+  DeBeer, Schlögl, and Neese]{maganas_combined_2014}
+Maganas,~D.; Kristiansen,~P.; Duda,~L.-C.; Knop-Gericke,~A.; DeBeer,~S.;
+  Schlögl,~R.; Neese,~F. \emph{J. Phys. Chem. C} \textbf{2014}, \emph{118},
+  20163--20175\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Maganas \latin{et~al.}(2014)Maganas, Roemelt, Weyhermuller, Blume,
+  Havecker, Knop-Gericke, DeBeer, Schlogl, and Neese]{maganas_l-edge_2014}
+Maganas,~D.; Roemelt,~M.; Weyhermuller,~T.; Blume,~R.; Havecker,~M.;
+  Knop-Gericke,~A.; DeBeer,~S.; Schlogl,~R.; Neese,~F. \emph{Phys. Chem. Chem.
+  Phys.} \textbf{2014}, \emph{16}, 264--276\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Grimme(1996)]{grimme_density_1996}
+Grimme,~S. \emph{Chem. Phys. Lett.} \textbf{1996}, \emph{259}, 128--137\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wenzel \latin{et~al.}(2014)Wenzel, Wormit, and
+  Dreuw]{wenzel_calculating_2014}
+Wenzel,~J.; Wormit,~M.; Dreuw,~A. \emph{J. Chem. Theory Comput.} \textbf{2014},
+  \emph{10}, 4583--4598\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wenzel \latin{et~al.}(2015)Wenzel, Holzer, Wormit, and
+  Dreuw]{wenzel_analysis_2015}
+Wenzel,~J.; Holzer,~A.; Wormit,~M.; Dreuw,~A. \emph{J. Chem. Phys.}
+  \textbf{2015}, \emph{142}, 214104\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wenzel and Dreuw(2016)Wenzel, and Dreuw]{wenzel_physical_2016}
+Wenzel,~J.; Dreuw,~A. \emph{J. Chem. Theory Comput.} \textbf{2016}, \emph{12},
+  1314--1330\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Imamura and Nakai(2006)Imamura, and
+  Nakai]{imamura_time-dependent_2006}
+Imamura,~Y.; Nakai,~H. \emph{Chem. Phys. Lett.} \textbf{2006}, \emph{419},
+  297--303\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lestrange \latin{et~al.}(2015)Lestrange, Nguyen, and
+  Li]{lestrange_calibration_2015}
+Lestrange,~P.~J.; Nguyen,~P.~D.; Li,~X. \emph{J. Chem. Theory Comput.}
+  \textbf{2015}, \emph{11}, 2994--2999\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Asmuruf and Besley(2008)Asmuruf, and Besley]{asmuruf_calculation_2008}
+Asmuruf,~F.; Besley,~N. \emph{Chem. Phys. Lett.} \textbf{2008}, \emph{463},
+  267--271\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lopata \latin{et~al.}(2012)Lopata, Van~Kuiken, Khalil, and
+  Govind]{lopata_linear-response_2012}
+Lopata,~K.; Van~Kuiken,~B.~E.; Khalil,~M.; Govind,~N. \emph{J. Chem. Theory
+  Comput.} \textbf{2012}, \emph{8}, 3284--3292\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Evangelista \latin{et~al.}(2013)Evangelista, Shushkov, and
+  Tully]{evangelista_orthogonality_2013}
+Evangelista,~F.~A.; Shushkov,~P.; Tully,~J.~C. \emph{J. Phys. Chem. A}
+  \textbf{2013}, \emph{117}, 7378--7392\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Derricotte and Evangelista(2015)Derricotte, and
+  Evangelista]{derricotte_simulation_2015}
+Derricotte,~W.~D.; Evangelista,~F.~A. \emph{Phys. Chem. Chem. Phys.}
+  \textbf{2015}, 14360--14374\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Verma \latin{et~al.}(2016)Verma, Derricotte, and
+  Evangelista]{verma_predicting_2016}
+Verma,~P.; Derricotte,~W.~D.; Evangelista,~F.~A. \emph{J. Chem. Theory Comput.}
+  \textbf{2016}, \emph{12}, 144--156\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stener \latin{et~al.}(2003)Stener, Fronzoni, and
+  de~Simone]{stener_time_2003}
+Stener,~M.; Fronzoni,~G.; de~Simone,~M. \emph{Chem. Phys. Lett.} \textbf{2003},
+  \emph{373}, 115--123\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Besley and Asmuruf(2010)Besley, and
+  Asmuruf]{besley_time-dependent_2010}
+Besley,~N.~A.; Asmuruf,~F.~A. \emph{Phys. Chem. Chem. Phys.} \textbf{2010},
+  \emph{12}, 12024\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peng \latin{et~al.}(2015)Peng, Lestrange, Goings, Caricato, and
+  Li]{peng_energy-specific_2015}
+Peng,~B.; Lestrange,~P.~J.; Goings,~J.~J.; Caricato,~M.; Li,~X. \emph{J. Chem.
+  Theory Comput.} \textbf{2015}, \emph{11}, 4146--4153\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Derricotte and Evangelista(2017)Derricotte, and
+  Evangelista]{derricotte_localized_2017}
+Derricotte,~W.~D.; Evangelista,~F.~A. \emph{Submitted to J. Chem. Theory
+  Comput.} \textbf{2017}, \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ayers \latin{et~al.}(2012)Ayers, Levy, and
+  Nagy]{ayers_time-independent_2012}
+Ayers,~P.~W.; Levy,~M.; Nagy,~A. \emph{Phys. Rev. A.} \textbf{2012}, \emph{85},
+  042518\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lu \latin{et~al.}(2004)Lu, Wang, Schmidt, Bytautas, Ho, and
+  Ruedenberg]{lu_molecule_2004}
+Lu,~W.~C.; Wang,~C.~Z.; Schmidt,~M.~W.; Bytautas,~L.; Ho,~K.~M.; Ruedenberg,~K.
+  \emph{J. Chem. Phys.} \textbf{2004}, \emph{120}, 2629--2637\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Knizia(2013)]{knizia_intrinsic_2013}
+Knizia,~G. \emph{J. Chem. Theory Comput.} \textbf{2013}, \emph{9},
+  4834--4843\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schmidt \latin{et~al.}(2015)Schmidt, Hull, and
+  Windus]{schmidt_valence_2015}
+Schmidt,~M.~W.; Hull,~E.~A.; Windus,~T.~L. \emph{J. Phys. Chem. A}
+  \textbf{2015}, \emph{119}, 10408--10427\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pipek and Mezey(1989)Pipek, and Mezey]{pipek_fast_1989}
+Pipek,~J.; Mezey,~P.~G. \emph{J. Chem. Phys.} \textbf{1989}, \emph{90},
+  4916--4926\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Becke(1993)]{becke_new_1993}
+Becke,~A.~D. \emph{J. Chem. Phys.} \textbf{1993}, \emph{98}, 1372\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lee \latin{et~al.}(1988)Lee, Yang, and Parr]{lee_development_1988}
+Lee,~C.; Yang,~W.; Parr,~R.~G. \emph{Phys. Rev. B} \textbf{1988}, \emph{37},
+  785\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vosko \latin{et~al.}(1980)Vosko, Wilk, and
+  Nusair]{vosko_accurate_1980}
+Vosko,~S.~H.; Wilk,~L.; Nusair,~M. \emph{Can. J. Phys.} \textbf{1980},
+  \emph{58}, 1200--1211\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stephens \latin{et~al.}(1994)Stephens, Devlin, Chabalowski, and
+  Frisch]{stephens_ab_1994}
+Stephens,~P.~J.; Devlin,~F.~J.; Chabalowski,~C.~F.; Frisch,~M.~J. \emph{J.
+  Phys. Chem.} \textbf{1994}, \emph{98}, 11623--11627\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rassolov \latin{et~al.}(1998)Rassolov, Pople, Ratner, and
+  Windus]{rassolov_6-31g*_1998}
+Rassolov,~V.~A.; Pople,~J.~A.; Ratner,~M.~A.; Windus,~T.~L. \emph{J. Chem.
+  Phys.} \textbf{1998}, \emph{109}, 1223--1229\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hariharan and Pople(1973)Hariharan, and
+  Pople]{hariharan_influence_1973}
+Hariharan,~P.~C.; Pople,~J.~A. \emph{Theoret. Chim. Acta} \textbf{1973},
+  \emph{28}, 213--222\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Francl \latin{et~al.}(1982)Francl, Pietro, Hehre, Binkley, Gordon,
+  DeFrees, and Pople]{francl_selfconsistent_1982}
+Francl,~M.~M.; Pietro,~W.~J.; Hehre,~W.~J.; Binkley,~J.~S.; Gordon,~M.~S.;
+  DeFrees,~D.~J.; Pople,~J.~A. \emph{J. Chem. Phys.} \textbf{1982}, \emph{77},
+  3654--3665\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Turney \latin{et~al.}(2012)Turney, Simmonett, Parrish, Hohenstein,
+  Evangelista, Fermann, Mintz, Burns, Wilke, Abrams, Russ, Leininger, Janssen,
+  Seidl, Allen, Schaefer, King, Valeev, Sherrill, and
+  Crawford]{turney_psi4:_2012}
+Turney,~J.~M. \latin{et~al.}  \emph{WIREs Comput Mol Sci} \textbf{2012},
+  \emph{2}, 556--565\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perdew \latin{et~al.}(1996)Perdew, Burke, and
+  Ernzerhof]{perdew_generalized_1996}
+Perdew,~J.~P.; Burke,~K.; Ernzerhof,~M. \emph{Phys. Rev. Lett.} \textbf{1996},
+  \emph{77}, 3865--3868\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dunning(1989)]{dunning_gaussian_1989}
+Dunning,~T.~H. \emph{J. Chem. Phys.} \textbf{1989}, \emph{90}, 1007--1023\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hehre \latin{et~al.}(1972)Hehre, Ditchfield, and
+  Pople]{hehre_selfconsistent_1972}
+Hehre,~W.~J.; Ditchfield,~R.; Pople,~J.~A. \emph{J. Chem. Phys.} \textbf{1972},
+  \emph{56}, 2257--2261\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ma \latin{et~al.}(1989)Ma, Sette, Meigs, Modesti, and
+  Chen]{ma_breaking_1989}
+Ma,~Y.; Sette,~F.; Meigs,~G.; Modesti,~S.; Chen,~C.~T. \emph{Phys. Rev. Lett.}
+  \textbf{1989}, \emph{63}, 2044--2047\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Carravetta and Ågren(2013)Carravetta, and
+  Ågren]{carravetta_symmetry_2013}
+Carravetta,~V.; Ågren,~H. \emph{J. Phys. Chem. A} \textbf{2013}, \emph{117},
+  6798--6802\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vall-llosera \latin{et~al.}(2008)Vall-llosera, Gao, Kivimäki, Coreno,
+  Álvarez Ruiz, de~Simone, Ågren, and Rachlew]{vall-llosera_c_2008}
+Vall-llosera,~G.; Gao,~B.; Kivimäki,~A.; Coreno,~M.; Álvarez Ruiz,~J.;
+  de~Simone,~M.; Ågren,~H.; Rachlew,~E. \emph{J. Chem. Phys.} \textbf{2008},
+  \emph{128}, 044316\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

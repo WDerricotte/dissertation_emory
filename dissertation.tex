@@ -1,0 +1,167 @@
+% ------------------------- emory.cls Sample Document --------------------------
+% This is a sample document for emory.cls
+% This document includes the contents likely to be included in a dissertation,
+% such as university required cover pages, table of contents, list of tables
+% and figures, chapters, floats (figures, tables, math equations, etc.),
+% citations, footnotes, appendices, and indices.
+% Compile this document using the emory.cls class file should sucessfully
+% generate a .pdf file with the desired dissertation format.
+%
+% The dissertation style instructions can be found at
+% ------ documentclass declaration ---------------------------------------------
+% --- \documentclass[options]{emory}
+% --- Only [draft] and [final] are allowed.
+% --- Other properties can be set by keys.
+\documentclass[final]{emory}
+
+% --- Set up other document properties. Available keys and values:
+% --- option: document options
+%     --  dissertation=<boolean>
+%           true: document is a dissertation [default]
+%           false: document is a thesis
+%     --  twoside=<boolean>
+%           true: twoside printing.
+%                 Alternates left and right margins on even/odd pages
+%           false: oneside printing. Uniform margin widths.
+% --- preset: preset styles
+
+\setkeys[emory]{option}{twoside=false}
+\setkeys[emory]{option}{dissertation=true}
+\setkeys[emory]{preset}{chapter=false}
+\setkeys[emory]{preset}{fig=true}
+\setkeys[emory]{preset}{list=true}
+\setkeys[emory]{preset}{table=true}
+\setkeys[emory]{preset}{toc=true}
+
+% ------ set up bibliography style ---------------------------------------------
+% --- Preset style, driven by BibLaTeX, are available for each major.
+% --- need to use \autocite instead of \cite
+% --- use command \presetbib{bibsource.bib} to set up the bibliography file
+%\presetbib{introduction.bib}
+
+% --- Or, you can load your own bibtex packages and set up your own styles.
+
+
+% ------ include your own packages ---------------------------------------------
+\usepackage{url}
+\usepackage{fancyvrb}
+\usepackage{standalone}
+\usepackage[sort&compress,numbers,super]{natbib}
+\usepackage{booktabs}
+\usepackage{notes2bib}
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{lipsum}
+\usepackage[sectionbib]{chapterbib}
+
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+\definecolor{verbcolor}{rgb}{0.1,0.60,0.65}
+\fvset{%
+  fontsize=\small,
+	formatcom=\color{verbcolor},
+	baselinestretch=1.0,
+	numbers=left,
+	numbersep=1ex,
+	gobble=-2,
+	xleftmargin=4ex
+}
+
+\newenvironment{chapabstract}{%
+    \begin{center}%
+      \bfseries Chapter Abstract
+    \end{center}}%
+   {\par}
+
+\newcommand{\bra}[2][0]
+{\ifthenelse{\equal{#1}{0}}{\left\langle #2 \right|}
+{\ifthenelse{\equal{#1}{1}}{\big\langle #2 \big|}
+{\ifthenelse{\equal{#1}{2}}{\Big\langle #2 \Big|}
+{\ifthenelse{\equal{#1}{3}}{\bigg\langle #2 \bigg|}
+{\ifthenelse{\equal{#1}{4}}{\Bigg\langle #2 \Bigg|}
+{Error}}}}}
+}
+
+% <#2|#3|#4>, #1 gives the size of the bracket
+\newcommand{\bracket}[4][0]
+{\ifthenelse{\equal{#1}{0}}{\left\langle #2 \middle| #3 \middle| #4 \right\rangle}
+{\ifthenelse{\equal{#1}{1}}{\big\langle #2 \big| #3 \big| #4 \big\rangle}
+{\ifthenelse{\equal{#1}{2}}{\Big\langle #2 \Big| #3 \Big| #4 \Big\rangle}
+{\ifthenelse{\equal{#1}{3}}{\bigg\langle #2 \bigg| #3 \bigg| #4 \bigg\rangle}
+{\ifthenelse{\equal{#1}{4}}{\Bigg\langle #2 \Bigg| #3 \Bigg| #4 \Bigg\rangle}
+{Error}}}}}
+}
+
+% <#2|#3>, #1 gives the size of the bracket
+\newcommand{\braket}[3][0]
+{\ifthenelse{\equal{#1}{0}}{\left\langle #2 \middle| #3 \right\rangle}
+{\ifthenelse{\equal{#1}{1}}{\big\langle #2 \big| #3 \big\rangle}
+{\ifthenelse{\equal{#1}{2}}{\Big\langle #2 \Big| #3 \Big\rangle}
+{\ifthenelse{\equal{#1}{3}}{\bigg\langle #2 \bigg| #3 \bigg\rangle}
+{\ifthenelse{\equal{#1}{4}}{\Bigg\langle #2 \Bigg| #3 \Bigg\rangle}
+{Error}}}}}
+}
+
+% |#2>, #1 gives the size of the bracket
+\newcommand{\ket}[2][0]
+{\ifthenelse{\equal{#1}{0}}{\left| #2 \right\rangle}
+{\ifthenelse{\equal{#1}{1}}{\big| #2 \big\rangle}
+{\ifthenelse{\equal{#1}{2}}{\Big| #2 \Big\rangle}
+{\ifthenelse{\equal{#1}{3}}{\bigg| #2 \bigg\rangle}
+{\ifthenelse{\equal{#1}{4}}{\Bigg| #2 \Bigg\rangle}
+{Error}}}}}
+}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{epigraph}
+%\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{10cm}
+\setlength\epigraphrule{1pt}
+% This line of code is to remove compatibility issue with hyperref
+\AtBeginDocument{\let\textlabel\label}
+
+% ------ title and author and the boss -----------------------------------------
+\title{Development and Applications of Orthogonality Constrained Density Functional Theory for the Accurate Simulation X-Ray Absorption Spectroscopy}
+\author{Wallace D. Derricotte}                      % replace with your legal name
+\degree{Doctor of Philosophy}           % replace with your degree, if necessary
+\prevdegree{B.S., Morehouse College, 2013}        % replace with your previous degree, repeat if necessary
+\field{Chemistry}
+% \advisor{Name}{Degree}, same for committee.
+% Repeat command for multiple inputs. Please manually sort with alphabatical order
+\advisor{Francesco A. Evangelista}{Ph.D}
+\committee{Dr.\ Joel Bowman}{Ph.D}
+\committee{Dr.\ Susanna Widicus-Weaver}{Ph.D}
+\yr{2017}                               % replace the year, if necessary
+\dean{Lisa A.\ Tedesco, Ph.D}     % The dean. Leave it as is
+
+
+% ------ start your awesome writing here ---------------------------------------
+\graphicspath{{figures/}}
+\begin{document}
+
+% ------ abstract --------------------------------------------------------------
+\begin{abstract}[6in]% specify size using option [size], default is 4.5in
+The aim of this dissertation is to address the theoretical challenges of calculating core-excited states within the framework of orthogonality constrained density functional theory (OCDFT). OCDFT is a well-established variational, time independent formulation of DFT for the computation of electronic excited states. In this work, the theory is first extended to compute core-excited states and generalized to calculate multiple excited state solutions. An initial benchmark is performed on a set of 40 unique core-excitations, highlighting that OCDFT excitation energies have a mean absolute error of 1.0 eV. Next, a novel implementation of the spin-free exact-two-component (X2C) one-electron treatment of scalar relativistic effects is presented and combined with OCDFT in an effort to calculate core excited states of transition metal complexes. The X2C-OCDFT spectra of three organotitanium complexes (TiCl$_4$, TiCpCl$_3$, and TiCp$_2$Cl$_2$) are shown to be in good agreement with experimental results and show a maximum absolute error of 5-6 eV. Next the issue of assigning core excited states is addressed by introducing an automated approach to analyzing the excited state MO by quantifying its local contributions using a unique orbital basis known as localized intrinsic valence virtual orbitals (LIVVOs). The utility of this approach is highlighted by studying sulfur core excitations in ethanethiol and benzenethiol, as well as the hydrogen bonding in the water dimer. Finally, an approach to selectively target specific core excited states in OCDFT based on atomic orbital subspace projection is presented in an effort to target core excited states of chemisorbed organic molecules. The core excitation spectrum of pyrazine chemisorbed on Si(100) is calculated using OCDFT and further characterized using the LIVVO approach.
+\end{abstract}
+
+% ------ acknowledgement -------------------------------------------------------
+\begin{acknowledgement}%
+\epigraph{I would like to dedicate this dissertation to my late Aunt Cynthia Stanley who nicknamed me ``Doc'' since I was a kid. She knew this day would come, I know she is proud. Rest in Peace.}{Dedication}
+
+After years of intense research, coursework, teaching, training, and learning today is the day. This final note of thanks is the finishing touch, the cherry on top of the cake that lies beneath. As I sit here typing this it is actually hard to believe that a little black kid from East Point, Georgia has grown into his own and will hold the highest degree that the hollow halls of academia has to offer. I am so proud of this accomplishment, but it is not mine alone, I want to take this moment to reflect on all of the people who helped me get this far in my journey.
+
+First off I would like to thank my wife Alencia, she has been a rock for me throughout this process. She has motivated me and guided me through this process in more ways than she knows, I can honestly say that without her love and support I would not be where I am today. I would like to thank my mother and father Glenda and Charles Derricotte who also been an excellent support system and always encouraged me to pursue my dreams. My brother and sister-in-law Charles and Quenetta Derricotte have also been there for me when I needed them. My wonderful niece and nephews Alaria, Micheal, Amir, C.J., and Daniel are constant reminders of how fun it was to be a carefree kid, seeing them grow up during this time has been a great joy and motivation for me.
+
+I want to thank my advisor Francesco Evangelista for accepting me in his group. Francesco and I both arrived at Emory during the summer of 2013, albeit at two different points in our careers, we were both looking to get a great start at Emory. When I first began I knew little to nothing about computational chemistry, but Francesco was very helpful and taught me everything I needed to know to succeed. I am forever grateful for his patience and guidance. I also want to thank all of the Evangelista group members who were here during my tenure with the group Dr. Prakash Verma, Dr. Chenyang Li, Jeffery Schriber, Tianyuan (Sam) Zhang, and Kevin Hannon. I would also like to thank the greater Southeastern Theoretical Chemistry (SETCA) community that has embraced me and been of great help especially Trent Parker, Brandon Bakr, Dr. Daniel Smith, Prof. David Sherrill, Prof. Ryan Fortenberry, and countless others. This community has felt like home to me and hope to be a part of it for years to come.
+\end{acknowledgement}
+
+\maketoc
+\include{chp_1_introduction/chp_1_introduction}
+\include{chp_2_ocdft_benchmark/chp_2_ocdft_benchmark}
+\include{chp_3_x2c_ocdft/chp_3_x2c_ocdft}
+\include{chp_4_livvo/chp_4_livvo}
+\include{chp_5_ocdft_surfaces/chp_5_ocdft_surfaces}
+\include{chp_6_conclusions/chp_6_conclusions}
+%\include{ocdft_surfaces/rew}
+%\bibliography{introduction}
+
+\end{document}

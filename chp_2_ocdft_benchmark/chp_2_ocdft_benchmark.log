@@ -1,0 +1,1451 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.7)  21 JUN 2017 07:48
+entering extended mode
+**./chp_2_ocdft_benchmark.tex
+(chp_2_ocdft_benchmark.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count91
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.st
+y
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count92
+\@cmidlb=\count93
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count94
+\@lastruleclass=\count95
+\@thisrulewidth=\dimen125
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen126
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen127
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks19
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks20
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks21
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks28
+)
+(chp_2_ocdft_benchmark.aux)
+\openout1 = `chp_2_ocdft_benchmark.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=513.11745pt
+* \textheight=693.79243pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-58.68121pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen135
+\scratchbox=\box28
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen136
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks30
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+! Undefined control sequence.
+l.15 \epigraph
+              {\textit{``The history of science is rich in the example of th...
+
+? 
+
+! LaTeX Error: Environment chapabstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \begin{chapabstract}
+                         
+? 
+
+! LaTeX Error: \begin{document} ended by \end{chapabstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \end{chapabstract}
+                       
+? 
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: File `NEXASIllustration.pdf' not found on input line 33.
+
+
+! Package pdftex.def Error: File `NEXASIllustration.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...aphics[width=8.8cm]{NEXASIllustration.pdf}
+                                                  
+? 
+[1
+
+{C:/Users/WDerricotte/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+! Undefined control sequence.
+<recently read> \bra 
+                     
+l.70 ...nimizes the energy expectation value $\bra
+                                                  {\Psi}\hat{H}\ket{\Psi}$ i...
+
+? 
+! Undefined control sequence.
+l.70 ...y expectation value $\bra{\Psi}\hat{H}\ket
+                                                  {\Psi}$ imposing two const...
+
+? 
+[2]
+! Undefined control sequence.
+l.78 \bra
+         {\Psi}\hat{H}\ket{\Psi}.
+? 
+! Undefined control sequence.
+l.78 \bra{\Psi}\hat{H}\ket
+                          {\Psi}.
+? 
+! Undefined control sequence.
+l.85 \braket
+            [1]{\Phi^{(m)}}{\Phi^{(n)}} = \delta_{mn}.
+? 
+! Undefined control sequence.
+<argument> ...\frac {1}{2} \sum _i^{\rm occ} \bra 
+                                                  [1]{\phi _i^{(n)}}\nabla ^...
+l.96 \end{split}
+                
+? 
+! Undefined control sequence.
+<argument> ...bra [1]{\phi _i^{(n)}}\nabla ^2\ket 
+                                                  [1]{\phi _i^{(n)}} + \int ...
+l.96 \end{split}
+                
+? 
+! Undefined control sequence.
+<argument> ...\frac {1}{2} \sum _i^{\rm occ} \bra 
+                                                  [1]{\phi _i^{(n)}}\nabla ^...
+l.96 \end{split}
+                
+? 
+! Undefined control sequence.
+<argument> ...bra [1]{\phi _i^{(n)}}\nabla ^2\ket 
+                                                  [1]{\phi _i^{(n)}} + \int ...
+l.96 \end{split}
+                
+? 
+
+LaTeX Warning: File `Figure1.pdf' not found on input line 101.
+
+
+! Package pdftex.def Error: File `Figure1.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \includegraphics[width=8.8cm]{Figure1.pdf}
+                                                
+? 
+
+Underfull \hbox (badness 4621) in paragraph at lines 104--104
+[]\OT1/cmr/m/n/10 Figure 2: Il-lus-tra-tion of the pro-jec-tion op-er-a-tors us
+ed in OCDFT. No-tice, that a con-se-quence of
+ []
+
+! Undefined control sequence.
+l.117 where $\hat{P}^{(0)} = \sum_{i} \ket
+                                          [1]{\phi_i^{(0)}}\bra[1]{\phi_i^{(...
+
+? 
+! Undefined control sequence.
+l.117 ...(0)} = \sum_{i} \ket[1]{\phi_i^{(0)}}\bra
+                                                  [1]{\phi_i^{(0)}}$ is a pr...
+
+? 
+
+Overfull \hbox (43.97711pt too wide) in paragraph at lines 116--120
+\OT1/cmr/m/n/10 where $[] = [][][1][][1][]$ is a pro-jec-tor onto the oc-cu-pie
+d or-bitals of $[]$, and $[] = 1 \OMS/cmsy/m/n/10   []$\OT1/cmr/m/n/10 . Eqs. 
+[]
+ []
+
+! Undefined control sequence.
+<argument> ... h} + \hat {P}^{(1)}_{\rm p} = \ket 
+                                                  [1]{\phi ^{(1)}_{\rm h}}\b...
+l.137 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...= \ket [1]{\phi ^{(1)}_{\rm h}}\bra 
+                                                  [1]{\phi ^{(1)}_{\rm h}} +...
+l.137 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...\bra [1]{\phi ^{(1)}_{\rm h}} +\ket 
+                                                  [1]{\phi ^{(1)}_{\rm p}}\b...
+l.137 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ... +\ket [1]{\phi ^{(1)}_{\rm p}}\bra 
+                                                  [1]{\phi ^{(1)}_{\rm p}},\...
+l.137 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ... h} + \hat {P}^{(1)}_{\rm p} = \ket 
+                                                  [1]{\phi ^{(1)}_{\rm h}}\b...
+l.137 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...= \ket [1]{\phi ^{(1)}_{\rm h}}\bra 
+                                                  [1]{\phi ^{(1)}_{\rm h}} +...
+l.137 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...\bra [1]{\phi ^{(1)}_{\rm h}} +\ket 
+                                                  [1]{\phi ^{(1)}_{\rm p}}\b...
+l.137 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ... +\ket [1]{\phi ^{(1)}_{\rm p}}\bra 
+                                                  [1]{\phi ^{(1)}_{\rm p}},\...
+l.137 \end{align}
+                 
+? 
+[3]
+
+LaTeX Warning: File `Figure2NEW.pdf' not found on input line 144.
+
+
+! Package pdftex.def Error: File `Figure2NEW.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 ...udegraphics[width=15.5cm]{Figure2NEW.pdf}
+                                                  
+? 
+! Undefined control sequence.
+<argument>  \label {eq:ortho_example_1} \braket 
+                                                [1]{\phi _{\rm h}^{(2)}}{\ph...
+l.160 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument>  \label {eq:ortho_example_1} \braket 
+                                                [1]{\phi _{\rm h}^{(2)}}{\ph...
+l.160 \end{align}
+                 
+? 
+
+Overfull \hbox (16.3605pt too wide) in paragraph at lines 160--163
+\OT1/cmr/m/n/10 then the de-ter-mi-nant $[]$ is guar-an-teed to be or-thog-o-n
+al to $[]$ and $[]$. The con-di-tions Eqs. []
+ []
+
+
+Overfull \hbox (80.02144pt too wide) in paragraph at lines 164--169
+[]\OT1/cmr/m/n/10 In the fol-low-ing we de-scribe our con-strained mul-ti-ple h
+ole/particle (CMHP) al-go-rithm, which gen-er-al-izes Eqs. []
+ []
+
+[4] [5]
+! Undefined control sequence.
+<argument>  \braket 
+                    [1]{\phi ^{(1,a)}_{\rm p}}{\phi ^{(1,b)}_{\rm p}} &= \de...
+l.182 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument>  \braket 
+                    [1]{\phi ^{(1,a)}_{\rm p}}{\phi ^{(1,b)}_{\rm p}} &= \de...
+l.182 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument>  \braket 
+                    [1]{\phi ^{(2,a)}_{\rm p}}{\phi ^{(2,b)}_{\rm p}} &= \de...
+l.199 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument>  \braket 
+                    [1]{\phi ^{(2,a)}_{\rm p}}{\phi ^{(2,b)}_{\rm p}} &= \de...
+l.199 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument>  \braket 
+                    [1]{\phi ^{(1,1)}_{\rm h}}{\phi ^{(2,a)}_{\rm h}} &=0,&\...
+l.203 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument>  \braket 
+                    [1]{\phi ^{(1,1)}_{\rm h}}{\phi ^{(2,a)}_{\rm h}} &=0,&\...
+l.203 \end{align}
+                 
+? 
+[6]
+! Undefined control sequence.
+l.252 \boldsymbol{\mu}_{n0} = \bra
+                                  [1]{\Phi^{(n)}} \hat{\textbf{r}}\ket[1]{\P...
+
+? 
+! Undefined control sequence.
+l.252 ... \bra[1]{\Phi^{(n)}} \hat{\textbf{r}}\ket
+                                                  [1]{\Phi^{(0)}},
+? 
+
+LaTeX Warning: File `NEW_histogram2.pdf' not found on input line 289.
+
+
+! Package pdftex.def Error: File `NEW_histogram2.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289 ...graphics[width=8.8cm]{NEW_histogram2.pdf}
+                                                  
+? 
+[7]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8]
+
+LaTeX Warning: File `scatterNEWER2.pdf' not found on input line 309.
+
+
+! Package pdftex.def Error: File `scatterNEWER2.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 ...egraphics[width=8.8cm]{scatterNEWER2.pdf}
+                                                  
+? 
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 ...{12.5cm}{@{\extracolsep{\fill} }llcrrrHH}
+                                                  
+? 
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 ...{12.5cm}{@{\extracolsep{\fill} }llcrrrHH}
+                                                  
+? 
+
+Overfull \hbox (40.26971pt too wide) in alignment at lines 319--350
+[] [] [] [] [] [] [] []
+ []
+
+[9]
+
+! LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 \begin{comment}
+                     
+? 
+
+Package natbib Warning: Citation `henderson_assessment_2008 ' on page 10 undefi
+ned on input line 362.
+
+
+! LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364 \end{comment}
+                   
+? 
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.370 ...{12.5cm}{@{\extracolsep{\fill} }llrrrrHH}
+                                                  
+? 
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.370 ...{12.5cm}{@{\extracolsep{\fill} }llrrrrHH}
+                                                  
+? 
+
+Overfull \hbox (40.7697pt too wide) in alignment at lines 370--395
+[] [] [] [] [] [] [] []
+ []
+
+[10] [11] [12]
+
+LaTeX Warning: File `ThymineVirtuals.png' not found on input line 450.
+
+
+! Package pdftex.def Error: File `ThymineVirtuals.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.450 ...raphics[width=8.8cm]{ThymineVirtuals.png}
+                                                  
+? 
+
+LaTeX Warning: File `ThymineOKexperiment.png' not found on input line 456.
+
+
+! Package pdftex.def Error: File `ThymineOKexperiment.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.456 ...ics[width=8.8cm]{ThymineOKexperiment.png}
+                                                  \\
+? 
+
+LaTeX Warning: File `ThymineNKexperiment.png' not found on input line 457.
+
+
+! Package pdftex.def Error: File `ThymineNKexperiment.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.457 ...ics[width=8.8cm]{ThymineNKexperiment.png}
+                                                   \\
+? 
+
+LaTeX Warning: File `ThymineCKexperiment.png' not found on input line 458.
+
+
+! Package pdftex.def Error: File `ThymineCKexperiment.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.458 ...ics[width=8.8cm]{ThymineCKexperiment.png}
+                                                  
+? 
+
+LaTeX Warning: Float too large for page by 119.3481pt on input line 461.
+
+[13]
+! Undefined control sequence.
+l.463 ...al and theoretical oxygen K-edge \bibnote
+                                                  {Spectra resulting from in...
+
+? 
+! Undefined control sequence.
+l.464 \newcolumntype
+                    {.}{D{.}{.}{-1}}
+? 
+
+LaTeX Warning: File `ThymineNumbering.png' not found on input line 475.
+
+
+! Package pdftex.def Error: File `ThymineNumbering.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.475  }
+        \\
+? 
+! Undefined control sequence.
+l.486 ...%$ $\pi_1^*$  & 533.4 & 0.130 & \multirow
+                                                  {2}{*}{B$^{\prime}$} & \mu...
+
+? 
+! Undefined control sequence.
+l.486 ...\multirow{2}{*}{B$^{\prime}$} & \multirow
+                                                  {2}{*}{533.8}  \\ % $\approx$
+
+? 
+! Undefined control sequence.
+l.490 ... $\rm D_3$  & 535.5 & 0.092   & \multirow
+                                                  {3}{*}{C} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.490 ... 0.092   & \multirow{3}{*}{C} & \multirow
+                                                  {3}{*}{535.7}  \\
+? 
+! Undefined control sequence.
+l.496 ...%$ $\rm D_2$  & 537.1 & 0.040 & \multirow
+                                                  {3}{*}{D} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.496 ... & 0.040 & \multirow{3}{*}{D} & \multirow
+                                                  {3}{*}{537.1} \\
+? 
+! Undefined control sequence.
+l.503 ...%$ $\pi_1^*$  & 401.2 & 0.998 & \multirow
+                                                  {2}{*}{A} & \multirow{2}{*...
+
+? 
+! Undefined control sequence.
+l.503 ... & 0.998 & \multirow{2}{*}{A} & \multirow
+                                                  {2}{*}{401.7} \\
+? 
+! Undefined control sequence.
+l.508 ...%$ $\pi_2^*$  & 402.5 & 0.087 & \multirow
+                                                  {3}{*}{B} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.508 ... & 0.087 & \multirow{3}{*}{B} & \multirow
+                                                  {3}{*}{402.7}\\
+? 
+! Undefined control sequence.
+l.518 ...$ $\rm D_3$  & 405.1 & 0.370  & \multirow
+                                                  {3}{*}{D} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.518 ...& 0.370  & \multirow{3}{*}{D} & \multirow
+                                                  {3}{*}{405.5} \\
+? 
+! Undefined control sequence.
+l.531 ... $\pi_2^*$  & 287.3 & 0.140   & \multirow
+                                                  {3}{*}{C} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.531 ... 0.140   & \multirow{3}{*}{C} & \multirow
+                                                  {3}{*}{287.8}  \\
+? 
+! Undefined control sequence.
+l.540 ...%$ $\pi_2^*$  & 289.1 & 1.000 & \multirow
+                                                  {3}{*}{E} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.540 ... & 1.000 & \multirow{3}{*}{E} & \multirow
+                                                  {3}{*}{289.4} \\
+? 
+! Undefined control sequence.
+l.547 ...%$ $\rm D_4$  & 290.3 & 0.098 & \multirow
+                                                  {3}{*}{F} &  \multirow{3}{...
+
+? 
+! Undefined control sequence.
+l.547 ...& 0.098 & \multirow{3}{*}{F} &  \multirow
+                                                  {3}{*}{290.7}  \\
+? 
+[14] [15]
+
+LaTeX Warning: File `AdenineVirtuals.png' not found on input line 566.
+
+
+! Package pdftex.def Error: File `AdenineVirtuals.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.566 ...raphics[width=8.8cm]{AdenineVirtuals.png}
+                                                   \\
+? 
+
+LaTeX Warning: File `AdenineNKexperiment.png' not found on input line 576.
+
+
+! Package pdftex.def Error: File `AdenineNKexperiment.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 ...ics[width=8.8cm]{AdenineNKexperiment.png}
+                                                   \\
+? 
+
+LaTeX Warning: File `AdenineCKexperiment.png' not found on input line 577.
+
+
+! Package pdftex.def Error: File `AdenineCKexperiment.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.577 ...ics[width=8.8cm]{AdenineCKexperiment.png}
+                                                  
+? 
+
+LaTeX Warning: File `AdenineNumbering.png' not found on input line 617.
+
+
+! Package pdftex.def Error: File `AdenineNumbering.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.617 ...phics[width=3.5cm]{AdenineNumbering.png}}
+                                                  \\
+? 
+! Undefined control sequence.
+l.624 ...%$ $\pi_1^*$  & 399.1 & 0.825 & \multirow
+                                                  {3}{*}{A} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.624 ... & 0.825 & \multirow{3}{*}{A} & \multirow
+                                                  {3}{*}{399.5} \\
+? 
+! Undefined control sequence.
+l.631 ...%$ $\pi_1^*$  & 399.7 & 0.001 & \multirow
+                                                  {2}{*}{A$^{\prime}$} & \mu...
+
+? 
+! Undefined control sequence.
+l.631 ...\multirow{2}{*}{A$^{\prime}$} & \multirow
+                                                  {2}{*}{400.4}  \\ %$\approx$
+? 
+! Undefined control sequence.
+l.640 ...%$ $\pi_1^*$  & 401.4 & 0.351 & \multirow
+                                                  {3}{*}{B} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.640 ... & 0.351 & \multirow{3}{*}{B} & \multirow
+                                                  {3}{*}{401.9}\\
+? 
+! Undefined control sequence.
+l.647 ...%$ $\pi_2^*$  & 403.1 & 0.109 & \multirow
+                                                  {3}{*}{C} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.647 ... & 0.109 & \multirow{3}{*}{C} & \multirow
+                                                  {3}{*}{403.0} \\
+? 
+! Undefined control sequence.
+l.655 ...%$ $\pi_2^*$  & 286.3 & 0.270 & \multirow
+                                                  {2}{*}{A} & \multirow{2}{*...
+
+? 
+! Undefined control sequence.
+l.655 ... & 0.270 & \multirow{2}{*}{A} & \multirow
+                                                  {2}{*}{286.4}\\
+? 
+! Undefined control sequence.
+l.660 ...$ $\pi_1^*$  & 286.7 & 0.242 &  \multirow
+                                                  {2}{*}{B} &  \multirow{2}{...
+
+? 
+! Undefined control sequence.
+l.660 ... 0.242 &  \multirow{2}{*}{B} &  \multirow
+                                                  {2}{*}{286.8} \\
+? 
+! Undefined control sequence.
+l.665 ...$ $\pi_1^*$  & 287.3 & 1.000 &  \multirow
+                                                  {2}{*}{C} &  \multirow{2}{...
+
+? 
+! Undefined control sequence.
+l.665 ... 1.000 &  \multirow{2}{*}{C} &  \multirow
+                                                  {2}{*}{287.4}\\
+? 
+! Undefined control sequence.
+l.670 ...%$ $\pi_3^*$  & 287.9 & 0.083 & \multirow
+                                                  {2}{*}{C$^{\prime}$} &  \m...
+
+? 
+! Undefined control sequence.
+l.670 ...multirow{2}{*}{C$^{\prime}$} &  \multirow
+                                                  {2}{*}{288.0}\\
+? 
+! Undefined control sequence.
+l.676 ...%$ $\pi_2^*$  & 288.8 & 0.006 & \multirow
+                                                  {3}{*}{D} & \multirow{3}{*...
+
+? 
+! Undefined control sequence.
+l.676 ... & 0.006 & \multirow{3}{*}{D} & \multirow
+                                                  {3}{*}{289.0} \\
+? 
+! Undefined control sequence.
+l.683 ...%$ $\pi_3^*$  & 289.4 & 0.010 & \multirow
+                                                  {3}{*}{E} \\
+? 
+! Undefined control sequence.
+l.690 ...%$ $\rm D_1$  & 290.0 & 0.225 & \multirow
+                                                  {3}{*}{F} \\
+? 
+! Undefined control sequence.
+l.697 ...$ $\pi_3^*$  & 290.4 & 0.073  & \multirow
+                                                  {3}{*}{G} \\
+? 
+[16] [17]
+
+! LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 \begin{comment}
+                     
+? 
+
+! LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.722 \end{comment}
+                   
+? 
+[18] [19]
+
+! LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 \begin{comment}
+                     
+? 
+
+! LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.775 \end{comment}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+
+ []
+
+
+Overfull \hbox (14.16853pt too wide) in paragraph at lines 785--785
+[]\OT1/cmr/bx/n/14.4 Appendix A: OCDFT Equa-tions for the Con-strained Mul-ti-p
+le Hole/Particle
+ []
+
+! Undefined control sequence.
+<argument> ...} =& \sum _{j < i}^{\rm holes} \ket 
+                                                  [1]{\phi ^{(j,1)}_{\rm h}}...
+l.816 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...\ket [1]{\phi ^{(j,1)}_{\rm h}}\bra 
+                                                  [1]{\phi ^{(j,1)}_{\rm h}}...
+l.816 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...& \sum _{b < a}^{\rm particles}\ket 
+                                                  [1]{\phi ^{(i,b)}_{\rm p}}...
+l.816 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...\ket [1]{\phi ^{(i,b)}_{\rm p}}\bra 
+                                                  [1]{\phi ^{(i,b)}_{\rm p}}...
+l.816 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...} =& \sum _{j < i}^{\rm holes} \ket 
+                                                  [1]{\phi ^{(j,1)}_{\rm h}}...
+l.816 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...\ket [1]{\phi ^{(j,1)}_{\rm h}}\bra 
+                                                  [1]{\phi ^{(j,1)}_{\rm h}}...
+l.816 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...& \sum _{b < a}^{\rm particles}\ket 
+                                                  [1]{\phi ^{(i,b)}_{\rm p}}...
+l.816 \end{align}
+                 
+? 
+! Undefined control sequence.
+<argument> ...\ket [1]{\phi ^{(i,b)}_{\rm p}}\bra 
+                                                  [1]{\phi ^{(i,b)}_{\rm p}}...
+l.816 \end{align}
+                 
+? 
+[20] (chp_2_ocdft_benchmark.bbl [21] [22] [23])
+
+Package natbib Warning: There were undefined citations.
+
+[24] [25] [26] [27] (chp_2_ocdft_benchmark.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4107 strings out of 493334
+ 59444 string characters out of 3136655
+ 153309 words of memory out of 3000000
+ 7532 multiletter control sequences out of 15000+200000
+ 16913 words of font info for 63 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,16n,32p,2448b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on chp_2_ocdft_benchmark.pdf (27 pages, 451034 bytes).
+PDF statistics:
+ 209 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

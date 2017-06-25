@@ -1,0 +1,2762 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.7)  23 JUN 2017 16:44
+entering extended mode
+**./dissertation.tex
+(dissertation.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(emory.cls
+Document Class: emory 2016/12/01 LaTeX class for Emory dissertation
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
+\XKV@depth=\count88
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\mhchem\mhchem.sty
+Package: mhchem 2016/08/07 v4.05 for typesetting chemical formulae
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.
+tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count102
+\l_tmpa_int=\count103
+\l_tmpb_int=\count104
+\g_tmpa_int=\count105
+\g_tmpb_int=\count106
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count107
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count108
+\l__iow_target_count_int=\count109
+\l__iow_current_line_int=\count110
+\l__iow_current_word_int=\count111
+\l__iow_current_indentation_int=\count112
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen112
+\c_max_dim=\dimen113
+\l_tmpa_dim=\dimen114
+\l_tmpb_dim=\dimen115
+\g_tmpa_dim=\dimen116
+\g_tmpb_dim=\dimen117
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count113
+\l_keys_choice_int=\count114
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count115
+\c__fp_middle_shift_int=\count116
+\c__fp_trailing_shift_int=\count117
+\c__fp_big_leading_shift_int=\count118
+\c__fp_big_middle_shift_int=\count119
+\c__fp_big_trailing_shift_int=\count120
+\c__fp_Bigg_leading_shift_int=\count121
+\c__fp_Bigg_middle_shift_int=\count122
+\c__fp_Bigg_trailing_shift_int=\count123
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen118
+\l__coffin_offset_x_dim=\dimen119
+\l__coffin_offset_y_dim=\dimen120
+\l__coffin_x_dim=\dimen121
+\l__coffin_y_dim=\dimen122
+\l__coffin_x_prime_dim=\dimen123
+\l__coffin_y_prime_dim=\dimen124
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\l__coffin_display_coffin=\box39
+\l__coffin_display_coord_coffin=\box40
+\l__coffin_display_pole_coffin=\box41
+\l__coffin_display_offset_dim=\dimen125
+\l__coffin_display_x_dim=\dimen126
+\l__coffin_display_y_dim=\dimen127
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen128
+\l__box_bottom_dim=\dimen129
+\l__box_left_dim=\dimen130
+\l__box_right_dim=\dimen131
+\l__box_top_new_dim=\dimen132
+\l__box_bottom_new_dim=\dimen133
+\l__box_left_new_dim=\dimen134
+\l__box_right_new_dim=\dimen135
+\l__box_internal_box=\box42
+\l__coffin_bounding_shift_dim=\dimen136
+\l__coffin_left_corner_dim=\dimen137
+\l__coffin_right_corner_dim=\dimen138
+\l__coffin_bottom_corner_dim=\dimen139
+\l__coffin_top_corner_dim=\dimen140
+\l__coffin_scaled_total_height_dim=\dimen141
+\l__coffin_scaled_width_dim=\dimen142
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.d
+ef
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count124
+\l__driver_tmp_box=\box43
+))
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\l3keys2e\
+l3keys2e.sty
+Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str
+\l3regex.sty
+Package: l3regex 2016/05/14 v6492 L3 Experimental regular expressions
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str
+\l3tl-build.sty
+Package: l3tl-build 2016/05/14 v6492 L3 Experimental token list construction
+\l__tl_build_start_index_int=\count125
+\l__tl_build_index_int=\count126
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str
+\l3tl-analysis.sty
+Package: l3tl-analysis 2016/03/24 v6443 L3 Experimental token lists analysis
+\l__tl_analysis_normal_int=\count127
+\l__tl_analysis_index_int=\count128
+\l__tl_analysis_nesting_int=\count129
+\l__tl_analysis_type_int=\count130
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str
+\l3flag.sty
+Package: l3flag 2016/05/14 v6492 L3 Experimental flags
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str
+\l3str-convert.sty
+Package: l3str-convert 2016/03/24 v6443 L3 Experimental string encoding convers
+ions
+\l__str_internal_int=\count131
+\c__str_replacement_char_int=\count132
+)
+\l__regex_internal_a_int=\count133
+\l__regex_internal_b_int=\count134
+\l__regex_internal_c_int=\count135
+\l__regex_balance_int=\count136
+\l__regex_group_level_int=\count137
+\l__regex_mode_int=\count138
+\l__regex_catcodes_int=\count139
+\l__regex_default_catcodes_int=\count140
+\c__regex_catcode_D_int=\count141
+\c__regex_catcode_S_int=\count142
+\c__regex_catcode_L_int=\count143
+\c__regex_catcode_O_int=\count144
+\c__regex_catcode_A_int=\count145
+\c__regex_all_catcodes_int=\count146
+\l__regex_show_lines_int=\count147
+\l__regex_min_state_int=\count148
+\l__regex_max_state_int=\count149
+\l__regex_left_state_int=\count150
+\l__regex_right_state_int=\count151
+\l__regex_capturing_group_int=\count152
+\l__regex_min_pos_int=\count153
+\l__regex_max_pos_int=\count154
+\l__regex_current_pos_int=\count155
+\l__regex_start_pos_int=\count156
+\l__regex_success_pos_int=\count157
+\l__regex_current_char_int=\count158
+\l__regex_current_catcode_int=\count159
+\l__regex_last_char_int=\count160
+\l__regex_case_changed_char_int=\count161
+\l__regex_current_state_int=\count162
+\l__regex_step_int=\count163
+\l__regex_min_active_int=\count164
+\l__regex_max_active_int=\count165
+\l__regex_replacement_csnames_int=\count166
+\l__regex_match_count_int=\count167
+\l__regex_submatch_int=\count168
+\l__regex_zeroth_submatch_int=\count169
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count170
+\calc@Bcount=\count171
+\calc@Adimen=\dimen143
+\calc@Bdimen=\dimen144
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count172
+\calc@Cskip=\skip54
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\chemgreek\chemgreek.
+sty
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xp
+arse.sty
+Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count173
+\l__xparse_m_args_int=\count174
+\l__xparse_mandatory_args_int=\count175
+\l__xparse_processor_int=\count176
+\l__xparse_v_nesting_int=\count177
+)
+Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
+istry (CN)
+\l__chemgreek_tmpa_int=\count178
+\g__chemgreek_tmpa_int=\count179
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmapping with sig. 'O{}mm' on line 336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmapping with sig. 'O{}mm' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmapping with sig. 'O{}mm' on line 342.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmappingalias with sig. 'mm' on line 347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmappingalias with sig. 'mm' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmappingalias with sig. 'mm' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \changechemgreeksymbol with sig. 'mmmm' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chemgreekmappingsymbol with sig. 'mm' on line 477.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \activatechemgreekmapping with sig. 'sm' on line 486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \selectchemgreekmapping with sig. 'm' on line 491.
+.................................................
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count180
+\__mhchem_arrow_extPgfLength_skip=\skip55
+\mhchem@minispace@tmp=\skip56
+\mhchem@minibackspace@tmp=\skip57
+\mhchem@bondwidth=\skip58
+\mhchem@bondheight=\skip59
+\mhchem@smallbondwidth@tmpA=\skip60
+\mhchem@smallbondwidth@tmpB=\skip61
+\mhchem@smallbondwidth=\skip62
+\mhchem@bondtmp@minussidebearingleft=\skip63
+\mhchem@bondtmp@minussidebearingright=\skip64
+\l__mhchem_option_version_int=\count181
+\mhchem@option@minusmathsidebearingleft=\dimen145
+\mhchem@option@minusmathsidebearingright=\dimen146
+\mhchem@option@minustextsidebearingleft=\dimen147
+\mhchem@option@minustextsidebearingright=\dimen148
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.st
+y
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box44
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen151
+\ttl@minus=\dimen152
+\ttl@toksa=\toks21
+\titlewidth=\dimen153
+\titlewidthlast=\dimen154
+\titlewidthfirst=\dimen155
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titletoc.st
+y
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen156
+)
+\th@advisor@count=\count182
+\th@committee@count=\count183
+\th@prevdeg@count=\count184
+\@tmp=\count185
+\@half=\count186
+) (C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.st
+y
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count187
+\FV@InFile=\read1
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count188
+\FV@StepNumber=\count189
+\FV@OutFile=\write3
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\standalone\standalon
+e.sty
+Package: standalone 2015/07/15 v1.2 Package to include TeX sub-files with pream
+bles
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\currfile\currfile.st
+y
+Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
+nt input file
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook.st
+y
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+\c@currfiledepth=\count190
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\gincltex\gincltex.st
+y
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\svn-prov\svn-prov.st
+y
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.
+sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.st
+y
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.s
+ty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbo
+x.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box46
+)
+\tc@llx=\dimen157
+\tc@lly=\dimen158
+\tc@urx=\dimen159
+\tc@ury=\dimen160
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.
+def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen161
+\adjbox@Height=\dimen162
+\adjbox@Depth=\dimen163
+\adjbox@Totalheight=\dimen164
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.
+sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count191
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box47
+\sift@deathcycles=\count192
+\@vwid@loff=\dimen165
+\@vwid@roff=\dimen166
+))
+\gincltex@box=\box48
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\filemod\filemod-expm
+in.sty
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
+ (expandable; minimal)
+))
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip67
+\bibsep=\skip68
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count193
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.st
+y
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen167
+\lightrulewidth=\dimen168
+\cmidrulewidth=\dimen169
+\belowrulesep=\dimen170
+\belowbottomsep=\dimen171
+\aboverulesep=\dimen172
+\abovetopsep=\dimen173
+\cmidrulesep=\dimen174
+\cmidrulekern=\dimen175
+\defaultaddspace=\dimen176
+\@cmidla=\count194
+\@cmidlb=\count195
+\@aboverulesep=\dimen177
+\@belowrulesep=\dimen178
+\@thisruleclass=\count196
+\@lastruleclass=\count197
+\@thisrulewidth=\dimen179
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\notes2bib\notes2bib.
+sty
+Package: notes2bib 2013/07/11 v2.0k Integrating notes into the bibliography
+\g__notestobib_note_int=\count198
+\g__notestobib_previous_notes_int=\count199
+\g__notestobib_total_notes_int=\count266
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bibnote with sig. 'o+m' on line 421.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bibnotemark with sig. 'o' on line 434.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bibnotetext with sig. 'o+m' on line 439.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \recordnotes with sig. '' on line 442.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bibnotesetup with sig. 'm' on line 445.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \printbibnotes with sig. '' on line 448.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \citenote with sig. 'm' on line 451.
+.................................................
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen180
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen181
+\extrarowheight=\dimen182
+\NC@list=\toks22
+\extratabsurround=\skip69
+\backup@length=\skip70
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count267
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\chapterbib.sty
+\c@inputfile=\count268
+Package: chapterbib 2010/09/18  v 1.17
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count271
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4362.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4362.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count272
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen184
+\Fld@menulength=\count273
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring ON on input line 6360.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count277
+\c@bookmark@seq@number=\count278
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip71
+)
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\epigraph\epigraph.st
+y
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip72
+\afterepigraphskip=\skip73
+\epigraphwidth=\skip74
+\epigraphrule=\skip75
+)
+No file dissertation.aux.
+\openout1 = `dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count279
+\scratchdimen=\dimen187
+\scratchbox=\box49
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen188
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks24
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+.................................................
+. chemgreek info: "mapping-activated"
+. 
+. Activating mapping `default' on line 139.
+.................................................
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen189
+\Gm@wd@mp=\dimen190
+\Gm@odd@mp=\dimen191
+\Gm@even@mp=\dimen192
+\Gm@layoutwidth=\dimen193
+\Gm@layoutheight=\dimen194
+\Gm@layouthoffset=\dimen195
+\Gm@layoutvoffset=\dimen196
+\Gm@dimlist=\toks25
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (469.75499pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (650.43pt) is ignored.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* vratio: 1:1
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-43.06749pt
+* \headheight=18.06749pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+)
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-43.06749pt
+* \headheight=18.06749pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\WDerricotte\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.st
+y
+\fancy@headwidth=\skip76
+\f@ncyO@elh=\skip77
+\f@ncyO@erh=\skip78
+\f@ncyO@olh=\skip79
+\f@ncyO@orh=\skip80
+\f@ncyO@elf=\skip81
+\f@ncyO@erf=\skip82
+\f@ncyO@olf=\skip83
+\f@ncyO@orf=\skip84
+)
+>>> Make Distribution Agreement >>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{C:/Users/WDerricotte/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+>>> Make Approval Sheet >>>
+[2
+
+]
+>>> Make Abstract Cover Page >>>
+[3
+
+]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \bibliography with sig. 'm' on line 139.
+.................................................
+Package chapterbib Info: The sectionbib option changes "\chapter *" to "\sectio
+n *" in \thebibliography on input line 139.
+\AtBeginShipoutBox=\box50
+Package hyperref Info: Link coloring ON on input line 139.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count288
+)
+LaTeX Info: Redefining \ref on input line 139.
+LaTeX Info: Redefining \pageref on input line 139.
+LaTeX Info: Redefining \nameref on input line 139.
+
+(dissertation.out) (dissertation.out)
+\@outlinefile=\write5
+\openout5 = `dissertation.out'.
+
+
+>>> Make Abstract Cover Page >>>
+[4
+
+]
+>>> Make Cover Page >>>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 \end{abstract}
+                     [5
+
+]
+>>> Make Acknowledgement Page >>>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.155 \end{acknowledgement}
+                            [6
+
+]
+>>> Make Table of Contents >>>
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write6
+\openout6 = `dissertation.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \maketoc
+               [7
+
+
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
+\tf@lof=\write7
+\openout7 = `dissertation.lof'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \maketoc
+               [8
+
+
+]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
+\tf@lot=\write8
+\openout8 = `dissertation.lot'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \maketoc
+               [9
+
+
+]
+
+--------------------------------------
+
+>>> Make Body >>>
+\openout2 = `chp_1_introduction/chp_1_introduction.aux'.
+
+(chp_1_introduction/chp_1_introduction.tex
+Chapter 1.
+
+Package natbib Warning: Citation `marguet_influence_1998' on page 1 undefined o
+n input line 20.
+
+
+Package natbib Warning: Citation `gonzalez_progress_2012' on page 1 undefined o
+n input line 20.
+
+
+Package natbib Warning: Citation `zhou_enhanced_1991' on page 1 undefined on in
+put line 20.
+
+
+Package natbib Warning: Citation `hirata_configuration_1999' on page 1 undefine
+d on input line 20.
+
+
+Package natbib Warning: Citation `harris_symmetry_1978' on page 1 undefined on 
+input line 20.
+
+
+Package natbib Warning: Citation `serrano-andres_theoretical_1998' on page 1 un
+defined on input line 20.
+
+
+Package natbib Warning: Citation `roos_multiconfigurational_1996' on page 1 und
+efined on input line 20.
+
+
+Package natbib Warning: Citation `autschbach_charge-transfer_2009' on page 1 un
+defined on input line 20.
+
+
+Package natbib Warning: Citation `levine_conical_2006' on page 1 undefined on i
+nput line 20.
+
+
+Package natbib Warning: Citation `prlj_low-lying_2016' on page 1 undefined on i
+nput line 20.
+
+
+Package natbib Warning: Citation `nakata_time-dependent_2006' on page 1 undefin
+ed on input line 20.
+
+
+Package natbib Warning: Citation `penner-hahn_x-ray_1999' on page 1 undefined o
+n input line 20.
+
+
+Package natbib Warning: Citation `stohr_nexafs_1992' on page 1 undefined on inp
+ut line 20.
+
+
+Package natbib Warning: Citation `snigirev_compound_1996' on page 1 undefined o
+n input line 20.
+
+
+Package natbib Warning: Citation `holch_new_2011' on page 1 undefined on input 
+line 20.
+
+
+Package natbib Warning: Citation `lee_extended_1981' on page 1 undefined on inp
+ut line 20.
+
+
+Package natbib Warning: Citation `rehr_theoretical_2000' on page 1 undefined on
+ input line 20.
+
+
+Overfull \hbox (11.50807pt too wide) in paragraph at lines 20--21
+\OT1/cmr/m/n/12 re-search in the chem-i-cal sci-ences for both ex-per-i-men-tal
+-ists and the-o-reti-cians alike.$[]$
+ []
+
+[1
+
+
+
+
+
+]
+
+Package natbib Warning: Citation `snyder_coreelectron_1971' on page 2 undefined
+ on input line 22.
+
+
+Package natbib Warning: Citation `schirmer_core_1996' on page 2 undefined on in
+put line 22.
+
+
+Package natbib Warning: Citation `decleva_molecular_1994' on page 2 undefined o
+n input line 22.
+
+
+Package natbib Warning: Citation `rehr_theoretical_2000' on page 2 undefined on
+ input line 22.
+
+
+Package natbib Warning: Citation `ankudinov_relativistic_1997' on page 2 undefi
+ned on input line 22.
+
+
+Package natbib Warning: Citation `kutzler_use_1980' on page 2 undefined on inpu
+t line 22.
+
+
+Package natbib Warning: Citation `bagus_identification_1996' on page 2 undefine
+d on input line 22.
+
+
+Package natbib Warning: Citation `glaser_ligand_2000' on page 2 undefined on in
+put line 22.
+
+
+Package natbib Warning: Citation `urquhart_trends_2002' on page 2 undefined on 
+input line 22.
+
+
+Package natbib Warning: Citation `behyan_sulfur_2011' on page 2 undefined on in
+put line 22.
+
+
+Package natbib Warning: Citation `behyan_sulfur_2013' on page 2 undefined on in
+put line 22.
+
+
+Package natbib Warning: Citation `behyan_chemical_2014' on page 2 undefined on 
+input line 22.
+
+[2]
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 3 und
+efined on input line 24.
+
+
+Overfull \hbox (0.88577pt too wide) in paragraph at lines 26--26
+|[]\OT1/cmr/bx/n/17.28 Photochemistry and Core Elec-tron Ex-ci-ta-tions| 
+ []
+
+
+Package natbib Warning: Citation `holick_vitamin_2003' on page 3 undefined on i
+nput line 27.
+
+
+Package natbib Warning: Citation `krause_chlorophyll_1991' on page 3 undefined 
+on input line 27.
+
+
+Package natbib Warning: Citation `de_vries_quantum_1943' on page 3 undefined on
+ input line 27.
+
+<figures/photochem_graphic.pdf, id=258, 469.755pt x 289.08pt>
+File: figures/photochem_graphic.pdf Graphic file (type pdf)
+
+<use figures/photochem_graphic.pdf>
+Package pdftex.def Info: figures/photochem_graphic.pdf used on input line 30.
+(pdftex.def)             Requested size: 328.82626pt x 202.35461pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `franck_elementary_1926' on page 3 undefined o
+n input line 35.
+
+
+Package natbib Warning: Citation `condon_theory_1926' on page 3 undefined on in
+put line 35.
+
+
+Package natbib Warning: Citation `condon_nuclear_1928' on page 3 undefined on i
+nput line 35.
+
+
+Package natbib Warning: Citation `hazra_first_2004' on page 3 undefined on inpu
+t line 35.
+
+
+Package natbib Warning: Citation `maxwell_chlorophyll_2000' on page 3 undefined
+ on input line 35.
+
+
+Package natbib Warning: Citation `valeur_molecular_2012' on page 3 undefined on
+ input line 35.
+
+
+Package natbib Warning: Citation `tanaka_observation_2005' on page 3 undefined 
+on input line 35.
+
+
+Package natbib Warning: Citation `romanovskii_phosphorescence_2000' on page 3 u
+ndefined on input line 35.
+
+
+Package natbib Warning: Citation `cavar_fluorescence_2005' on page 3 undefined 
+on input line 35.
+
+
+Package natbib Warning: Citation `callomon_non-radiative_1972' on page 3 undefi
+ned on input line 35.
+
+
+Package natbib Warning: Citation `de_mello_donega_non-radiative_1995' on page 3
+ undefined on input line 35.
+
+
+Package natbib Warning: Citation `lamola_mechanisms_1965' on page 3 undefined o
+n input line 35.
+
+
+Package natbib Warning: Citation `hauser_intersystem_1991' on page 3 undefined 
+on input line 35.
+
+
+Package natbib Warning: Citation `zakrzewski_threshold_1984' on page 3 undefine
+d on input line 35.
+
+
+Package natbib Warning: Citation `meskers_relaxation_2000' on page 3 undefined 
+on input line 35.
+
+
+Package natbib Warning: Citation `vant_hof_zero-field_1976' on page 3 undefined
+ on input line 35.
+
+
+Package natbib Warning: Citation `hors_cross-relaxation_1982' on page 3 undefin
+ed on input line 35.
+
+[3] [4 <./figures/photochem_graphic.pdf>]
+
+LaTeX Warning: Reference `fig:photochem' on page 5 undefined on input line 37.
+
+
+LaTeX Warning: Reference `fig:photochem' on page 5 undefined on input line 37.
+
+
+Package natbib Warning: Citation `snigirev_compound_1996' on page 5 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `holch_new_2011' on page 5 undefined on input 
+line 40.
+
+
+Package natbib Warning: Citation `politzer_separation_1976' on page 5 undefined
+ on input line 40.
+
+
+Package natbib Warning: Citation `stohr_nexafs_1992' on page 5 undefined on inp
+ut line 40.
+
+
+LaTeX Warning: Reference `fig:xas_schematic' on page 5 undefined on input line 
+40.
+
+
+Package natbib Warning: Citation `penner-hahn_x-ray_1999' on page 5 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `yoon_oxygen_2002' on page 5 undefined on inpu
+t line 40.
+
+
+Package natbib Warning: Citation `parent_structure_2002' on page 5 undefined on
+ input line 40.
+
+
+Package natbib Warning: Citation `lambrecht_x-ray_1997' on page 5 undefined on 
+input line 40.
+
+
+Package natbib Warning: Citation `leinweber_nitrogen_2007' on page 5 undefined 
+on input line 40.
+
+
+Package natbib Warning: Citation `cotte_synchrotron-based_2010' on page 5 undef
+ined on input line 40.
+
+
+LaTeX Warning: Reference `fig:xas_schematic' on page 5 undefined on input line 
+40.
+
+
+Package natbib Warning: Citation `yamamoto_assignment_2008' on page 5 undefined
+ on input line 40.
+
+
+Package natbib Warning: Citation `vedrinskii_pre-edge_1998' on page 5 undefined
+ on input line 40.
+
+
+Package natbib Warning: Citation `groot_1s_2009' on page 5 undefined on input l
+ine 40.
+
+
+Package natbib Warning: Citation `roemelt_manganese_2012' on page 5 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `stohr_nexafs_1992' on page 5 undefined on inp
+ut line 40.
+
+
+LaTeX Warning: Reference `fig:photochem' on page 5 undefined on input line 40.
+
+
+Package natbib Warning: Citation `lengeler_extended_1980' on page 5 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `teo_exafs:_2012' on page 5 undefined on input
+ line 40.
+
+
+Package natbib Warning: Citation `gurman_rapid_1984' on page 5 undefined on inp
+ut line 40.
+
+
+Package natbib Warning: Citation `bunker_application_1983' on page 5 undefined 
+on input line 40.
+
+[5] [6] <figures/XAS_schematic.pdf, id=362, 469.755pt x 180.675pt>
+File: figures/XAS_schematic.pdf Graphic file (type pdf)
+
+<use figures/XAS_schematic.pdf>
+Package pdftex.def Info: figures/XAS_schematic.pdf used on input line 44.
+(pdftex.def)             Requested size: 436.86765pt x 168.026pt.
+
+Overfull \hbox (3.24763pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `garino_determination_2014' on page 7 undefine
+d on input line 49.
+
+
+Package natbib Warning: Citation `tourillon_electronic_1988' on page 7 undefine
+d on input line 49.
+
+
+Package natbib Warning: Citation `zubavichus_nexafs_2004' on page 7 undefined o
+n input line 49.
+
+
+Package natbib Warning: Citation `zubavichus_nexafs_2009' on page 7 undefined o
+n input line 49.
+
+
+Package natbib Warning: Citation `samuel_nexafs_2017' on page 7 undefined on in
+put line 49.
+
+
+Package natbib Warning: Citation `contini_gas-phase_2001' on page 7 undefined o
+n input line 49.
+
+
+Package natbib Warning: Citation `domke_carbon_1990' on page 7 undefined on inp
+ut line 49.
+
+
+Package natbib Warning: Citation `hudson_high-resolution_1994' on page 7 undefi
+ned on input line 49.
+
+
+Package natbib Warning: Citation `roy_structure_2005' on page 7 undefined on in
+put line 49.
+
+
+Package natbib Warning: Citation `hahner_near_2006' on page 7 undefined on inpu
+t line 49.
+
+
+Package natbib Warning: Citation `baldo_excitonic_1999' on page 7 undefined on 
+input line 49.
+
+
+Package natbib Warning: Citation `guo_electronic_2011' on page 7 undefined on i
+nput line 49.
+
+
+Package natbib Warning: Citation `hoffmann_discovery_1990' on page 7 undefined 
+on input line 49.
+
+
+Package natbib Warning: Citation `stohr_bonding_1983' on page 7 undefined on in
+put line 49.
+
+
+Package natbib Warning: Citation `temprano_1d_2015' on page 7 undefined on inpu
+t line 49.
+
+
+Package natbib Warning: Citation `rastgoo-lahrood_post-synthetic_2016' on page 
+7 undefined on input line 49.
+
+
+Package natbib Warning: Citation `lee_selective_2012' on page 7 undefined on in
+put line 49.
+
+
+Package natbib Warning: Citation `chen_probing_2005' on page 7 undefined on inp
+ut line 49.
+
+
+Package natbib Warning: Citation `attar_femtosecond_2017' on page 7 undefined o
+n input line 49.
+
+
+Package natbib Warning: Citation `day_aromaticity_1975' on page 7 undefined on 
+input line 49.
+
+
+Package natbib Warning: Citation `baeck_ab_2003' on page 7 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `gwaltney_coupled-cluster_1998' on page 7 unde
+fined on input line 50.
+
+
+Package natbib Warning: Citation `shih_ab_1976' on page 7 undefined on input li
+ne 50.
+
+
+Package natbib Warning: Citation `isborn_excited-state_2011' on page 7 undefine
+d on input line 50.
+
+
+Package natbib Warning: Citation `fantacci_absorption_2003' on page 7 undefined
+ on input line 50.
+
+
+Package natbib Warning: Citation `de_angelis_electronic_2006' on page 7 undefin
+ed on input line 50.
+
+
+Package natbib Warning: Citation `gwaltney_simplified_1996' on page 7 undefined
+ on input line 50.
+
+
+Package natbib Warning: Citation `roos_new_1972' on page 7 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `nakatsuji_structure_2001' on page 7 undefined
+ on input line 50.
+
+
+Package natbib Warning: Citation `mazur_application_2009' on page 7 undefined o
+n input line 50.
+
+
+Package natbib Warning: Citation `imamura_time-dependent_2006' on page 7 undefi
+ned on input line 50.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2010' on page 7 undefin
+ed on input line 50.
+
+
+Package natbib Warning: Citation `peng_energy-specific_2015' on page 7 undefine
+d on input line 50.
+
+
+Package natbib Warning: Citation `lestrange_calibration_2015' on page 7 undefin
+ed on input line 50.
+
+
+Package natbib Warning: Citation `ehlert_quest_2017' on page 7 undefined on inp
+ut line 50.
+
+
+Package natbib Warning: Citation `wenzel_calculating_2014' on page 7 undefined 
+on input line 50.
+
+
+Package natbib Warning: Citation `triguero_separate_1999' on page 7 undefined o
+n input line 50.
+
+
+Package natbib Warning: Citation `Note1' on page 7 undefined on input line 50.
+
+
+Package natbib Warning: Citation `plakhutin_koopmans_2006' on page 7 undefined 
+on input line 50.
+
+
+Package natbib Warning: Citation `plakhutin_koopmans_2006' on page 7 undefined 
+on input line 50.
+
+
+Package natbib Warning: Citation `reiher_douglaskrollhess_2006' on page 7 undef
+ined on input line 53.
+
+
+Package natbib Warning: Citation `reiher_douglaskrollhess_2006' on page 7 undef
+ined on input line 53.
+
+
+LaTeX Warning: Reference `tab:rel_effects' on page 7 undefined on input line 65
+.
+
+
+Package natbib Warning: Citation `reiher_douglaskrollhess_2006' on page 7 undef
+ined on input line 65.
+
+[7 <./figures/XAS_schematic.pdf>] [8] [9]
+Overfull \hbox (3.74771pt too wide) in paragraph at lines 67--67
+|[]\OT1/cmr/bx/n/17.28 Theoretical Ap-proaches for Cal-cu-la-tion of Core
+ []
+
+
+Package natbib Warning: Citation `agren_direct_1994' on page 10 undefined on in
+put line 68.
+
+
+Package natbib Warning: Citation `hunt_excited_1969' on page 10 undefined on in
+put line 68.
+
+
+Package natbib Warning: Citation `zhang_nonlinear_2014' on page 10 undefined on
+ input line 68.
+
+
+Package natbib Warning: Citation `agren_direct_1997' on page 10 undefined on in
+put line 68.
+
+
+Package natbib Warning: Citation `imamura_time-dependent_2006' on page 10 undef
+ined on input line 68.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2007' on page 10 undefi
+ned on input line 68.
+
+
+Package natbib Warning: Citation `lestrange_calibration_2015' on page 10 undefi
+ned on input line 68.
+
+
+Package natbib Warning: Citation `fransson_carbon_2013' on page 10 undefined on
+ input line 68.
+
+
+Package natbib Warning: Citation `besley_equation_2012' on page 10 undefined on
+ input line 68.
+
+
+Package natbib Warning: Citation `coriani_coupled-cluster_2012' on page 10 unde
+fined on input line 68.
+
+
+Package natbib Warning: Citation `coriani_asymmetric-lanczos-chain-driven_2012'
+ on page 10 undefined on input line 68.
+
+
+Package natbib Warning: Citation `myhre_near-edge_2016' on page 10 undefined on
+ input line 68.
+
+
+Package natbib Warning: Citation `wenzel_calculating_2014' on page 10 undefined
+ on input line 68.
+
+
+Package natbib Warning: Citation `wenzel_analysis_2015' on page 10 undefined on
+ input line 68.
+
+
+Package natbib Warning: Citation `wenzel_calculating_2014' on page 10 undefined
+ on input line 68.
+
+
+Package natbib Warning: Citation `wenzel_physical_2016' on page 10 undefined on
+ input line 68.
+
+
+Package natbib Warning: Citation `mochizuki_hf-stex_2001' on page 10 undefined 
+on input line 68.
+
+
+Package natbib Warning: Citation `maganas_combined_2014' on page 10 undefined o
+n input line 68.
+
+
+Package natbib Warning: Citation `maganas_l-edge_2014' on page 10 undefined on 
+input line 68.
+
+
+Package natbib Warning: Citation `grimme_density_1996' on page 10 undefined on 
+input line 68.
+
+
+Package natbib Warning: Citation `asmuruf_calculation_2008' on page 10 undefine
+d on input line 68.
+
+
+Package natbib Warning: Citation `lopata_linear-response_2012' on page 10 undef
+ined on input line 68.
+
+
+Package natbib Warning: Citation `olovsson_near-edge_2009' on page 10 undefined
+ on input line 68.
+
+
+Package natbib Warning: Citation `vinson_theoretical_2012' on page 10 undefined
+ on input line 68.
+
+
+Package natbib Warning: Citation `roemelt_combined_2013' on page 10 undefined o
+n input line 68.
+
+
+Package natbib Warning: Citation `ebert_l-edge_1996' on page 10 undefined on in
+put line 68.
+
+
+Package natbib Warning: Citation `maganas_first_2013' on page 10 undefined on i
+nput line 68.
+
+[10]
+
+Package natbib Warning: Citation `agren_direct_1994' on page 11 undefined on in
+put line 72.
+
+
+Package natbib Warning: Citation `hunt_excited_1969' on page 11 undefined on in
+put line 72.
+
+
+Package natbib Warning: Citation `zhang_nonlinear_2014' on page 11 undefined on
+ input line 72.
+
+
+Package natbib Warning: Citation `agren_direct_1997' on page 11 undefined on in
+put line 72.
+
+[11]
+
+LaTeX Warning: Reference `eq:HFSTEX_eig' on page 12 undefined on input line 81.
+
+
+
+Package natbib Warning: Citation `hirata_time-dependent_1999' on page 12 undefi
+ned on input line 87.
+
+[12]
+
+Package natbib Warning: Citation `besley_self-consistent-field_2009' on page 13
+ undefined on input line 97.
+
+[13]
+
+LaTeX Warning: Reference `eq:A_matrix' on page 14 undefined on input line 128.
+
+
+Package natbib Warning: Citation `fetter_quantum_1971' on page 14 undefined on 
+input line 139.
+
+
+LaTeX Warning: Reference `eq:tddft_eigenvalue_equation' on page 14 undefined on
+ input line 139.
+
+[14]
+
+Package natbib Warning: Citation `stener_time_2003' on page 15 undefined on inp
+ut line 141.
+
+
+Package natbib Warning: Citation `imamura_time-dependent_2006' on page 15 undef
+ined on input line 141.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2007' on page 15 undefi
+ned on input line 141.
+
+[15]
+
+LaTeX Warning: Reference `eq:tddft_eigenvalue_equation' on page 16 undefined on
+ input line 153.
+
+
+Package natbib Warning: Citation `lestrange_calibration_2015' on page 16 undefi
+ned on input line 157.
+
+[16] [17]
+
+LaTeX Warning: Reference `eq:right_cc' on page 18 undefined on input line 208.
+
+
+LaTeX Warning: Reference `eq:left_cc' on page 18 undefined on input line 208.
+
+
+LaTeX Warning: Reference `eq:right_cc' on page 18 undefined on input line 208.
+
+
+LaTeX Warning: Reference `eq:left_cc' on page 18 undefined on input line 208.
+
+
+Package natbib Warning: Citation `coriani_coupled-cluster_2012' on page 18 unde
+fined on input line 208.
+
+
+Package natbib Warning: Citation `coriani_asymmetric-lanczos-chain-driven_2012'
+ on page 18 undefined on input line 208.
+
+[18]
+
+Package natbib Warning: Citation `peng_energy-specific_2015' on page 19 undefin
+ed on input line 234.
+
+[19] Excluding 'comment' comment.
+
+Package natbib Warning: Citation `samal_exploring_2006' on page 20 undefined on
+ input line 311.
+
+
+Package natbib Warning: Citation `ayers_time-independent_2009' on page 20 undef
+ined on input line 311.
+
+
+Package natbib Warning: Citation `zhang_challenge_1998' on page 20 undefined on
+ input line 311.
+
+
+Package natbib Warning: Citation `cohen_insights_2008' on page 20 undefined on 
+input line 311.
+
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 20 un
+defined on input line 313.
+
+
+Package natbib Warning: Citation `ayers_time-independent_2012' on page 20 undef
+ined on input line 315.
+
+
+Package natbib Warning: Citation `kaduk_constrained_2012' on page 20 undefined 
+on input line 316.
+
+[20]
+
+Package natbib Warning: Citation `hohenberg_inhomogeneous_1964' on page 21 unde
+fined on input line 320.
+
+
+Package natbib Warning: Citation `kohn_self-consistent_1965' on page 21 undefin
+ed on input line 320.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 324.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 324.
+ [21]
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 22 un
+defined on input line 341.
+
+[22]
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 23 un
+defined on input line 359.
+
+<figures/h_p_algorithms.pdf, id=921, 419.166pt x 122.63138pt>
+File: figures/h_p_algorithms.pdf Graphic file (type pdf)
+
+<use figures/h_p_algorithms.pdf>
+Package pdftex.def Info: figures/h_p_algorithms.pdf used on input line 362.
+(pdftex.def)             Requested size: 419.16498pt x 122.63107pt.
+
+
+LaTeX Warning: Reference `fig:relax' on page 23 undefined on input line 366.
+
+[23]
+
+Package natbib Warning: Citation `tsaune_towards_1994' on page 24 undefined on 
+input line 372.
+
+
+Package natbib Warning: Citation `morokuma_extended_1972' on page 24 undefined 
+on input line 372.
+
+
+Package natbib Warning: Citation `cullen_formulation_2011' on page 24 undefined
+ on input line 372.
+
+
+Package natbib Warning: Citation `ziegler_implementation_2012' on page 24 undef
+ined on input line 372.
+
+[24 <./figures/h_p_algorithms.pdf>] [25] [26]
+(chp_1_introduction/chp_1_introduction.bbl
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ì in font cmti10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ê in font cmr10!
+ [27]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Ü in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+ [28]
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no é in font cmti10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ≥ in font cmr10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ì in font cmti10!
+ [29]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+ [30]
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no Ö in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no Ö in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no Ö in font cmr10!
+ [31]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+ [32]))
+[33]
+\openout2 = `chp_2_ocdft_benchmark/chp_2_ocdft_benchmark.aux'.
+
+ (chp_2_ocdft_benchmark/chp_2_ocdft_benchmark.tex
+Chapter 2.
+[34
+
+
+
+
+]
+
+Package natbib Warning: Citation `mcmillan_synchrotronproposed_1945' on page 35
+ undefined on input line 26.
+
+
+LaTeX Warning: Reference `fig:nexas-illustration' on page 35 undefined on input
+ line 27.
+
+
+Package natbib Warning: Citation `hua_refinement_2010' on page 35 undefined on 
+input line 29.
+
+
+Package natbib Warning: Citation `contini_gas-phase_2001' on page 35 undefined 
+on input line 29.
+
+
+Package natbib Warning: Citation `hahner_near_2006' on page 35 undefined on inp
+ut line 29.
+
+
+Package natbib Warning: Citation `guo_electronic_2011' on page 35 undefined on 
+input line 29.
+
+
+Package natbib Warning: Citation `feneberg_synchrotron-based_2011' on page 35 u
+ndefined on input line 29.
+
+
+Package natbib Warning: Citation `nakazato_observation_1989' on page 35 undefin
+ed on input line 29.
+
+<figures/NEXASIllustration.pdf, id=1151, 250.38544pt x 113.8112pt>
+File: figures/NEXASIllustration.pdf Graphic file (type pdf)
+
+<use figures/NEXASIllustration.pdf>
+Package pdftex.def Info: figures/NEXASIllustration.pdf used on input line 33.
+(pdftex.def)             Requested size: 250.38434pt x 113.81438pt.
+
+
+Package natbib Warning: Citation `coriani_coupled-cluster_2012' on page 35 unde
+fined on input line 40.
+
+
+Package natbib Warning: Citation `asmuruf_calculation_2008' on page 35 undefine
+d on input line 40.
+
+
+Package natbib Warning: Citation `roemelt_excited_2013' on page 35 undefined on
+ input line 40.
+
+
+Package natbib Warning: Citation `roemelt_combined_2013' on page 35 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `schirmer_beyond_1982' on page 35 undefined on
+ input line 40.
+
+
+Package natbib Warning: Citation `trofimov_efficient_1995' on page 35 undefined
+ on input line 40.
+
+
+Package natbib Warning: Citation `sheehy_correlation_1989' on page 35 undefined
+ on input line 40.
+
+
+Package natbib Warning: Citation `besley_self-consistent-field_2009' on page 35
+ undefined on input line 40.
+
+
+Package natbib Warning: Citation `agren_relaxation_1993' on page 35 undefined o
+n input line 40.
+
+
+Package natbib Warning: Citation `triguero_calculations_1998' on page 35 undefi
+ned on input line 40.
+
+
+Package natbib Warning: Citation `coriani_coupled-cluster_2012' on page 35 unde
+fined on input line 40.
+
+
+Package natbib Warning: Citation `stener_time_2003' on page 35 undefined on inp
+ut line 40.
+
+
+Package natbib Warning: Citation `lopata_linear-response_2012' on page 35 undef
+ined on input line 40.
+
+[35 <./figures/NEXASIllustration.pdf>]
+
+Package natbib Warning: Citation `runge_density-functional_1984' on page 36 und
+efined on input line 42.
+
+
+Package natbib Warning: Citation `silva-junior_benchmarks_2008' on page 36 unde
+fined on input line 44.
+
+
+Package natbib Warning: Citation `besley_self-consistent-field_2009' on page 36
+ undefined on input line 44.
+
+
+Package natbib Warning: Citation `debeer_george_prediction_2008' on page 36 und
+efined on input line 44.
+
+[36]
+
+Package natbib Warning: Citation `peach_excitation_2008' on page 37 undefined o
+n input line 46.
+
+
+Package natbib Warning: Citation `peach_excitation_2008' on page 37 undefined o
+n input line 47.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2009' on page 37 undefi
+ned on input line 47.
+
+
+Package natbib Warning: Citation `tu_core_2007' on page 37 undefined on input l
+ine 48.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2009' on page 37 undefi
+ned on input line 48.
+
+
+Package natbib Warning: Citation `nakata_time-dependent_2006' on page 37 undefi
+ned on input line 48.
+
+
+Package natbib Warning: Citation `capano_role_2013' on page 37 undefined on inp
+ut line 48.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2007' on page 37 undefi
+ned on input line 48.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2010' on page 37 undefi
+ned on input line 48.
+
+
+Package natbib Warning: Citation `besley_self-consistent-field_2009' on page 37
+ undefined on input line 52.
+
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 37 un
+defined on input line 55.
+
+
+Package natbib Warning: Citation `kowalczyk_assessment_2011' on page 37 undefin
+ed on input line 56.
+
+
+Package natbib Warning: Citation `ziegler_calculation_1977' on page 37 undefine
+d on input line 56.
+
+
+Package natbib Warning: Citation `wu_constrained_2006' on page 37 undefined on 
+input line 56.
+
+
+Package natbib Warning: Citation `gorling_density-functional_1999' on page 37 u
+ndefined on input line 56.
+
+
+Package natbib Warning: Citation `ziegler_relation_2009' on page 37 undefined o
+n input line 56.
+
+
+Package natbib Warning: Citation `ziegler_application_2011' on page 37 undefine
+d on input line 56.
+
+
+Package natbib Warning: Citation `krykunov_self-consistent_2013' on page 37 und
+efined on input line 56.
+
+
+Package natbib Warning: Citation `ziegler_implementation_2012' on page 37 undef
+ined on input line 56.
+
+
+Package natbib Warning: Citation `baruah_dft_2009' on page 37 undefined on inpu
+t line 57.
+
+
+Package natbib Warning: Citation `olguin_effect_2013' on page 37 undefined on i
+nput line 57.
+
+
+Package natbib Warning: Citation `zope_charge_2012' on page 37 undefined on inp
+ut line 57.
+
+
+Package natbib Warning: Citation `theophilou_energy_1979' on page 37 undefined 
+on input line 57.
+
+
+Package natbib Warning: Citation `fritsche_generalized_1986' on page 37 undefin
+ed on input line 57.
+
+
+Package natbib Warning: Citation `gross_rayleigh-ritz_1988' on page 37 undefine
+d on input line 57.
+
+
+Package natbib Warning: Citation `gross_density-functional_1988' on page 37 und
+efined on input line 57.
+
+
+Package natbib Warning: Citation `levy_variational_1999' on page 37 undefined o
+n input line 57.
+
+
+Package natbib Warning: Citation `nagy_variational_2001' on page 37 undefined o
+n input line 57.
+
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 37 un
+defined on input line 59.
+
+
+Overfull \hbox (26.78847pt too wide) in paragraph at lines 54--60
+\OT1/cmr/m/n/12 (CV-DFT),$[]$ per-tur-ba-tive con-strained ex-cited state DFT,$
+[]$ en-sem-ble DFT,$[]$
+ []
+
+[37]
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 38 un
+defined on input line 68.
+
+
+Package natbib Warning: Citation `ayers_time-independent_2012' on page 38 undef
+ined on input line 69.
+
+[38] <figures/Figure1.pdf, id=1208, 250.38445pt x 130.4875pt>
+File: figures/Figure1.pdf Graphic file (type pdf)
+
+<use figures/Figure1.pdf>
+Package pdftex.def Info: figures/Figure1.pdf used on input line 101.
+(pdftex.def)             Requested size: 250.38434pt x 130.49113pt.
+
+
+LaTeX Warning: Reference `eq:pq_conditions1' on page 39 undefined on input line
+ 104.
+
+
+LaTeX Warning: Reference `eq:pq_conditions2' on page 39 undefined on input line
+ 104.
+
+
+LaTeX Warning: Reference `eq:pq_conditions1' on page 39 undefined on input line
+ 104.
+
+
+LaTeX Warning: Reference `eq:pq_conditions2' on page 39 undefined on input line
+ 104.
+
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 39 un
+defined on input line 107.
+
+
+LaTeX Warning: Reference `eq:orthogonality_condition' on page 39 undefined on i
+nput line 108.
+
+
+LaTeX Warning: Reference `fig:projection' on page 39 undefined on input line 10
+9.
+
+[39]
+
+LaTeX Warning: Reference `eq:pq_conditions1' on page 40 undefined on input line
+ 118.
+
+
+LaTeX Warning: Reference `eq:pq_conditions2' on page 40 undefined on input line
+ 118.
+
+
+LaTeX Warning: Reference `eq:one_state_occ_eq' on page 40 undefined on input li
+ne 129.
+
+
+LaTeX Warning: Reference `eq:one_state_hole_eq' on page 40 undefined on input l
+ine 129.
+
+
+LaTeX Warning: Reference `eq:one_state_part_eq' on page 40 undefined on input l
+ine 129.
+
+
+LaTeX Warning: Reference `fig:projection' on page 40 undefined on input line 13
+0.
+
+[40 <./figures/Figure1.pdf>]
+
+LaTeX Warning: Reference `eq:one_state_hole_eq' on page 41 undefined on input l
+ine 140.
+
+
+LaTeX Warning: Reference `eq:one_state_part_eq' on page 41 undefined on input l
+ine 140.
+
+<figures/Figure2NEW.pdf, id=1242, 519.26295pt x 146.4361pt>
+File: figures/Figure2NEW.pdf Graphic file (type pdf)
+
+<use figures/Figure2NEW.pdf>
+Package pdftex.def Info: figures/Figure2NEW.pdf used on input line 144.
+(pdftex.def)             Requested size: 441.01772pt x 124.37294pt.
+
+Overfull \hbox (7.3977pt too wide) in paragraph at lines 144--145
+ [][] 
+ []
+
+[41 <./figures/Figure2NEW.pdf>]
+
+LaTeX Warning: Reference `eq:ortho_example_1' on page 42 undefined on input lin
+e 162.
+
+
+LaTeX Warning: Reference `eq:ortho_example_2' on page 42 undefined on input lin
+e 162.
+
+
+LaTeX Warning: Reference `eq:ortho_example_1' on page 42 undefined on input lin
+e 164.
+
+
+LaTeX Warning: Reference `eq:ortho_example_2' on page 42 undefined on input lin
+e 164.
+
+
+LaTeX Warning: Reference `fig:CMHP' on page 42 undefined on input line 164.
+
+[42]
+
+Package natbib Warning: Citation `turney_psi4:_2012' on page 43 undefined on in
+put line 216.
+
+
+Package natbib Warning: Citation `becke_new_1993' on page 43 undefined on input
+ line 217.
+
+
+Package natbib Warning: Citation `lee_development_1988' on page 43 undefined on
+ input line 217.
+
+
+Package natbib Warning: Citation `vosko_accurate_1980' on page 43 undefined on 
+input line 217.
+
+
+Package natbib Warning: Citation `stephens_ab_1994' on page 43 undefined on inp
+ut line 217.
+
+
+Package natbib Warning: Citation `adamo_toward_1999' on page 43 undefined on in
+put line 217.
+
+
+Package natbib Warning: Citation `stephens_ab_1994' on page 43 undefined on inp
+ut line 217.
+
+
+Package natbib Warning: Citation `miehlich_results_1989' on page 43 undefined o
+n input line 217.
+
+
+Package natbib Warning: Citation `woon_gaussian_1995-1' on page 43 undefined on
+ input line 217.
+
+
+Package natbib Warning: Citation `weigend_balanced_2005' on page 43 undefined o
+n input line 218.
+
+
+Package natbib Warning: Citation `weigend_accurate_2006' on page 43 undefined o
+n input line 218.
+
+
+Package natbib Warning: Citation `neese_orca_2012' on page 43 undefined on inpu
+t line 220.
+
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 43 un
+defined on input line 222.
+
+[43]
+
+Package natbib Warning: Citation `maganas_l-edge_2014' on page 44 undefined on 
+input line 225.
+
+
+Package natbib Warning: Citation `debeer_george_calibration_2010' on page 44 un
+defined on input line 225.
+
+
+Package natbib Warning: Citation `bauer_herfd-xas_2014' on page 44 undefined on
+ input line 225.
+
+
+Package natbib Warning: Citation `ankudinov_sensitivity_2002' on page 44 undefi
+ned on input line 225.
+
+
+Package natbib Warning: Citation `douglas_quantum_1973' on page 44 undefined on
+ input line 235.
+
+
+Package natbib Warning: Citation `hess_applicability_1985' on page 44 undefined
+ on input line 235.
+
+
+Package natbib Warning: Citation `hess_relativistic_1986' on page 44 undefined 
+on input line 235.
+
+[44]
+
+Package natbib Warning: Citation `bally_incorrect_1997' on page 45 undefined on
+ input line 239.
+
+
+Package natbib Warning: Citation `lundberg_quantifying_2005' on page 45 undefin
+ed on input line 239.
+
+
+LaTeX Warning: Reference `osc' on page 45 undefined on input line 255.
+
+[45]
+
+LaTeX Warning: Reference `table:OverallPerformance' on page 46 undefined on inp
+ut line 284.
+
+
+Package natbib Warning: Citation `puttner_vibrationally_1999' on page 46 undefi
+ned on input line 285.
+
+
+Package natbib Warning: Citation `remmers_high-resolution_1992' on page 46 unde
+fined on input line 285.
+
+
+Package natbib Warning: Citation `chen_k-shell_1989' on page 46 undefined on in
+put line 285.
+
+
+Package natbib Warning: Citation `tronc_nitrogen_1980' on page 46 undefined on 
+input line 285.
+
+
+Package natbib Warning: Citation `tronc_carbon_1979' on page 46 undefined on in
+put line 285.
+
+
+Package natbib Warning: Citation `francis_studies_1994' on page 46 undefined on
+ input line 285.
+
+
+Package natbib Warning: Citation `adachi_vibronic_1999' on page 46 undefined on
+ input line 285.
+
+
+Package natbib Warning: Citation `hitchcock_k-shell_1979' on page 46 undefined 
+on input line 285.
+
+
+Package natbib Warning: Citation `domke_carbon_1990' on page 46 undefined on in
+put line 285.
+
+
+Package natbib Warning: Citation `nayandin_angle-resolved_2001' on page 46 unde
+fined on input line 285.
+
+
+Package natbib Warning: Citation `bodeur_single-and_1990' on page 46 undefined 
+on input line 285.
+
+
+Package natbib Warning: Citation `gedat_s_1998' on page 46 undefined on input l
+ine 285.
+
+
+Package natbib Warning: Citation `hudson_high-resolution_1994' on page 46 undef
+ined on input line 285.
+
+
+Package natbib Warning: Citation `cavell_chemical_1999' on page 46 undefined on
+ input line 285.
+
+
+Package natbib Warning: Citation `bodeur_photoabsorption_1985' on page 46 undef
+ined on input line 285.
+
+
+LaTeX Warning: Reference `table:FirstRow' on page 46 undefined on input line 28
+5.
+
+
+LaTeX Warning: Reference `table:SecondRow' on page 46 undefined on input line 2
+85.
+
+
+LaTeX Warning: Reference `table:FirstRow' on page 46 undefined on input line 28
+5.
+
+
+LaTeX Warning: Reference `table:SecondRow' on page 46 undefined on input line 2
+85.
+
+
+LaTeX Warning: Reference `table:FirstRow' on page 46 undefined on input line 28
+6.
+
+
+LaTeX Warning: Reference `table:SecondRow' on page 46 undefined on input line 2
+86.
+
+<figures/NEW_histogram2.pdf, id=1307, 250.38445pt x 142.26349pt>
+File: figures/NEW_histogram2.pdf Graphic file (type pdf)
+
+<use figures/NEW_histogram2.pdf>
+Package pdftex.def Info: figures/NEW_histogram2.pdf used on input line 289.
+(pdftex.def)             Requested size: 250.38434pt x 142.26746pt.
+
+
+LaTeX Warning: Reference `table:OverallPerformance' on page 46 undefined on inp
+ut line 293.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46]
+
+Package natbib Warning: Citation `asmuruf_calculation_2008' on page 47 undefine
+d on input line 297.
+
+
+Package natbib Warning: Citation `coriani_coupled-cluster_2012' on page 47 unde
+fined on input line 297.
+
+
+LaTeX Warning: Reference `figure:Hist' on page 47 undefined on input line 299.
+
+
+Package natbib Warning: Citation `nakata_extension_2007' on page 47 undefined o
+n input line 302.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2009' on page 47 undefi
+ned on input line 302.
+
+
+Package natbib Warning: Citation `saue_relativistic_2011' on page 47 undefined 
+on input line 302.
+
+[47 <./figures/NEW_histogram2.pdf>]
+<figures/scatterNEWER2.pdf, id=1352, 250.38445pt x 142.88683pt>
+File: figures/scatterNEWER2.pdf Graphic file (type pdf)
+
+<use figures/scatterNEWER2.pdf>
+Package pdftex.def Info: figures/scatterNEWER2.pdf used on input line 309.
+(pdftex.def)             Requested size: 250.38434pt x 142.89081pt.
+
+
+LaTeX Warning: Reference `table:FirstRow' on page 48 undefined on input line 31
+3.
+
+
+Package natbib Warning: Citation `besley_self-consistent-field_2009' on page 48
+ undefined on input line 313.
+
+
+Package natbib Warning: Citation `besley_time-dependent_2009' on page 48 undefi
+ned on input line 313.
+
+
+Package natbib Warning: Citation `becke_new_1993' on page 48 undefined on input
+ line 313.
+
+
+Package natbib Warning: Citation `lee_development_1988-1' on page 48 undefined 
+on input line 313.
+
+
+LaTeX Warning: Reference `table:FirstRow' on page 48 undefined on input line 31
+3.
+
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 48 un
+defined on input line 313.
+
+
+Package natbib Warning: Citation `puttner_vibrationally_1999' on page 48 undefi
+ned on input line 317.
+
+
+Package natbib Warning: Citation `domke_carbon_1990' on page 48 undefined on in
+put line 317.
+
+
+Package natbib Warning: Citation `puttner_vibrationally_1999' on page 48 undefi
+ned on input line 317.
+
+
+Package natbib Warning: Citation `domke_carbon_1990' on page 48 undefined on in
+put line 317.
+
+
+Overfull \hbox (18.45251pt too wide) in alignment at lines 319--350
+[] [] [] [] [] [] [] [] 
+ []
+
+
+Package natbib Warning: Citation `peach_excitation_2008' on page 48 undefined o
+n input line 356.
+
+
+Package natbib Warning: Citation `peach_excitation_2008' on page 48 undefined o
+n input line 357.
+
+[48 <./figures/scatterNEWER2.pdf>] Excluding 'comment' comment.
+
+Package natbib Warning: Citation `nayandin_angle-resolved_2001' on page 49 unde
+fined on input line 367.
+
+
+Package natbib Warning: Citation `bodeur_photoabsorption_1985' on page 49 undef
+ined on input line 367.
+
+
+Package natbib Warning: Citation `nayandin_angle-resolved_2001' on page 49 unde
+fined on input line 367.
+
+
+Package natbib Warning: Citation `bodeur_photoabsorption_1985' on page 49 undef
+ined on input line 367.
+
+
+Overfull \hbox (19.49478pt too wide) in alignment at lines 370--395
+[] [] [] [] [] [] [] [] 
+ []
+
+
+LaTeX Warning: Reference `figure:scatter' on page 49 undefined on input line 39
+8.
+
+
+LaTeX Warning: Reference `table:FirstRow' on page 49 undefined on input line 40
+0.
+
+
+LaTeX Warning: Reference `table:SecondRow' on page 49 undefined on input line 4
+00.
+
+
+Package natbib Warning: Citation `domke_carbon_1990' on page 49 undefined on in
+put line 400.
+
+[49]
+
+Package natbib Warning: Citation `casida_charge-transfer_2000' on page 50 undef
+ined on input line 403.
+
+
+Package natbib Warning: Citation `ziegler_implementation_2012' on page 50 undef
+ined on input line 403.
+
+
+Package natbib Warning: Citation `evangelista_orthogonality_2013' on page 50 un
+defined on input line 403.
+
+
+LaTeX Warning: Reference `figure:scatter' on page 50 undefined on input line 40
+5.
+
+[50]
+
+LaTeX Warning: Reference `eq:TDDFT_CIS' on page 51 undefined on input line 414.
+
+
+
+Package natbib Warning: Citation `heyd_hybrid_2003' on page 51 undefined on inp
+ut line 416.
+
+
+Package natbib Warning: Citation `nakata_time-dependent_2006' on page 51 undefi
+ned on input line 416.
+
+
+Package natbib Warning: Citation `song_core-excitation_2008' on page 51 undefin
+ed on input line 416.
+
+
+Package natbib Warning: Citation `henderson_importance_2007' on page 51 undefin
+ed on input line 416.
+
+
+Package natbib Warning: Citation `henderson_assessment_2008' on page 51 undefin
+ed on input line 416.
+
+[51]
+
+Package natbib Warning: Citation `ziegler_implementation_2012' on page 52 undef
+ined on input line 428.
+
+
+LaTeX Warning: Reference `eq:ocdft_error' on page 52 undefined on input line 42
+8.
+
+
+LaTeX Warning: Reference `eq:ocdft_error' on page 52 undefined on input line 42
+9.
+
+
+Overfull \hbox (14.29282pt too wide) in paragraph at lines 434--434
+|[]\OT1/cmr/bx/n/14.4 Application to Nu-cle-obases: Thymine and Ade-nine Near-
+ []
+
+
+Package natbib Warning: Citation `di_mauro_dna_1993' on page 52 undefined on in
+put line 435.
+
+
+Package natbib Warning: Citation `niemeyer_dna_1997' on page 52 undefined on in
+put line 435.
+
+
+Package natbib Warning: Citation `niemeyer_nanoparticles_2001' on page 52 undef
+ined on input line 435.
+
+
+Package natbib Warning: Citation `song_nucleobase_2012' on page 52 undefined on
+ input line 435.
+
+
+Package natbib Warning: Citation `langridge_x-ray_1964' on page 52 undefined on
+ input line 435.
+
+
+Package natbib Warning: Citation `sundaralingam_structure_1975' on page 52 unde
+fined on input line 435.
+
+
+Package natbib Warning: Citation `camerman_photodimer_1968' on page 52 undefine
+d on input line 435.
+
+
+Package natbib Warning: Citation `davies_x-ray_1967' on page 52 undefined on in
+put line 435.
+
+
+Package natbib Warning: Citation `kirtley_nitrogen_1992' on page 52 undefined o
+n input line 435.
+
+
+Package natbib Warning: Citation `seifert_molecular_2007' on page 52 undefined 
+on input line 435.
+
+
+Package natbib Warning: Citation `yamada_adsorption_2004' on page 52 undefined 
+on input line 435.
+
+
+Package natbib Warning: Citation `fujii_x-ray_2003' on page 52 undefined on inp
+ut line 435.
+
+
+Package natbib Warning: Citation `fujii_near-edge_2004' on page 52 undefined on
+ input line 435.
+
+
+Package natbib Warning: Citation `mochizuki_hf-stex_2001' on page 52 undefined 
+on input line 435.
+
+
+Package natbib Warning: Citation `macnaughton_electronic_2005' on page 52 undef
+ined on input line 435.
+
+
+Package natbib Warning: Citation `ekstrom_polarization_2006' on page 52 undefin
+ed on input line 435.
+
+
+Package natbib Warning: Citation `bolognesi_investigation_2009' on page 52 unde
+fined on input line 435.
+
+
+Package natbib Warning: Citation `macnaughton_electronic_2005' on page 52 undef
+ined on input line 435.
+
+
+Package natbib Warning: Citation `healion_probing_2008' on page 52 undefined on
+ input line 435.
+
+
+Package natbib Warning: Citation `plekan_theoretical_2008' on page 52 undefined
+ on input line 435.
+
+
+Package natbib Warning: Citation `wenzel_calculating_2014' on page 52 undefined
+ on input line 435.
+
+[52]
+
+Package natbib Warning: Citation `plekan_theoretical_2008' on page 53 undefined
+ on input line 437.
+
+
+LaTeX Warning: Reference `table: thymine_k_oxygen' on page 53 undefined on inpu
+t line 437.
+
+
+LaTeX Warning: Reference `fig: adenine_k_nitrogen' on page 53 undefined on inpu
+t line 437.
+
+
+LaTeX Warning: Reference `fig:thyminevirtuals' on page 53 undefined on input li
+ne 437.
+
+
+LaTeX Warning: Reference `fi
