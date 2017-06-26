@@ -495,10 +495,10 @@
        transform="matrix(1,0,0,-1,184.936,171.2021)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Museo Sans 500';-inkscape-font-specification:MuseoSans-500;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text296"><tspan
-         x="0 2.4159999 7.2160001 9.632 11.688 16.431999 18.424 24.200001"
-         y="0"
+         x="0 2.4159999 7.2160001 11.688 16.431999 18.424 24.200001"
          sodipodi:role="line"
-         id="tspan298">(b) TiCl</tspan></text>
+         id="tspan298"
+         y="0">(b)TiCl</tspan></text>
 <text
        transform="matrix(1,0,0,-1,211.2554,168.5381)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.66400003px;font-family:'Museo Sans 500';-inkscape-font-specification:MuseoSans-500;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -541,9 +541,9 @@
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Museo Sans 500';-inkscape-font-specification:MuseoSans-500;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text320"><tspan
          x="0 2.4159999 6.7919998 9.2080002 11.264 16.007999 18 23.775999 28.576 34.352001"
-         y="0"
          sodipodi:role="line"
-         id="tspan322">(c) TiCpCl</tspan></text>
+         id="tspan322"
+         y="0">(c) TiCpCl</tspan></text>
 <text
        transform="matrix(1,0,0,-1,221.4067,113.2788)"
        style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.66400003px;font-family:'Museo Sans 500';-inkscape-font-specification:MuseoSans-500;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"

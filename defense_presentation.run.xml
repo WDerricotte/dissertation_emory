@@ -41,11 +41,10 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>defense_presentation.aux</file>
-      <file>defense_presentation-blx.bib</file>
+      <file>defense_presentation.bcf</file>
     </provides>
     <requires type="dynamic">
       <file>defense_presentation.bbl</file>
@@ -53,7 +52,6 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>numeric.bbx</file>
       <file>standard.bbx</file>
@@ -62,16 +60,14 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
-    <generic>bibtex</generic>
+  <external package="biblatex" priority="5" active="0">
+    <generic>biber</generic>
     <cmdline>
-      <binary>bibtex8</binary>
-      <option>--wolfgang</option>
-      <option>--min_crossrefs 2</option>
+      <binary>biber</binary>
       <infile>defense_presentation</infile>
     </cmdline>
     <input>
-      <file>defense_presentation.aux</file>
+      <file>defense_presentation.bcf</file>
     </input>
     <output>
       <file>defense_presentation.bbl</file>
@@ -80,13 +76,7 @@
       <file>defense_presentation.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>defense_presentation.aux</file>
-      <file>defense_presentation-blx.bib</file>
-    </requires>
-    <requires type="editable">
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
+      <file>defense_presentation.bcf</file>
     </requires>
   </external>
 </requests>

@@ -12,7 +12,20 @@
   \usefonttheme{default}  % or try serif, structurebold, ...
   \setbeamertemplate{navigation symbols}{}
   \setbeamertemplate{caption}[numbered]
+  \setbeamerfont{bibliography item}{size=\footnotesize}
+  \setbeamerfont{bibliography entry author}{size=\footnotesize}
+  \setbeamerfont{bibliography entry title}{size=\footnotesize}
+  \setbeamerfont{bibliography entry location}{size=\footnotesize}
+  \setbeamerfont{bibliography entry note}{size=\footnotesize}
 } 
+
+\setbeamertemplate{footnote}{%
+  \tiny%
+  \parindent 1em\noindent%
+  \raggedright
+  \hbox to 1.8em{\hfil\insertfootnotemark}\insertfootnotetext\par%
+}%
+\setlength\footnotesep{0pt}
 
 \usefonttheme[onlymath]{serif}
 
@@ -20,12 +33,13 @@
 \usepackage[utf8x]{inputenc}
 \usepackage{caption}
 \usepackage{booktabs}
-\usepackage{natbib}
+\usepackage{biblatex}
+%\usepackage{natbib}
 \usepackage{multirow}
 \usepackage{ifthen}
 \usepackage{bibentry}
 \usepackage{array}
-\bibliographystyle{ieeetr}
+%\bibliographystyle{achemso}
 \usepackage{chngcntr}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -38,7 +52,15 @@
   \gdef\beamer@frametitle{#2}% 
   \gdef\beamer@shortframetitle{#1}% 
 }% 
-} 
+}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+ 
 \makeatother 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\usepackage[backend=bibtex,style=science]{biblatex}
@@ -94,7 +116,7 @@
 \newcommand\footcite[1]{\footnote{\bibentry{#1}\label{\thepage:#1}}}
 \newcommand\secondcite[1]{\textsuperscript{\ref{\thepage:#1}}}
 \begin{document}
-\nobibliography{defense_talk}
+%\nobibliography{defense_talk}
 
 \begin{frame}
   \titlepage
@@ -119,9 +141,10 @@
 \item Core orbitals are close to nuclei, experience strong Coulombic attraction
 \item Produces \textbf{element specific} edge jump in absorption spectrum
 		\begin{itemize}
-		\item X-ray notation based on principal quantum number\footcite{stohr_nexafs_1992} (K=1, L=2, M=3)
+		\item X-ray notation based on principal quantum number\footnotemark (K=1, L=2, M=3)
 		\end{itemize}
 \end{itemize}
+\footnotetext{J. Stohr. \textit{NEXAFS Spectroscopy}; Springer: \textbf{1992}}
 \end{frame}
 
 \begin{frame}{Fine Structure of the XAS Edge}
@@ -131,11 +154,47 @@
 \begin{itemize}
 \item Edge has 3 distinct regions: Pre, Rising, and Extended Edges
 \item Near-edge X-ray absorption fine structure (NEXAFS) spectroscopy studies the pre and rising edge regions
-\item Extended-edge X-ray absorption fine structure (EXAFS) spectroscopy studies the extended edge region\footcite{teo_exafs:_2012}
+\item Extended-edge X-ray absorption fine structure (EXAFS) spectroscopy studies the extended edge region\footnotemark
+\end{itemize}
+\footnotetext{B. K. Teo. \textit{EXAFS: Basic Principles and Data Analysis}; Springer: \textbf{2012}}
+\end{frame}
+
+\begin{frame}{Computational Methods for Simulating NEXAFS}
+\begin{itemize}
+\item Interpretation of NEXAFS requires knowledge of core-excitation energies, transition dipole moments, and orbital character of transition
+\item Wavefunction/Green's Function Methods
+		\begin{itemize}
+		\item Linear Response Coupled Cluster (LR-CC)
+		\item Algebraic Diagrammatic Construction (ADC)
+		\item RASSCF
+		\item SOS-CIS(D)
+		\end{itemize}
+\item Density Functional Theory Methods
+		\begin{itemize}
+		\item Linear Response Time-Dependent DFT (TDDFT)
+		\item Real-Time TDDFT
+		\end{itemize}
+\item Hartree--Fock (HF) Based Approaches
+		\begin{itemize}
+		\item HF Static Exchange Method (HF-STEX)
+		\item Maximum Overlap $\Delta$SCF
+		\end{itemize}
+\item All theoretical methods face unique theoretical challenges when calculating core excited states
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Theoretical Challenges: Orbital Relaxation}
+\begin{itemize}
+\item Orbital relaxation effects can be understood formally as the change in orbital energies when changing the number of electrons
+\end{itemize}
+\centering
+\includegraphics[width=0.8\linewidth]{orbital_relaxation_diagram.pdf}
+\begin{itemize}
+\item Remaining orbitals are drawn closer to the nucleus which becomes more effectively screened
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Orbital Relaxation Effects in Core-Excited States}
 \begin{figure}[!t]
 \includegraphics[scale=0.7]{core_hole_generation_1.pdf}
 \end{figure}
@@ -148,14 +207,14 @@ Z_{\rm eff} = Z - \sigma
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Theoretical Challenges: Orbital Relaxation}
+\begin{frame}{Orbital Relaxation Effects in Core-Excited States}
 \begin{figure}[!t]
-\includegraphics[scale=0.7]{core_hole_generation_2.pdf}
+\includegraphics[width=\linewidth]{core_hole_generation_2.pdf}
 \end{figure}
 \begin{itemize}
 \item Generation of a core-hole causes a decrease in the shielding of the nuclei 
 \item Causes significant rearrangement in all higher lying orbitals, known as \textbf{orbital relaxation}
-\item It was shown that for a C atom, this effect can be on the order of 12-15 eV
+\item It was shown that for a N atom, this effect can be on the order of 12-15 eV
 \end{itemize}
 \end{frame}
 
@@ -173,7 +232,7 @@ Z_{\rm eff} = Z - \sigma
 \begin{frame}{Theoretical Challenges: Relativistic Effects}
 \begin{table}
 \centering
-\caption{Non-relativistic (NR) and relativistic (R) energies (in eV) of the lowest lying core orbital and lowest unoccupied molecular orbital (LUMO) of water (H$_2$O) and silane (SiH$_4$) molecules calculated using spin-unrestricted Hartree--Fock (UHF) with the 3-21G basis set. Scalar relativistic effects are included by use of the 2$^{\rm nd}$ order Douglas-Kroll-Hess Hamiltonian.\footcite{reiher_douglaskrollhess_2006} All calculations were performed using the ORCA software package.}
+\caption{Non-relativistic (NR) and relativistic (R) energies (in eV) of the lowest lying core orbital and lowest unoccupied molecular orbital (LUMO) of water (H$_2$O) and silane (SiH$_4$) molecules calculated using spin-unrestricted Hartree--Fock (UHF) with the 3-21G basis set. Scalar relativistic effects are included by use of the 2$^{\rm nd}$ order Douglas-Kroll-Hess Hamiltonian.\footnotemark All calculations were performed using the ORCA software package.}
 \begin{tabular}{ccccc}
 \toprule
 & \multicolumn{2}{c}{H$_2$O} & \multicolumn{2}{c}{SiH$_4$} \\ \cmidrule(lr){2-3} \cmidrule(lr){4-5}
@@ -189,50 +248,86 @@ R-UHF & $-$556.34 & 7.16 & $-$1863.04 & 5.03\\
 \item Effect is more pronounced in heavier elements
 \item Small but non-negligible effect on light elements 
 \end{itemize}
+\footnotetext{M. Reiher. \textit{Theor. Chem. Acc.}. \textbf{2006}}
 \end{frame}
 
-\begin{frame}{Orthogonality Constrained Density Functional Theory}
-\begin{figure}[!t]
-\includegraphics[scale=1.0]{ocdft_fig.jpeg}
-\end{figure}
+\begin{frame}{Theoretical Challenges: Assigning Excited States}
 \begin{itemize}
-\item Variational time-independent (TI) formulation of density functional theory (DFT)
-\item Builds upon TI-DFT methods by enforcing orthogonality between the ground and excited states
-\begin{equation}
-\langle \Phi^{(m)} | \Phi^{(n)} \rangle = \delta_{mn}
-\end{equation}
-\item This choice of constraint prevents \textbf{variational collapse} of the excited state SCF
+\item Excited states are often assigned based on MO plots relative to the ground state
 \end{itemize}
+\centering
+\includegraphics[width=\linewidth]{behyan_fig.pdf}
+\begin{itemize}
+\item LUMO+3 for methylsulfanyl benzene above was assigned as $\pi^*$(C=C),\footnotemark  but other contributions are clearly present
+\item Two issues with this type of assignment
+		\begin{itemize}
+		\item Assignments based on MO plots are potentially ambiguous
+		\item Approach is not systematic/reproducible
+		\end{itemize}
+\end{itemize}
+\footnotetext{S. Behyan; Y. Hu; S. G. Urquhart. \textit{J. Chem. Phys.} \textbf{2013}}
+\end{frame}
+
+\begin{frame}{Overview of Dissertation Work}
+\centering
+\includegraphics[width=\linewidth]{dissertation_work_overview.pdf}
 \end{frame}
 
 \begin{frame}{Orthogonality Constrained Density Functional Theory}
-\begin{figure}[!t]
-\includegraphics[scale=1.0]{ocdft_fig.jpeg}
-\end{figure}
+\centering
+\includegraphics[width=\linewidth]{figure_1.pdf}
 \begin{itemize}
-\item OCDFT introduces a quasi-adiabatic approximation where the excited state exchange-correlation (XC) functional is approximated as the ground state functional
+\item Variational time-independent (TI) formulation of density functional theory (DFT)\footnotemark
+\item This choice of constraint prevents \textbf{variational collapse} of the excited state SCF
+\item OCDFT excited state functional can be written as:
 \begin{align}
 \nonumber
-E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu \nu} + V_{\mu \nu})\\
- &+ E_{\rm coul}[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}]. 
+E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu \nu} + V_{\mu \nu}) + E_{\rm coul}[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}]. 
 \end{align}
 \end{itemize}
+\footnotetext{F. A. Evangelista; P. Shushkov; and J. C. Tully. \textit{J. Phys. Chem. A.} \textbf{2013}}
 \end{frame}
 
-\begin{frame}{Why OCDFT? Treatment of Orbital Relaxation}
-\begin{figure}
+\begin{frame}{OCDFT: Minimal Orthogonality Conditions}
 \centering
-\includegraphics[scale=0.7]{h_p_algorithms.pdf}
-\caption*{First O 1s core excitation in H$_2$O calculated using orthogonality constrained density functional theory at the B3LYP/3-21G level of theory. Numbers reported are the total energy of the ground state and respective core excited state calculated with varying degrees of orbital relaxation included.}
-\end{figure}
+\includegraphics[width=0.6\linewidth]{hole_particle_orthogonality.pdf}
 \begin{itemize}
-\item OCDFT is a $\Delta$SCF approach and thus explicitly accounts for orbital relaxation effects
-\item Neglecting relaxation of $\beta$-orbitals has effect of $\approx$5 eV
+\item Enforcing orthogonality introduces a \textit{hole} ($\phi_{\rm h}^{(1)}$) and \textit{particle} ($\phi_{\rm p}^{(1)}$) orbital that must satisfy the following:
+\begin{align}
+\label{eq:pq_conditions1}
+\hat{Q}^{(0)}\phi_{\rm h}^{(1)} = 0,\\
+\label{eq:pq_conditions2}
+\hat{P}^{(0)}\phi_{\rm p}^{(1)} = 0,
+\end{align}
+\item In quasiparticle formalism, $\phi_{\rm h}^{(1)}$ and $\phi_{\rm p}^{(1)}$ define the single excitation
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Why OCDFT? Variational Stability and Computational Efficiency}
+\begin{frame}{OCDFT: Hole and Particle Orbitals in Practice}
+\begin{figure}
+\centering
+\includegraphics{hole_particle_practice.pdf}
+\caption*{Particle orbitals for first excited state in NH$_3$. Calculated using OCDFT at B3LYP/3-21G level of theory} 
+\end{figure}
+\begin{itemize}
+\item Visual representation of each single excited state
+\item $\phi_{\rm h}^{(1)}$ and $\phi_{\rm p}^{(1)}$ are variationally optimized for the excited state
+\end{itemize}
+\end{frame}
 
+\begin{frame}{Treatment of Orbital Relaxation in OCDFT}
+\centering
+\includegraphics[scale=0.65]{relaxation_original.jpeg}
+\begin{itemize}
+\item Original tests on valence excitation showed full inclusion of relaxation effects yielded best results\footnotemark
+\item If the theory is extended to core excitation we can benefit from full inclusion of orbital relaxation
+\end{itemize}
+\footnotetext{F. A. Evangelista; P. Shushkov; and J. C. Tully. \textit{J. Phys. Chem. A.} \textbf{2013}}
+\end{frame}
+
+\begin{frame}{Developing OCDFT For Core-Excited States}
+\centering
+\includegraphics[width=\linewidth]{project_intro_1.pdf}
 \end{frame}
 
 \begin{frame}{Extension of OCDFT For NEXAFS Spectral Simulation}
@@ -243,6 +338,9 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu 
 		\item Algorithm must be generalized to multiple excited states
 		\end{itemize}
 \end{itemize}
+\centering
+\includegraphics[scale=0.85]{Figure1.pdf}
+\blfootnote{W. D. Derricotte and F. A. Evangelista. \textit{Phys. Chem. Chem. Phys.} \textbf{2015}}
 \end{frame}
 
 \begin{frame}{Extension of OCDFT For NEXAFS Spectral Simulation}
@@ -253,6 +351,7 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu 
 \item First, perform a ground state DFT calculation to obtain the ground state determinant $\Phi^{(0,0)}$
 \item Utilizing notation $\Phi^{(i,a)}$ where $i$ and $a$ are hole and particle indices respectively
 \end{itemize}
+\blfootnote{W. D. Derricotte and F. A. Evangelista. \textit{Phys. Chem. Chem. Phys.} \textbf{2015}}
 \end{frame}
 
 \begin{frame}{Extension of OCDFT For NEXAFS Spectral Simulation}
@@ -266,6 +365,7 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu 
 \braket[1]{\phi^{(1,a)}_{\rm p}}{\phi^{(1,b)}_{\rm p}} &= \delta_{ab}, &\forall a,b \leq n_{\rm u}.
 \end{align}
 \end{itemize}
+\blfootnote{W. D. Derricotte and F. A. Evangelista. \textit{Phys. Chem. Chem. Phys.} \textbf{2015}}
 \end{frame}
 \begin{frame}{Extension of OCDFT For NEXAFS Spectral Simulation}
 \begin{figure}[!t]
@@ -278,12 +378,15 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu 
 \braket[1]{\phi^{(1,1)}_{\rm h}}{\phi^{(2,a)}_{\rm h}} &=0,&\forall a \leq n_{\rm u}.
 \end{align}
 \end{itemize}
+\blfootnote{W. D. Derricotte and F. A. Evangelista. \textit{Phys. Chem. Chem. Phys.} \textbf{2015}}
 \end{frame}
 
 \begin{frame}{Core-Excited State Benchmark Test Set}
-\begin{figure}[!t]
+\begin{itemize}
+\item Benchmark test set consists of 40 core-excitations from 13 different molecules
+\end{itemize}
+\centering
 \includegraphics[scale=0.85]{ocdft_tddft_histogram.pdf}
-\end{figure}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
@@ -304,6 +407,7 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu 
 \end{itemize}
 \end{column}
 \end{columns}
+\blfootnote{W. D. Derricotte and F. A. Evangelista. \textit{Phys. Chem. Chem. Phys.} \textbf{2015}}
 \end{frame}
 
 \begin{frame}{Full NEXAFS Spectral Simulation: Thymine}
@@ -319,6 +423,7 @@ f_{\rm osc} = \frac{2}{3} |\mu_{n0}|^2 \omega_{n}
 \item Compute 10 excitations per hole for each C, N, O 1s orbital in thymine
 \item Spectra plotted using Gaussians with FWHM of 0.1 eV - 0.4 eV in order to simulate natural spectroscopic broadening effects.
 \end{itemize}
+\blfootnote{W. D. Derricotte and F. A. Evangelista. \textit{Phys. Chem. Chem. Phys.} \textbf{2015}}
 \end{frame}
 
 \begin{frame}{Full NEXAFS Spectral Simulation: Thymine}
@@ -330,9 +435,15 @@ f_{\rm osc} = \frac{2}{3} |\mu_{n0}|^2 \omega_{n}
 \item \textit{Unshifted} OCDFT excitation energies provide excellent comparison to experiment
 \item Average error of 0.3 eV overall compared to experimental peak maxima
 \end{itemize}
+\blfootnote{W. D. Derricotte and F. A. Evangelista. \textit{Phys. Chem. Chem. Phys.} \textbf{2015}}
 \end{frame}
 
-\begin{frame}{Goal of Two-Component Hamiltonians}
+\begin{frame}{Treatment of Relativistic Effects In OCDFT}
+\centering
+\includegraphics[width=\linewidth]{project_intro_2.pdf}
+\end{frame}
+
+\begin{frame}{Relativistic Effects in Quantum Chemistry Via 2-Component Hamiltonians}
 \begin{itemize}
 \item Full Dirac Relativistic equation involves a 4 component Hamiltonian ($h^{\rm D}$), 2 \textit{large} components (L), 2 \textit{small} components (S)
 \begin{equation}
@@ -440,11 +551,11 @@ C^{\rm S} = XC^{\rm L} \ \ \ \ \ \ \ \ \ \ C^{\rm L} = R C^{\rm 2c}
 \item The \textit{relativistic} X2C kinetic and potential terms are now included in the OCDFT energy functional
 \begin{align}
 \nonumber
-E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T^{\rm X2C}_{\mu \nu} + V^{\rm X2C}_{\mu \nu})\\
- &+ E_{\rm coul}[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}]. 
+E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T^{\rm X2C}_{\mu \nu} + V^{\rm X2C}_{\mu \nu}) + E_{\rm coul}[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}]. 
 \end{align}
 \item X2C one-electron operator is formed before the SCF cycle and added to the \textit{nonrelativistic} two-electron operators
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{X2C-OCDFT Benchmark}
@@ -452,7 +563,7 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T^{\rm 
 \begin{column}{0.5\textwidth}
 \begin{figure}
 \centering
-\includegraphics[scale=0.75]{figure_3.pdf}
+\includegraphics[width=\linewidth]{figure_3.pdf}
 \end{figure}
 \end{column}
 \begin{column}{0.5\textwidth}
@@ -467,6 +578,7 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T^{\rm 
 \end{itemize}
 \end{column}
 \end{columns}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Relativistic Effects vs. Correlation Effects}
@@ -492,6 +604,7 @@ All & 2.2 & 1.3 \\
 \item Quickly outpaced by relativistic effects for 2$^{\text{nd}}$ row
 \item Proper treatment of relativistic effects will be extremely important for transition metals
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{K-Edge of Tetracoordinated Ti Complexes}
@@ -518,6 +631,7 @@ State & \multicolumn{2}{c}{TDDFT} & \multicolumn{2}{c}{OCDFT} & Exp. \\ \cmidrul
 \begin{itemize}
 \item Pre-edge feature is calculated within $\approx$ 5.0 eV of experiment
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Pre-edge Features of Tetracoordinated Ti Complexes}
@@ -527,6 +641,7 @@ State & \multicolumn{2}{c}{TDDFT} & \multicolumn{2}{c}{OCDFT} & Exp. \\ \cmidrul
 \begin{itemize}
 \item Pre-edge intensity drop after adding Cp rings to coordination
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Pre-edge Features of Tetracoordinated Ti Complexes}
@@ -536,6 +651,7 @@ State & \multicolumn{2}{c}{TDDFT} & \multicolumn{2}{c}{OCDFT} & Exp. \\ \cmidrul
 \begin{itemize}
 \item Peak splitting of pre-edge after adding Cp rings to coordination
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Particle Orbital Analysis of Pre-Edge TiCl$_4$}
@@ -560,6 +676,7 @@ State &   \multicolumn{2}{c}{\textbf{TiCl$_4$}}   \\
 \begin{itemize}
 \item All particle orbitals have similar character (i.e. Ti d and Cl p)
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Particle Orbital Analysis of Pre-Edge TiCpCl$_3$}
@@ -584,6 +701,7 @@ State &   \multicolumn{2}{c}{\textbf{TiCpCl$_3$}}   \\
 \begin{itemize}
 \item States with significant Cp ring contributions are pushed to higher energy
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Particle Orbital Analysis of Pre-Edge TiCp$_2$Cl$_2$}
@@ -608,6 +726,7 @@ State &   \multicolumn{2}{c}{\textbf{TiCp$_2$Cl$_2$}}   \\
 \begin{itemize}
 \item States with significant Cp ring contributions are pushed to higher energy
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Further Investigation of Pre-Edge Intensity}
@@ -626,6 +745,7 @@ State &   \multicolumn{2}{c}{\textbf{TiCp$_2$Cl$_2$}}   \\
 \boldsymbol\mu_{0n} (\mathrm{A}_{l_\mathrm{A}} \rightarrow \mathrm{B}_{l_\mathrm{B}}) = \sum_{\mu \in \mathrm{A}_{l_\mathrm{A}}}\sum_{\nu \in \mathrm{B}_{l_\mathrm{B}}} D^{0n}_{\mu\nu} \bra{\chi_\mu} \mathbf{r} \ket{\chi_\nu}
 \end{equation}
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
 \end{frame}
 
 \begin{frame}{Further Investigation of Pre-Edge Intensity}
@@ -661,12 +781,28 @@ Other       & $-$0.000007 & +0.000002 & +0.000073 & 0.000073 \\
 \item Population analysis shows that the transitions are 1s$\rightarrow$ 3d
 \item Largest dipole contribution is Ti$_{\text{s}}$ $\rightarrow$ Ti$_{\text{d}}$
 \end{itemize}
+\blfootnote{P. Verma; W. D. Derricotte; and F. A. Evangelista. \textit{J. Chem. Theory Comput.} \textbf{2016}}
+\end{frame}
+
+\begin{frame}{Overview of Dissertation Work}
+\centering
+\includegraphics[width=\linewidth]{project_intro_3.pdf}
+\end{frame}
+
+\begin{frame}{Assigning the Character of Particle Orbitals}
+\centering
+\includegraphics[width=\linewidth]{assigning_particles.pdf}
+\begin{itemize}
+\item $\phi^1_{\rm p}$ and $\phi^2_{\rm p}$ clearly have contributions from both $\sigma^*_{\rm S-C}$ and 
+$\sigma^*_{\rm S-H}$ how do you make a definitive assignment?
+\item How to differentiate between the two unique $\pi^*_{\rm C=C}$ orbitals?
+\item Desirable to find method to quantify localized orbital contributions
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Localized Intrinsic Valence Virtual Orbitals}
-\begin{figure}
+\centering
 \includegraphics[width=0.75\linewidth]{livvo_procedure_1.png}
-\end{figure}
 \begin{itemize}
 \item Start with a set of virtual canonical molecular orbitals (CMOs) expanded in an atom-centered basis $\{\chi_{\mu}\}$
 \begin{equation}
@@ -676,9 +812,8 @@ Other       & $-$0.000007 & +0.000002 & +0.000073 & 0.000073 \\
 \end{frame}
 
 \begin{frame}{Localized Intrinsic Valence Virtual Orbitals}
-\begin{figure}
+\centering
 \includegraphics[width=0.75\linewidth]{livvo_procedure_2.png}
-\end{figure}
 \begin{itemize}
 \item Evaluate overlap ($\mathbf{S}$) with set of Intrinsic Atomic Orbitals (IAOs) 
 \end{itemize}
@@ -688,9 +823,8 @@ Other       & $-$0.000007 & +0.000002 & +0.000073 & 0.000073 \\
 \end{frame}
 
 \begin{frame}{Localized Intrinsic Valence Virtual Orbitals}
-\begin{figure}
+\centering
 \includegraphics[width=0.75\linewidth]{livvo_procedure_2.png}
-\end{figure}
 \begin{itemize}
 \item Perform SVD of overlap matrix to get orthogonal tranformation matrices $\mathbf{U}$ and $\mathbf{V}$
 \end{itemize}
@@ -702,11 +836,10 @@ Other       & $-$0.000007 & +0.000002 & +0.000073 & 0.000073 \\
 
 
 \begin{frame}{Localized Intrinsic Valence Virtual Orbitals}
-\begin{figure}
+\centering
 \includegraphics[width=0.75\linewidth]{livvo_procedure_3.png}
-\end{figure}
 \begin{itemize}
-\item Use $\mathbf{U}$ to transform canonical virtuals into valence viratual orbitals (VVOs):
+\item Use $\mathbf{U}$ to transform canonical virtuals into valence virtual orbitals (VVOs):
 \end{itemize}
 \begin{equation}
 | \psi^{\rm VVO}_v \rangle = \sum_a^{N_\mathrm{vir}} | \phi_a \rangle U_{av}, \quad v = 1, \ldots, N_{\rm VVO}.
@@ -714,9 +847,8 @@ Other       & $-$0.000007 & +0.000002 & +0.000073 & 0.000073 \\
 \end{frame}
 
 \begin{frame}{Localized Intrinsic Valence Virtual Orbitals}
-\begin{figure}
+\centering
 \includegraphics[width=0.75\linewidth]{livvo_procedure_4.png}
-\end{figure}
 \begin{itemize}
 \item Pipek-Mezey localization can be employed in order to yield an orbital set that represents each valence antibonding interaction in the molecular environment
 \end{itemize}
@@ -869,6 +1001,11 @@ t^{\mathrm{val},(n)}_\mathrm{p} = \sum_{l}^{N_\mathrm{LIVVO}} \Omega_{\mathrm{p}
 \end{figure}
 \end{frame}
 
+\begin{frame}{Overview of Dissertation Work}
+\centering
+\includegraphics[width=\linewidth]{project_intro_4.pdf}
+\end{frame}
+
 \begin{frame}{Organic Core-Excitations in Chemisorbed Molecules}
 \begin{figure}
 \includegraphics[width=0.8\textwidth]{pyrazine_si_100_slide_1.pdf}
@@ -899,10 +1036,10 @@ t^{\mathrm{val},(n)}_\mathrm{p} = \sum_{l}^{N_\mathrm{LIVVO}} \Omega_{\mathrm{p}
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Maximum Subspace Occupation Approach}
+\begin{frame}{Maximum Subspace Occupation (MSO) Approach}
 \begin{itemize}
 \item Consider a set of atomic orbital basis functions ($\varphi_{s}$) ordered by atom center, principal quantum number, and angular momentum
-\item We can build an operator that projects onto the AO subset
+\item We can build an operator that spans a subset ($s$) of AOs
 \begin{equation}
 \hat{\Gamma}_{s} = \sum_{s}\ket[1]{\varphi_{s}}\bra[1]{\varphi_{s}}
 \end{equation}
@@ -914,7 +1051,7 @@ t^{\mathrm{val},(n)}_\mathrm{p} = \sum_{l}^{N_\mathrm{LIVVO}} \Omega_{\mathrm{p}
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Maximum Subspace Occupation Approach: CO Example}
+\begin{frame}{MSO-OCDFT: CO Example}
 \centering
 \includegraphics{CO_projection.pdf}
 \begin{itemize}
@@ -922,4 +1059,80 @@ t^{\mathrm{val},(n)}_\mathrm{p} = \sum_{l}^{N_\mathrm{LIVVO}} \Omega_{\mathrm{p}
 \item Note: Due to locality of core orbitals, threshold can be set fairly high
 \end{itemize}
 \end{frame}
+
+
+\begin{frame}{MSO-OCDFT: Consistency of Energy and $f_{\rm osc}$}
+\begin{itemize}
+\item Test calculations done on CCl$_4$ using both the standard algorithm and MSO-OCDFT
+\begin{table}
+\centering
+\caption*{First 3 C core excitations in CCl$_4$}
+\resizebox{0.7\linewidth}{!}{
+\begin{tabular}{ccccc}
+\hline
+\hline
+State & \multicolumn{2}{c}{OCDFT}& \multicolumn{2}{c}{MSO-OCDFT}  \\
+\hline 
+& $\omega$ (eV) & f$_{\rm osc}$ & $\omega$ (eV) & f$_{\rm osc}$ \\
+\hline 
+1 & 292.0002 & 0.0000 & 292.0005 & 0.0000\\
+2 & 292.7093 & 0.0384 & 292.7097 & 0.0384 \\
+3 & 292.6669 & 0.0385 & 292.6659 & 0.0385\\
+\hline
+\hline
+\end{tabular}}
+\label{tab:CCl4}
+\end{table}
+\item Negligible differences between the two results
+\item Validates that this is a good approximation to full orthogonal set of solutions
+\end{itemize}
+\end{frame}
+
+\begin{frame}{C and N K-Edge of Pyrazine}
+\centering
+\includegraphics[width=\linewidth]{pyrazine_chemisorbed_c_kedge.pdf}
+\begin{itemize}
+\item Able to target C and N core efficiently with MSO-OCDFT
+\item 10 excited states were targeted for each spectrum
+\item Without MSO:
+		\begin{itemize}
+		\item 230 Si Excitations would have been necessary to calculate before N K-edge
+		\item 230 Si + 20 N excitations would have been necessary before the C K-edge
+		\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Concluding Remarks}
+\begin{itemize}
+\item OCDFT has been extended and proven successful for calculating core-excited
+\item Full Treatment of relativistic effects were included via the X2C Hamiltonian and 
+\item A Localized set of orbitals has been introduced and use to quantify local contributions to the OCDFT particle orbitals
+\item An approach to target specific hole orbitals based on occupation in an AO subset has been introduced and allows for the calculation core-excited states of chemisorbed organic complexes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Professional Acknowledgments}
+\includegraphics[width=\linewidth]{pro_acknow.pdf}
+\begin{itemize}
+\item ALL CURRENT EVANGELISTA GROUP MEMBERS! (Pictured above)
+\item Former Evangelista Lab Group Members
+		\begin{itemize}
+		\item Dr. Prakash Verma
+		\item Kevin Hannon
+		\end{itemize}
+\item Funding from the NSF Graduate Research Fellowship Program
+\item Initial Funding from the NIH Initiative to Maximize Student Development (IMSD)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Family Acknowledgments}
+\includegraphics[width=\linewidth]{fam_acknow.pdf} \\ \\
+``Family and friendships are two of the greatest facilitators of happiness.'' -- John C. Maxwell
+\end{frame}
+
+\begin{frame}{Thank You!}
+\centering
+\includegraphics[width=\linewidth]{project_intro__done.pdf}
+\end{frame}
+
 \end{document}

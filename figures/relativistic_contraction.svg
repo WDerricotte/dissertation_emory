@@ -153,7 +153,7 @@
     </g>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 110.45668,987.0525 72.21901,0"
+       d="m 98.45668,987.0525 72.21901,0"
        id="path5297"
        inkscape:connector-curvature="0" />
     <path
@@ -214,7 +214,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path5321"
-       d="m 110.45668,948.80218 72.21901,0"
+       d="m 98.45668,948.80218 72.21901,0"
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        sodipodi:linespacing="125%"
@@ -316,7 +316,7 @@
          style="font-size:10px">-206.2</tspan></text>
     <g
        id="g5368"
-       transform="translate(-132,-26.000004)"
+       transform="translate(-144,-26.000004)"
        style="stroke:#ff0000;stroke-opacity:1">
       <path
          style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -407,7 +407,7 @@
          style="font-size:10px">-18.9</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 110.45668,874.80217 72.21901,0"
+       d="m 98.45668,874.80217 72.21901,0"
        id="path5406"
        inkscape:connector-curvature="0" />
     <text
@@ -460,7 +460,7 @@
          id="tspan5424"
          sodipodi:role="line">-3.1</tspan></text>
     <g
-       transform="translate(-132,-94.000008)"
+       transform="translate(-144,-94.000008)"
        id="g5426"
        style="stroke:#ff0000;stroke-opacity:1">
       <path
