@@ -122,6 +122,15 @@
   \titlepage
 \end{frame}
 
+\begin{frame}{A Spectroscopy Primer}
+\begin{itemize}
+\item Structural Characterization techniques, study interaction of a ``probe'' with a sample
+\item Knowledge of interaction gives information about structure
+\item Different probes have different interactions
+\end{itemize}
+\includegraphics[width=\linewidth]{spectroscopy_primer.pdf}
+\end{frame}
+
 \begin{frame}{X-ray Absorption Mechanism: Core-Excited States}
 \begin{figure}
 \includegraphics[scale=0.7]{core_mechanism_1.pdf}
@@ -166,7 +175,6 @@
 		\begin{itemize}
 		\item Linear Response Coupled Cluster (LR-CC)
 		\item Algebraic Diagrammatic Construction (ADC)
-		\item RASSCF
 		\item SOS-CIS(D)
 		\end{itemize}
 \item Density Functional Theory Methods
@@ -179,7 +187,7 @@
 		\item HF Static Exchange Method (HF-STEX)
 		\item Maximum Overlap $\Delta$SCF
 		\end{itemize}
-\item All theoretical methods face unique theoretical challenges when calculating core excited states
+\item All methods face unique challenges when calculating core excited states
 \end{itemize}
 \end{frame}
 
@@ -214,8 +222,9 @@ Z_{\rm eff} = Z - \sigma
 \begin{itemize}
 \item Generation of a core-hole causes a decrease in the shielding of the nuclei 
 \item Causes significant rearrangement in all higher lying orbitals, known as \textbf{orbital relaxation}
-\item It was shown that for a N atom, this effect can be on the order of 12-15 eV
+\item It was shown that for a N atom, this effect can be on the order of 12-15 eV\footnotemark
 \end{itemize}
+\footnotetext{B. N. Plakhutin; E. V. Gorelik; N. N. Breslavskaya. \textit{J. Chem. Phys.} \textbf{2006}}
 \end{frame}
 
 \begin{frame}{Theoretical Challenges: Relativistic Effects}
@@ -273,16 +282,18 @@ R-UHF & $-$556.34 & 7.16 & $-$1863.04 & 5.03\\
 \includegraphics[width=\linewidth]{dissertation_work_overview.pdf}
 \end{frame}
 
-\begin{frame}{Orthogonality Constrained Density Functional Theory}
+\begin{frame}{Orthogonality Constrained Density Functional Theory\footnotemark}
 \centering
 \includegraphics[width=\linewidth]{figure_1.pdf}
 \begin{itemize}
-\item Variational time-independent (TI) formulation of density functional theory (DFT)\footnotemark
+\item Variational time-independent (TI) formulation of density functional theory (DFT)
 \item This choice of constraint prevents \textbf{variational collapse} of the excited state SCF
 \item OCDFT excited state functional can be written as:
 \begin{align}
 \nonumber
-E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu \nu} + V_{\mu \nu}) + E_{\rm coul}[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}]. 
+E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& -\frac{1}{2} \sum_i^{\rm occ} \bra[1]{\phi_i^{(n)}}\nabla^2\ket[1]{\phi_i^{(n)}} + 
+\int d \mathbf{r} \, v(\mathbf{r}) \rho^{(n)}(\mathbf{r})\\
+ &+ J[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}].
 \end{align}
 \end{itemize}
 \footnotetext{F. A. Evangelista; P. Shushkov; and J. C. Tully. \textit{J. Phys. Chem. A.} \textbf{2013}}
@@ -360,7 +371,7 @@ E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T_{\mu 
 \end{figure}
 \begin{itemize}
 \item Perform a sweep of $n_u$ particle orbitals to produce a series of core-excited solutions: $\Phi^{(1,1)}, \Phi^{(1,2)}, \ldots, \Phi^{(1,n_{\rm u})}.$
-\item Characterized by particle orbitals that produce an orthogonal set:
+\item Characterized by particle orbitals that produce an orthonormal set:
 \begin{align}
 \braket[1]{\phi^{(1,a)}_{\rm p}}{\phi^{(1,b)}_{\rm p}} &= \delta_{ab}, &\forall a,b \leq n_{\rm u}.
 \end{align}
@@ -548,10 +559,16 @@ C^{\rm S} = XC^{\rm L} \ \ \ \ \ \ \ \ \ \ C^{\rm L} = R C^{\rm 2c}
 
 \begin{frame}{X2C-OCDFT}
 \begin{itemize}
-\item The \textit{relativistic} X2C kinetic and potential terms are now included in the OCDFT energy functional
+\item Consider the OCDFT energy functional 
 \begin{align}
 \nonumber
-E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T^{\rm X2C}_{\mu \nu} + V^{\rm X2C}_{\mu \nu}) + E_{\rm coul}[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}]. 
+E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& -\frac{1}{2} \sum_i^{\rm occ} \bra[1]{\phi_i^{(n)}}\nabla^2\ket[1]{\phi_i^{(n)}} + 
+\int d \mathbf{r} \, v(\mathbf{r}) \rho^{(n)}(\mathbf{r})\\
+ &+ J[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}].
+\end{align}
+\item This can be recast in the following matrix form and the \textit{relativistic} X2C kinetic and potential included explicitly
+\begin{align}
+E^{(n)}_{\rm OCDFT}[\{\phi^{(n)}_i\}]=& \sum_{\mu \nu} D^{(n)}_{\mu \nu}(T^{\rm X2C}_{\mu \nu} + V^{\rm X2C}_{\mu \nu}) + J[\rho^{(n)}] + E^{(0)}_{\rm xc}[\rho^{(n)}]. 
 \end{align}
 \item X2C one-electron operator is formed before the SCF cycle and added to the \textit{nonrelativistic} two-electron operators
 \end{itemize}
@@ -614,6 +631,8 @@ All & 2.2 & 1.3 \\
 
 \begin{table}[!t]
 \footnotesize
+\caption*{Pre-Edge Contributions for TiCl$_4$}
+\resizebox{0.5\linewidth}{!}{
 \begin{tabular}{cccccc}
 \toprule
 State & \multicolumn{2}{c}{TDDFT} & \multicolumn{2}{c}{OCDFT} & Exp. \\ \cmidrule(r){2-3}  \cmidrule(l){4-5}
@@ -626,7 +645,7 @@ State & \multicolumn{2}{c}{TDDFT} & \multicolumn{2}{c}{OCDFT} & Exp. \\ \cmidrul
 5 & $-$107.0& $-$77.7& $-$36.3& $-$5.7 \\
 \bottomrule
 	\label{table:Ti-complex}
-\end{tabular}
+\end{tabular}}
 \end{table}
 \begin{itemize}
 \item Pre-edge feature is calculated within $\approx$ 5.0 eV of experiment
@@ -800,6 +819,27 @@ $\sigma^*_{\rm S-H}$ how do you make a definitive assignment?
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Localized and Minimal Orbital Sets in Quantum Chemistry}
+\centering
+\includegraphics[width=\linewidth]{iao_vvo.pdf}
+\begin{itemize}
+\item Sets like the IBOs\footnotemark \footnotetext{G. Knizia. \textit{J. Chem. Theory Comput.} \textbf{2013}} and VVOs\footnotemark \footnotetext{M. W. Schmidt; E. A. Hull; T. L. Windus. \textit{J. Phys. Chem. A.} \textbf{2015}} aim to analyze electronic wavefunctions using orbitals that are:
+		\begin{itemize}
+		\item More compact
+		\item Easier to interpret
+		\item More chemically relevant
+		\end{itemize}
+\item Can we build a similar set to analyze bonding contributions to particle orbitals in OCDFT?
+\end{itemize}
+\end{frame}
+
+%\begin{frame}{Analyzing Electronic Wavefunctions With Minimal Orbital Representations}
+%\centering
+%\includegraphics[width=\linewidth]{ruedenberg_paper_header.png} \\
+%\includegraphics[width=\linewidth]{rudenberg_quote.pdf}
+%\blfootnote{K. Ruedenberg; M. W. Schmidt; M. M. Gilbert \textit{Chem. Phys.} \textbf{1982}}
+%\end{frame}
+
 \begin{frame}{Localized Intrinsic Valence Virtual Orbitals}
 \centering
 \includegraphics[width=0.75\linewidth]{livvo_procedure_1.png}
@@ -816,10 +856,11 @@ $\sigma^*_{\rm S-H}$ how do you make a definitive assignment?
 \includegraphics[width=0.75\linewidth]{livvo_procedure_2.png}
 \begin{itemize}
 \item Evaluate overlap ($\mathbf{S}$) with set of Intrinsic Atomic Orbitals (IAOs) 
-\end{itemize}
 \begin{equation}
 (\mathbf{S})_{a\rho} = \langle \phi_a | \psi_{\rho}^\mathrm{IAO} \rangle
 \end{equation}
+\item Where IAOs are defined as {\centering$|\psi_{\rho}^\mathrm{IAO}\rangle = \sum_{\mu}^{N_\mathrm{AO}} |\chi_{\mu} \rangle \tilde{C}_{\mu \rho}, \quad \rho = 1, \ldots, N_\mathrm{IAO}$}
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Localized Intrinsic Valence Virtual Orbitals}
@@ -827,11 +868,12 @@ $\sigma^*_{\rm S-H}$ how do you make a definitive assignment?
 \includegraphics[width=0.75\linewidth]{livvo_procedure_2.png}
 \begin{itemize}
 \item Perform SVD of overlap matrix to get orthogonal tranformation matrices $\mathbf{U}$ and $\mathbf{V}$
-\end{itemize}
 \begin{equation}
 \mathbf{S} = \mathbf{U} \boldsymbol{
 \sigma} \mathbf{V}^{\dagger}
 \end{equation}
+\item $\mathbf{U}$ and $\mathbf{V}$ are rotations of the virtual and IAO space respectively that achieve maximum coincidence
+\end{itemize}
 \end{frame}
 
 
@@ -851,6 +893,7 @@ $\sigma^*_{\rm S-H}$ how do you make a definitive assignment?
 \includegraphics[width=0.75\linewidth]{livvo_procedure_4.png}
 \begin{itemize}
 \item Pipek-Mezey localization can be employed in order to yield an orbital set that represents each valence antibonding interaction in the molecular environment
+\item This yields LIVVOs, need to assign their atomic character
 \end{itemize}
 \end{frame}
 
@@ -886,7 +929,7 @@ H$^3_\mathrm{s}$ & 0.00 & $-$0.08 & $-$0.02 & $-$0.05 & 0.00 & $-$0.03 & 1.18\\
 \end{table}
 \end{column}
 \end{columns}
-\item We compute the population matrix ($P_{\mu\nu}$) as:
+\item We compute the population matrix ($P_{\mu\nu}$) for each IAO as:
 \begin{equation}
 P_{\mu\nu}(\rho) = \tilde{C}_{\mu \rho} S_{\mu\nu} \tilde{C}_{\nu \rho}, \quad \rho = 1, \ldots, N_\mathrm{IAO}
 \end{equation}
@@ -904,7 +947,7 @@ P_{\mu\nu}(\rho) = \tilde{C}_{\mu \rho} S_{\mu\nu} \tilde{C}_{\nu \rho}, \quad \
 \begin{equation}
 S'_{l \rho} = | \langle \psi_l^{\rm LIVVO} | \psi^{\rm IAO}_{\rho} \rangle |^2
 \end{equation}
-\item Assign orbital character ($\sigma$,$\pi$,\ldots) of LIVVOs based on atomic character (s,p,\ldots) of IAOs
+\item Assign antibonding interaction ($\sigma^*$,$\pi^*$,\ldots) of LIVVOs based on atomic character (s,p,\ldots) of IAOs
 \begin{equation*}
 \begin{split}
 \vcenter{\hbox{\includegraphics[width = 2.5cm]{img_1a}}} =& 

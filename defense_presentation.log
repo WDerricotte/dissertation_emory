@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.7)  26 JUN 2017 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.7)  27 JUN 2017 18:17
 entering extended mode
 **./defense_presentation.tex
 (defense_presentation.tex
@@ -1218,565 +1218,580 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 [1
 
 {C:/Users/WDerricotte/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<figures/core_mechanism_1.pdf, id=24, 437.31882pt x 180.675pt>
+<figures/spectroscopy_primer.pdf, id=26, 362.77292pt x 109.44751pt>
+File: figures/spectroscopy_primer.pdf Graphic file (type pdf)
+
+<use figures/spectroscopy_primer.pdf>
+Package pdftex.def Info: figures/spectroscopy_primer.pdf used on input line 132
+.
+(pdftex.def)             Requested size: 342.2953pt x 103.2748pt.
+ [2
+
+ <./figures/spectroscopy_primer.pdf>]
+<figures/core_mechanism_1.pdf, id=153, 437.31882pt x 180.675pt>
 File: figures/core_mechanism_1.pdf Graphic file (type pdf)
 
 <use figures/core_mechanism_1.pdf>
-Package pdftex.def Info: figures/core_mechanism_1.pdf used on input line 133.
+Package pdftex.def Info: figures/core_mechanism_1.pdf used on input line 142.
 (pdftex.def)             Requested size: 306.12108pt x 126.47162pt.
- [2
+ [3
 
  <./figures/core_mechanism_1.pdf>]
-<figures/core_mechanism_2.pdf, id=456, 437.31882pt x 180.675pt>
+<figures/core_mechanism_2.pdf, id=583, 437.31882pt x 180.675pt>
 File: figures/core_mechanism_2.pdf Graphic file (type pdf)
 
 <use figures/core_mechanism_2.pdf>
-Package pdftex.def Info: figures/core_mechanism_2.pdf used on input line 148.
+Package pdftex.def Info: figures/core_mechanism_2.pdf used on input line 157.
 (pdftex.def)             Requested size: 306.12108pt x 126.47162pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 148.
+LaTeX Font Info:    Try loading font information for U+msa on input line 157.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 148.
+LaTeX Font Info:    Try loading font information for U+msb on input line 157.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+) [4
 
  <./figures/core_mechanism_2.pdf>]
-<figures/fine_structure.pdf, id=889, 469.755pt x 180.675pt>
+<figures/fine_structure.pdf, id=1016, 469.755pt x 180.675pt>
 File: figures/fine_structure.pdf Graphic file (type pdf)
 
 <use figures/fine_structure.pdf>
-Package pdftex.def Info: figures/fine_structure.pdf used on input line 160.
+Package pdftex.def Info: figures/fine_structure.pdf used on input line 169.
 (pdftex.def)             Requested size: 328.82626pt x 126.47162pt.
- [4
+ [5
 
- <./figures/fine_structure.pdf>] [5
+ <./figures/fine_structure.pdf>] [6
 
 ]
-<figures/orbital_relaxation_diagram.pdf, id=932, 440.30638pt x 209.41238pt>
+<figures/orbital_relaxation_diagram.pdf, id=1059, 440.30638pt x 209.41238pt>
 File: figures/orbital_relaxation_diagram.pdf Graphic file (type pdf)
 
 <use figures/orbital_relaxation_diagram.pdf>
 Package pdftex.def Info: figures/orbital_relaxation_diagram.pdf used on input l
-ine 195.
+ine 203.
 (pdftex.def)             Requested size: 273.83728pt x 130.24333pt.
- [6
+ [7
 
  <./figures/orbital_relaxation_diagram.pdf>]
-<figures/core_hole_generation_1.pdf, id=1111, 209.12775pt x 180.675pt>
+<figures/core_hole_generation_1.pdf, id=1239, 209.12775pt x 180.675pt>
 File: figures/core_hole_generation_1.pdf Graphic file (type pdf)
 
 <use figures/core_hole_generation_1.pdf>
 Package pdftex.def Info: figures/core_hole_generation_1.pdf used on input line 
-208.
+216.
 (pdftex.def)             Requested size: 146.38841pt x 126.47162pt.
- [7
+ [8
 
  <./figures/core_hole_generation_1.pdf>] <figures/core_hole_generation_2.pdf, i
-d=1538, 566.49442pt x 180.675pt>
+d=1665, 566.49442pt x 180.675pt>
 File: figures/core_hole_generation_2.pdf Graphic file (type pdf)
 
 <use figures/core_hole_generation_2.pdf>
 Package pdftex.def Info: figures/core_hole_generation_2.pdf used on input line 
-219.
+228.
 (pdftex.def)             Requested size: 342.2953pt x 109.17223pt.
- [8
+ [9
 
  <./figures/core_hole_generation_2.pdf>] <figures/relativistic_contraction.pdf,
- id=2132, 289.08pt x 180.675pt>
+ id=2259, 289.08pt x 180.675pt>
 File: figures/relativistic_contraction.pdf Graphic file (type pdf)
 
 <use figures/relativistic_contraction.pdf>
 Package pdftex.def Info: figures/relativistic_contraction.pdf used on input lin
-e 230.
+e 239.
 (pdftex.def)             Requested size: 231.2643pt x 144.54018pt.
- [9
+ [10
 
- <./figures/relativistic_contraction.pdf>] [10
+ <./figures/relativistic_contraction.pdf>] [11
 
-] <figures/behyan_fig.pdf, id=2156, 566.49442pt x 180.675pt>
+] <figures/behyan_fig.pdf, id=2283, 566.49442pt x 180.675pt>
 File: figures/behyan_fig.pdf Graphic file (type pdf)
 
 <use figures/behyan_fig.pdf>
-Package pdftex.def Info: figures/behyan_fig.pdf used on input line 269.
+Package pdftex.def Info: figures/behyan_fig.pdf used on input line 278.
 (pdftex.def)             Requested size: 342.2953pt x 109.17223pt.
- [11
+ [12
 
  <./figures/behyan_fig.pdf>]
-<figures/dissertation_work_overview.pdf, id=2172, 711.03416pt x 423.09248pt>
+<figures/dissertation_work_overview.pdf, id=2299, 711.03416pt x 423.09248pt>
 File: figures/dissertation_work_overview.pdf Graphic file (type pdf)
 
 <use figures/dissertation_work_overview.pdf>
 Package pdftex.def Info: figures/dissertation_work_overview.pdf used on input l
-ine 274.
+ine 283.
 (pdftex.def)             Requested size: 342.2953pt x 203.67603pt.
- [12
+ [13
 
- <./figures/dissertation_work_overview.pdf>] <figures/figure_1.pdf, id=2807, 47
+ <./figures/dissertation_work_overview.pdf>] <figures/figure_1.pdf, id=2935, 47
 6.98201pt x 128.81424pt>
 File: figures/figure_1.pdf Graphic file (type pdf)
 
 <use figures/figure_1.pdf>
-Package pdftex.def Info: figures/figure_1.pdf used on input line 289.
+Package pdftex.def Info: figures/figure_1.pdf used on input line 300.
 (pdftex.def)             Requested size: 342.2953pt x 92.44151pt.
- [13
+ [14
 
  <./figures/figure_1.pdf>]
-<figures/hole_particle_orthogonality.pdf, id=2854, 250.38445pt x 130.4875pt>
+<figures/hole_particle_orthogonality.pdf, id=2982, 250.38445pt x 130.4875pt>
 File: figures/hole_particle_orthogonality.pdf Graphic file (type pdf)
 
 <use figures/hole_particle_orthogonality.pdf>
 Package pdftex.def Info: figures/hole_particle_orthogonality.pdf used on input 
-line 304.
+line 315.
 (pdftex.def)             Requested size: 205.37926pt x 107.03627pt.
- [14
+ [15
 
  <./figures/hole_particle_orthogonality.pdf>]
-<figures/hole_particle_practice.pdf, id=2914, 193.47903pt x 130.4875pt>
+<figures/hole_particle_practice.pdf, id=3042, 193.47903pt x 130.4875pt>
 File: figures/hole_particle_practice.pdf Graphic file (type pdf)
 
 <use figures/hole_particle_practice.pdf>
 Package pdftex.def Info: figures/hole_particle_practice.pdf used on input line 
-316.
+327.
 (pdftex.def)             Requested size: 193.47855pt x 130.48717pt.
- [15
+ [16
 
  <./figures/hole_particle_practice.pdf>] <figures/relaxation_original.jpeg, id=
-2975, 227.1687pt x 221.3871pt>
+3103, 227.1687pt x 221.3871pt>
 File: figures/relaxation_original.jpeg Graphic file (type jpg)
 
 <use figures/relaxation_original.jpeg>
-Package pdftex.def Info: figures/relaxation_original.jpeg used on input line 32
-6.
+Package pdftex.def Info: figures/relaxation_original.jpeg used on input line 33
+7.
 (pdftex.def)             Requested size: 147.6579pt x 143.8999pt.
- [16
+ [17
 
- <./figures/relaxation_original.jpeg>] <figures/project_intro_1.pdf, id=2982, 7
+ <./figures/relaxation_original.jpeg>] <figures/project_intro_1.pdf, id=3110, 7
 11.03416pt x 423.09248pt>
 File: figures/project_intro_1.pdf Graphic file (type pdf)
 
 <use figures/project_intro_1.pdf>
-Package pdftex.def Info: figures/project_intro_1.pdf used on input line 331.
+Package pdftex.def Info: figures/project_intro_1.pdf used on input line 342.
 (pdftex.def)             Requested size: 342.2953pt x 203.67603pt.
- [17
+ [18
 
  <./figures/project_intro_1.pdf>]
-<figures/Figure1.pdf, id=3617, 250.38445pt x 130.4875pt>
+<figures/Figure1.pdf, id=3745, 250.38445pt x 130.4875pt>
 File: figures/Figure1.pdf Graphic file (type pdf)
 
 <use figures/Figure1.pdf>
-Package pdftex.def Info: figures/Figure1.pdf used on input line 344.
+Package pdftex.def Info: figures/Figure1.pdf used on input line 355.
 (pdftex.def)             Requested size: 212.82777pt x 110.91489pt.
- [18
+ [19
 
  <./figures/Figure1.pdf>]
-<figures/CMHP_alg1.pdf, id=3637, 519.26295pt x 174.88884pt>
+<figures/CMHP_alg1.pdf, id=3766, 519.26295pt x 174.88884pt>
 File: figures/CMHP_alg1.pdf Graphic file (type pdf)
 
 <use figures/CMHP_alg1.pdf>
-Package pdftex.def Info: figures/CMHP_alg1.pdf used on input line 355.
-(pdftex.def)             Requested size: 337.5169pt x 113.67639pt.
- [19
-
- <./figures/CMHP_alg1.pdf>]
-<figures/CMHP_alg2.pdf, id=3695, 519.26295pt x 174.88884pt>
-File: figures/CMHP_alg2.pdf Graphic file (type pdf)
-
-<use figures/CMHP_alg2.pdf>
-Package pdftex.def Info: figures/CMHP_alg2.pdf used on input line 369.
+Package pdftex.def Info: figures/CMHP_alg1.pdf used on input line 366.
 (pdftex.def)             Requested size: 337.5169pt x 113.67639pt.
  [20
 
- <./figures/CMHP_alg2.pdf>]
-<figures/CMHP_alg3.pdf, id=3794, 519.26295pt x 174.88884pt>
-File: figures/CMHP_alg3.pdf Graphic file (type pdf)
+ <./figures/CMHP_alg1.pdf>]
+<figures/CMHP_alg2.pdf, id=3823, 519.26295pt x 174.88884pt>
+File: figures/CMHP_alg2.pdf Graphic file (type pdf)
 
-<use figures/CMHP_alg3.pdf>
-Package pdftex.def Info: figures/CMHP_alg3.pdf used on input line 382.
+<use figures/CMHP_alg2.pdf>
+Package pdftex.def Info: figures/CMHP_alg2.pdf used on input line 380.
 (pdftex.def)             Requested size: 337.5169pt x 113.67639pt.
  [21
 
+ <./figures/CMHP_alg2.pdf>]
+<figures/CMHP_alg3.pdf, id=3922, 519.26295pt x 174.88884pt>
+File: figures/CMHP_alg3.pdf Graphic file (type pdf)
+
+<use figures/CMHP_alg3.pdf>
+Package pdftex.def Info: figures/CMHP_alg3.pdf used on input line 393.
+(pdftex.def)             Requested size: 337.5169pt x 113.67639pt.
+ [22
+
  <./figures/CMHP_alg3.pdf>]
-<figures/ocdft_tddft_histogram.pdf, id=3848, 263.18825pt x 146.4361pt>
+<figures/ocdft_tddft_histogram.pdf, id=3976, 263.18825pt x 146.4361pt>
 File: figures/ocdft_tddft_histogram.pdf Graphic file (type pdf)
 
 <use figures/ocdft_tddft_histogram.pdf>
 Package pdftex.def Info: figures/ocdft_tddft_histogram.pdf used on input line 4
-11.
+22.
 (pdftex.def)             Requested size: 223.71104pt x 124.47125pt.
- [22
+ [23
 
- <./figures/ocdft_tddft_histogram.pdf>] [23
+ <./figures/ocdft_tddft_histogram.pdf>] [24
 
-] <figures/thymine_all_spec.pdf, id=3940, 547.71582pt x 174.88884pt>
+] <figures/thymine_all_spec.pdf, id=4068, 547.71582pt x 174.88884pt>
 File: figures/thymine_all_spec.pdf Graphic file (type pdf)
 
 <use figures/thymine_all_spec.pdf>
-Package pdftex.def Info: figures/thymine_all_spec.pdf used on input line 439.
+Package pdftex.def Info: figures/thymine_all_spec.pdf used on input line 450.
 (pdftex.def)             Requested size: 356.01106pt x 113.67639pt.
 
-Overfull \hbox (13.71576pt too wide) in paragraph at lines 439--439
+Overfull \hbox (13.71576pt too wide) in paragraph at lines 450--450
  [] 
  []
 
-[24
+[25
 
  <./figures/thymine_all_spec.pdf>]
-<figures/project_intro_2.pdf, id=3967, 711.03416pt x 423.09248pt>
+<figures/project_intro_2.pdf, id=4096, 711.03416pt x 423.09248pt>
 File: figures/project_intro_2.pdf Graphic file (type pdf)
 
 <use figures/project_intro_2.pdf>
-Package pdftex.def Info: figures/project_intro_2.pdf used on input line 444.
+Package pdftex.def Info: figures/project_intro_2.pdf used on input line 455.
 (pdftex.def)             Requested size: 342.2953pt x 203.67603pt.
- [25
+ [26
 
- <./figures/project_intro_2.pdf>] [26
+ <./figures/project_intro_2.pdf>] [27
 
 ]
-[27
-
-] [28
+[28
 
 ] [29
 
-] <figures/figure_3.pdf, id=4632, 238.49101pt x 247.44847pt>
+] [30
+
+] <figures/figure_3.pdf, id=4760, 238.49101pt x 247.44847pt>
 File: figures/figure_3.pdf Graphic file (type pdf)
 
 <use figures/figure_3.pdf>
-Package pdftex.def Info: figures/figure_3.pdf used on input line 582.
+Package pdftex.def Info: figures/figure_3.pdf used on input line 599.
 (pdftex.def)             Requested size: 171.14764pt x 177.57751pt.
- [30
+ [31
 
  <./figures/figure_3.pdf>]
-Overfull \vbox (1.20346pt too high) detected at line 608
- []
-
-[31
-
-] <figures/Ti_structs.png, id=4666, 642.60075pt x 229.45724pt>
-File: figures/Ti_structs.png Graphic file (type png)
-
-<use figures/Ti_structs.png>
-Package pdftex.def Info: figures/Ti_structs.png used on input line 635.
-(pdftex.def)             Requested size: 192.78171pt x 68.83769pt.
-
-Overfull \vbox (0.25023pt too high) detected at line 635
+Overfull \vbox (1.20346pt too high) detected at line 625
  []
 
 [32
 
+] <figures/Ti_structs.png, id=4794, 642.60075pt x 229.45724pt>
+File: figures/Ti_structs.png Graphic file (type png)
+
+<use figures/Ti_structs.png>
+Package pdftex.def Info: figures/Ti_structs.png used on input line 654.
+(pdftex.def)             Requested size: 192.78171pt x 68.83769pt.
+ [33
+
  <./figures/Ti_structs.png>]
-<figures/ti_pre_edge_1.pdf, id=4679, 238.49101pt x 180.17313pt>
+<figures/ti_pre_edge_1.pdf, id=4807, 238.49101pt x 180.17313pt>
 File: figures/ti_pre_edge_1.pdf Graphic file (type pdf)
 
 <use figures/ti_pre_edge_1.pdf>
-Package pdftex.def Info: figures/ti_pre_edge_1.pdf used on input line 645.
-(pdftex.def)             Requested size: 238.49042pt x 180.17267pt.
- [33
-
- <./figures/ti_pre_edge_1.pdf>]
-<figures/ti_pre_edge_2.pdf, id=4709, 238.49101pt x 180.17313pt>
-File: figures/ti_pre_edge_2.pdf Graphic file (type pdf)
-
-<use figures/ti_pre_edge_2.pdf>
-Package pdftex.def Info: figures/ti_pre_edge_2.pdf used on input line 655.
+Package pdftex.def Info: figures/ti_pre_edge_1.pdf used on input line 664.
 (pdftex.def)             Requested size: 238.49042pt x 180.17267pt.
  [34
 
+ <./figures/ti_pre_edge_1.pdf>]
+<figures/ti_pre_edge_2.pdf, id=4837, 238.49101pt x 180.17313pt>
+File: figures/ti_pre_edge_2.pdf Graphic file (type pdf)
+
+<use figures/ti_pre_edge_2.pdf>
+Package pdftex.def Info: figures/ti_pre_edge_2.pdf used on input line 674.
+(pdftex.def)             Requested size: 238.49042pt x 180.17267pt.
+ [35
+
  <./figures/ti_pre_edge_2.pdf>]
-<figures/ticl4_preedge.png, id=4736, 2087.6394pt x 471.2004pt>
+<figures/ticl4_preedge.png, id=4864, 2087.6394pt x 471.2004pt>
 File: figures/ticl4_preedge.png Graphic file (type png)
 
 <use figures/ticl4_preedge.png>
-Package pdftex.def Info: figures/ticl4_preedge.png used on input line 680.
-(pdftex.def)             Requested size: 313.1324pt x 70.677pt.
- [35
-
- <./figures/ticl4_preedge.png>]
-<figures/ticpcl3_preedge.png, id=4745, 2087.6394pt x 471.2004pt>
-File: figures/ticpcl3_preedge.png Graphic file (type png)
-
-<use figures/ticpcl3_preedge.png>
-Package pdftex.def Info: figures/ticpcl3_preedge.png used on input line 705.
+Package pdftex.def Info: figures/ticl4_preedge.png used on input line 699.
 (pdftex.def)             Requested size: 313.1324pt x 70.677pt.
  [36
 
- <./figures/ticpcl3_preedge.png>]
-<figures/ticp2cl2_preedge.png, id=4753, 2087.6394pt x 471.2004pt>
-File: figures/ticp2cl2_preedge.png Graphic file (type png)
+ <./figures/ticl4_preedge.png>]
+<figures/ticpcl3_preedge.png, id=4873, 2087.6394pt x 471.2004pt>
+File: figures/ticpcl3_preedge.png Graphic file (type png)
 
-<use figures/ticp2cl2_preedge.png>
-Package pdftex.def Info: figures/ticp2cl2_preedge.png used on input line 730.
+<use figures/ticpcl3_preedge.png>
+Package pdftex.def Info: figures/ticpcl3_preedge.png used on input line 724.
 (pdftex.def)             Requested size: 313.1324pt x 70.677pt.
  [37
 
+ <./figures/ticpcl3_preedge.png>]
+<figures/ticp2cl2_preedge.png, id=4882, 2087.6394pt x 471.2004pt>
+File: figures/ticp2cl2_preedge.png Graphic file (type png)
+
+<use figures/ticp2cl2_preedge.png>
+Package pdftex.def Info: figures/ticp2cl2_preedge.png used on input line 749.
+(pdftex.def)             Requested size: 313.1324pt x 70.677pt.
+ [38
+
  <./figures/ticp2cl2_preedge.png>]
-[38
+[39
 
-] [39
+] [40
 
-] <figures/project_intro_3.pdf, id=4777, 711.03416pt x 423.09248pt>
+] <figures/project_intro_3.pdf, id=4904, 711.03416pt x 423.09248pt>
 File: figures/project_intro_3.pdf Graphic file (type pdf)
 
 <use figures/project_intro_3.pdf>
-Package pdftex.def Info: figures/project_intro_3.pdf used on input line 790.
+Package pdftex.def Info: figures/project_intro_3.pdf used on input line 809.
 (pdftex.def)             Requested size: 342.2953pt x 203.67603pt.
- [40
+ [41
 
  <./figures/project_intro_3.pdf>]
-<figures/assigning_particles.pdf, id=5422, 263.18825pt x 89.53058pt>
+<figures/assigning_particles.pdf, id=5549, 263.18825pt x 89.53058pt>
 File: figures/assigning_particles.pdf Graphic file (type pdf)
 
 <use figures/assigning_particles.pdf>
-Package pdftex.def Info: figures/assigning_particles.pdf used on input line 801
+Package pdftex.def Info: figures/assigning_particles.pdf used on input line 820
 .
 (pdftex.def)             Requested size: 342.2953pt x 116.44026pt.
- [41
+ [42
 
  <./figures/assigning_particles.pdf>]
-<figures/livvo_procedure_1.png, id=5463, 397.485pt x 230.3004pt>
+<figures/iao_vvo.pdf, id=5590, 297.33159pt x 100.91168pt>
+File: figures/iao_vvo.pdf Graphic file (type pdf)
+
+<use figures/iao_vvo.pdf>
+Package pdftex.def Info: figures/iao_vvo.pdf used on input line 834.
+(pdftex.def)             Requested size: 342.2953pt x 116.17839pt.
+ [43
+
+ <./figures/iao_vvo.pdf>]
+<figures/livvo_procedure_1.png, id=5613, 397.485pt x 230.3004pt>
 File: figures/livvo_procedure_1.png Graphic file (type png)
 
 <use figures/livvo_procedure_1.png>
-Package pdftex.def Info: figures/livvo_procedure_1.png used on input line 812.
+Package pdftex.def Info: figures/livvo_procedure_1.png used on input line 852.
 (pdftex.def)             Requested size: 256.72147pt x 148.74818pt.
- [42
+ [44
 
  <./figures/livvo_procedure_1.png>]
-<figures/livvo_procedure_2.png, id=5471, 397.485pt x 230.3004pt>
+<figures/livvo_procedure_2.png, id=5621, 397.485pt x 230.3004pt>
 File: figures/livvo_procedure_2.png Graphic file (type png)
 
 <use figures/livvo_procedure_2.png>
-Package pdftex.def Info: figures/livvo_procedure_2.png used on input line 823.
+Package pdftex.def Info: figures/livvo_procedure_2.png used on input line 864.
 (pdftex.def)             Requested size: 256.72147pt x 148.74818pt.
- [43
+ [45
 
  <./figures/livvo_procedure_2.png>]
 File: figures/livvo_procedure_2.png Graphic file (type png)
 
 <use figures/livvo_procedure_2.png>
-Package pdftex.def Info: figures/livvo_procedure_2.png used on input line 835.
-(pdftex.def)             Requested size: 256.72147pt x 148.74818pt.
- [44
-
-]
-<figures/livvo_procedure_3.png, id=5486, 397.485pt x 230.3004pt>
-File: figures/livvo_procedure_3.png Graphic file (type png)
-
-<use figures/livvo_procedure_3.png>
-Package pdftex.def Info: figures/livvo_procedure_3.png used on input line 847.
-(pdftex.def)             Requested size: 256.72147pt x 148.74818pt.
- [45
-
- <./figures/livvo_procedure_3.png>]
-<figures/livvo_procedure_4.png, id=5494, 397.485pt x 230.3004pt>
-File: figures/livvo_procedure_4.png Graphic file (type png)
-
-<use figures/livvo_procedure_4.png>
-Package pdftex.def Info: figures/livvo_procedure_4.png used on input line 855.
+Package pdftex.def Info: figures/livvo_procedure_2.png used on input line 877.
 (pdftex.def)             Requested size: 256.72147pt x 148.74818pt.
  [46
 
+]
+<figures/livvo_procedure_3.png, id=5635, 397.485pt x 230.3004pt>
+File: figures/livvo_procedure_3.png Graphic file (type png)
+
+<use figures/livvo_procedure_3.png>
+Package pdftex.def Info: figures/livvo_procedure_3.png used on input line 889.
+(pdftex.def)             Requested size: 256.72147pt x 148.74818pt.
+ [47
+
+ <./figures/livvo_procedure_3.png>]
+<figures/livvo_procedure_4.png, id=5643, 397.485pt x 230.3004pt>
+File: figures/livvo_procedure_4.png Graphic file (type png)
+
+<use figures/livvo_procedure_4.png>
+Package pdftex.def Info: figures/livvo_procedure_4.png used on input line 898.
+(pdftex.def)             Requested size: 256.72147pt x 148.74818pt.
+ [48
+
  <./figures/livvo_procedure_4.png>]
-<figures/water_IAOs.png, id=5502, 180.675pt x 118.5228pt>
+<figures/water_IAOs.png, id=5651, 180.675pt x 118.5228pt>
 File: figures/water_IAOs.png Graphic file (type png)
 
 <use figures/water_IAOs.png>
-Package pdftex.def Info: figures/water_IAOs.png used on input line 899.
+Package pdftex.def Info: figures/water_IAOs.png used on input line 942.
 (pdftex.def)             Requested size: 108.40582pt x 71.11421pt.
 
-Overfull \vbox (1.51248pt too high) detected at line 899
+Overfull \vbox (1.51248pt too high) detected at line 942
  []
 
-[47
+[49
 
  <./figures/water_IAOs.png>]
-<figures/img_1a.png, id=5511, 128.48pt x 78.2925pt>
+<figures/img_1a.png, id=5661, 128.48pt x 78.2925pt>
 File: figures/img_1a.png Graphic file (type png)
  <use figures/img_1a.png>
-Package pdftex.def Info: figures/img_1a.png used on input line 919.
+Package pdftex.def Info: figures/img_1a.png used on input line 962.
 (pdftex.def)             Requested size: 71.13188pt x 43.34651pt.
 
-<figures/img_1b.png, id=5512, 123.46124pt x 92.345pt>
+<figures/img_1b.png, id=5662, 123.46124pt x 92.345pt>
 File: figures/img_1b.png Graphic file (type png)
  <use figures/img_1b.png>
-Package pdftex.def Info: figures/img_1b.png used on input line 919.
+Package pdftex.def Info: figures/img_1b.png used on input line 962.
 (pdftex.def)             Requested size: 64.01869pt x 47.8858pt.
 File: figures/img_1a.png Graphic file (type png)
 
 <use figures/img_1a.png>
-Package pdftex.def Info: figures/img_1a.png used on input line 919.
+Package pdftex.def Info: figures/img_1a.png used on input line 962.
 (pdftex.def)             Requested size: 71.13188pt x 43.34651pt.
 File: figures/img_1b.png Graphic file (type png)
  <use figures/img_1b.png>
-Package pdftex.def Info: figures/img_1b.png used on input line 919.
+Package pdftex.def Info: figures/img_1b.png used on input line 962.
 (pdftex.def)             Requested size: 64.01869pt x 47.8858pt.
- [48
+ [50
 
  <./figures/img_1a.png> <./figures/img_1b.png>]
-<figures/water_example.pdf, id=5521, 304.15996pt x 58.72649pt>
+<figures/water_example.pdf, id=5671, 304.15996pt x 58.72649pt>
 File: figures/water_example.pdf Graphic file (type pdf)
 
 <use figures/water_example.pdf>
-Package pdftex.def Info: figures/water_example.pdf used on input line 938.
+Package pdftex.def Info: figures/water_example.pdf used on input line 981.
 (pdftex.def)             Requested size: 308.06367pt x 59.47993pt.
- [49
+ [51
 
  <./figures/water_example.pdf>]
-<figures/ethane_benzenethiol_header.pdf, id=5566, 397.485pt x 230.52824pt>
+<figures/ethane_benzenethiol_header.pdf, id=5715, 397.485pt x 230.52824pt>
 File: figures/ethane_benzenethiol_header.pdf Graphic file (type pdf)
 
 <use figures/ethane_benzenethiol_header.pdf>
 Package pdftex.def Info: figures/ethane_benzenethiol_header.pdf used on input l
-ine 947.
+ine 990.
 (pdftex.def)             Requested size: 273.83728pt x 158.82193pt.
- [50
+ [52
 
  <./figures/ethane_benzenethiol_header.pdf>]
-<figures/ethane_benzenethiol_spectra.pdf, id=5591, 494.22435pt x 230.52823pt>
+<figures/ethane_benzenethiol_spectra.pdf, id=5740, 494.22435pt x 230.52823pt>
 File: figures/ethane_benzenethiol_spectra.pdf Graphic file (type pdf)
 
 <use figures/ethane_benzenethiol_spectra.pdf>
 Package pdftex.def Info: figures/ethane_benzenethiol_spectra.pdf used on input 
-line 957.
+line 1000.
 (pdftex.def)             Requested size: 342.2953pt x 159.66261pt.
- [51
+ [53
 
  <./figures/ethane_benzenethiol_spectra.pdf>]
-<figures/alt_ethane_benzenethiol_livvo.pdf, id=5655, 451.6875pt x 244.31358pt>
+<figures/alt_ethane_benzenethiol_livvo.pdf, id=5804, 451.6875pt x 244.31358pt>
 File: figures/alt_ethane_benzenethiol_livvo.pdf Graphic file (type pdf)
 
 <use figures/alt_ethane_benzenethiol_livvo.pdf>
 Package pdftex.def Info: figures/alt_ethane_benzenethiol_livvo.pdf used on inpu
-t line 968.
+t line 1011.
 (pdftex.def)             Requested size: 273.83728pt x 148.12518pt.
- [52
+ [54
 
  <./figures/alt_ethane_benzenethiol_livvo.pdf>]
-<figures/other_livvo_contributions.pdf, id=5767, 451.6875pt x 314.30731pt>
+<figures/other_livvo_contributions.pdf, id=5916, 451.6875pt x 314.30731pt>
 File: figures/other_livvo_contributions.pdf Graphic file (type pdf)
 
 <use figures/other_livvo_contributions.pdf>
 Package pdftex.def Info: figures/other_livvo_contributions.pdf used on input li
-ne 978.
+ne 1021.
 (pdftex.def)             Requested size: 273.83728pt x 190.56175pt.
 
-Overfull \vbox (5.9749pt too high) detected at line 978
+Overfull \vbox (5.9749pt too high) detected at line 1021
  []
 
-[53
+[55
 
  <./figures/other_livvo_contributions.pdf>]
-<figures/water_monomer_dimer_header.pdf, id=5892, 451.6875pt x 169.76735pt>
+<figures/water_monomer_dimer_header.pdf, id=6042, 451.6875pt x 169.76735pt>
 File: figures/water_monomer_dimer_header.pdf Graphic file (type pdf)
 
 <use figures/water_monomer_dimer_header.pdf>
 Package pdftex.def Info: figures/water_monomer_dimer_header.pdf used on input l
-ine 987.
+ine 1030.
 (pdftex.def)             Requested size: 273.83728pt x 102.92844pt.
- [54
+ [56
 
  <./figures/water_monomer_dimer_header.pdf>]
-<figures/water_spectra_slide.pdf, id=5917, 451.6875pt x 283.5784pt>
+<figures/water_spectra_slide.pdf, id=6067, 451.6875pt x 283.5784pt>
 File: figures/water_spectra_slide.pdf Graphic file (type pdf)
 
 <use figures/water_spectra_slide.pdf>
-Package pdftex.def Info: figures/water_spectra_slide.pdf used on input line 996
-.
+Package pdftex.def Info: figures/water_spectra_slide.pdf used on input line 103
+9.
 (pdftex.def)             Requested size: 273.83728pt x 171.93109pt.
- [55
+ [57
 
  <./figures/water_spectra_slide.pdf>]
-<figures/water_livvo_slide.png, id=5979, 440.3652pt x 341.5962pt>
+<figures/water_livvo_slide.png, id=6128, 440.3652pt x 341.5962pt>
 File: figures/water_livvo_slide.png Graphic file (type png)
 
 <use figures/water_livvo_slide.png>
-Package pdftex.def Info: figures/water_livvo_slide.png used on input line 1002.
+Package pdftex.def Info: figures/water_livvo_slide.png used on input line 1045.
 
 (pdftex.def)             Requested size: 273.83728pt x 212.42334pt.
- [56
+ [58
 
  <./figures/water_livvo_slide.png>]
-<figures/project_intro_4.pdf, id=5987, 711.03416pt x 423.09248pt>
+<figures/project_intro_4.pdf, id=6136, 711.03416pt x 423.09248pt>
 File: figures/project_intro_4.pdf Graphic file (type pdf)
 
 <use figures/project_intro_4.pdf>
-Package pdftex.def Info: figures/project_intro_4.pdf used on input line 1007.
+Package pdftex.def Info: figures/project_intro_4.pdf used on input line 1050.
 (pdftex.def)             Requested size: 342.2953pt x 203.67603pt.
- [57
+ [59
 
  <./figures/project_intro_4.pdf>]
-<figures/pyrazine_si_100_slide_1.pdf, id=6637, 440.30638pt x 209.41238pt>
+<figures/pyrazine_si_100_slide_1.pdf, id=6786, 440.30638pt x 209.41238pt>
 File: figures/pyrazine_si_100_slide_1.pdf Graphic file (type pdf)
 
 <use figures/pyrazine_si_100_slide_1.pdf>
 Package pdftex.def Info: figures/pyrazine_si_100_slide_1.pdf used on input line
- 1016.
+ 1059.
 (pdftex.def)             Requested size: 273.83728pt x 130.24333pt.
- [58
+ [60
 
  <./figures/pyrazine_si_100_slide_1.pdf>]
-<figures/pyrazine_si_100_slide_2.pdf, id=6663, 440.30638pt x 209.41238pt>
+<figures/pyrazine_si_100_slide_2.pdf, id=6812, 440.30638pt x 209.41238pt>
 File: figures/pyrazine_si_100_slide_2.pdf Graphic file (type pdf)
 
 <use figures/pyrazine_si_100_slide_2.pdf>
 Package pdftex.def Info: figures/pyrazine_si_100_slide_2.pdf used on input line
- 1026.
+ 1069.
 (pdftex.def)             Requested size: 273.83728pt x 130.24333pt.
- [59
+ [61
 
  <./figures/pyrazine_si_100_slide_2.pdf>]
-<figures/pyrazine_si_100_slide_3.pdf, id=6703, 440.30638pt x 209.41238pt>
+<figures/pyrazine_si_100_slide_3.pdf, id=6853, 440.30638pt x 209.41238pt>
 File: figures/pyrazine_si_100_slide_3.pdf Graphic file (type pdf)
 
 <use figures/pyrazine_si_100_slide_3.pdf>
 Package pdftex.def Info: figures/pyrazine_si_100_slide_3.pdf used on input line
- 1037.
+ 1080.
 (pdftex.def)             Requested size: 273.83728pt x 130.24333pt.
- [60
+ [62
 
- <./figures/pyrazine_si_100_slide_3.pdf>] [61
+ <./figures/pyrazine_si_100_slide_3.pdf>] [63
 
-] <figures/CO_projection.pdf, id=6750, 234.8775pt x 166.22101pt>
+] <figures/CO_projection.pdf, id=6899, 234.8775pt x 166.22101pt>
 File: figures/CO_projection.pdf Graphic file (type pdf)
 
 <use figures/CO_projection.pdf>
-Package pdftex.def Info: figures/CO_projection.pdf used on input line 1061.
+Package pdftex.def Info: figures/CO_projection.pdf used on input line 1104.
 (pdftex.def)             Requested size: 234.87692pt x 166.22058pt.
- [62
+ [64
 
- <./figures/CO_projection.pdf>] [63
+ <./figures/CO_projection.pdf>] [65
 
 ]
-<figures/pyrazine_chemisorbed_c_kedge.pdf, id=6826, 469.755pt x 180.675pt>
+<figures/pyrazine_chemisorbed_c_kedge.pdf, id=6975, 469.755pt x 180.675pt>
 File: figures/pyrazine_chemisorbed_c_kedge.pdf Graphic file (type pdf)
 
 <use figures/pyrazine_chemisorbed_c_kedge.pdf>
 Package pdftex.def Info: figures/pyrazine_chemisorbed_c_kedge.pdf used on input
- line 1103.
+ line 1146.
 (pdftex.def)             Requested size: 342.2953pt x 131.6518pt.
- [64
+ [66
 
- <./figures/pyrazine_chemisorbed_c_kedge.pdf>] [65
+ <./figures/pyrazine_chemisorbed_c_kedge.pdf>] [67
 
 ]
-<figures/pro_acknow.pdf, id=6870, 440.30638pt x 104.1372pt>
+<figures/pro_acknow.pdf, id=7020, 440.30638pt x 104.1372pt>
 File: figures/pro_acknow.pdf Graphic file (type pdf)
 
 <use figures/pro_acknow.pdf>
-Package pdftex.def Info: figures/pro_acknow.pdf used on input line 1126.
+Package pdftex.def Info: figures/pro_acknow.pdf used on input line 1169.
 (pdftex.def)             Requested size: 342.2953pt x 80.95973pt.
- [66
+ [68
 
  <./figures/pro_acknow.pdf>]
-<figures/fam_acknow.pdf, id=6901, 583.1393pt x 200.30775pt>
+<figures/fam_acknow.pdf, id=7051, 583.1393pt x 200.30775pt>
 File: figures/fam_acknow.pdf Graphic file (type pdf)
 
 <use figures/fam_acknow.pdf>
-Package pdftex.def Info: figures/fam_acknow.pdf used on input line 1131.
+Package pdftex.def Info: figures/fam_acknow.pdf used on input line 1174.
 (pdftex.def)             Requested size: 342.2953pt x 117.57841pt.
 
 
@@ -1786,20 +1801,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1131 \end{frame}
+l.1174 \end{frame}
                   
 ? 
-[67
+[69
 
  <./figures/fam_acknow.pdf>]
-<figures/project_intro__done.pdf, id=6937, 711.03416pt x 423.09248pt>
+<figures/project_intro__done.pdf, id=7086, 711.03416pt x 423.09248pt>
 File: figures/project_intro__done.pdf Graphic file (type pdf)
 
 <use figures/project_intro__done.pdf>
-Package pdftex.def Info: figures/project_intro__done.pdf used on input line 113
-6.
+Package pdftex.def Info: figures/project_intro__done.pdf used on input line 117
+9.
 (pdftex.def)             Requested size: 342.2953pt x 203.67603pt.
- [68
+ [70
 
  <./figures/project_intro__done.pdf>]
 \tf@nav=\write8
@@ -1811,12 +1826,12 @@ Package pdftex.def Info: figures/project_intro__done.pdf used on input line 113
 \tf@snm=\write10
 \openout10 = `defense_presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1138.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1181.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1181.
 
 (defense_presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1181.
 
 Package rerunfilecheck Info: File `defense_presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1830,13 +1845,13 @@ Package logreq Info: Writing requests to 'defense_presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24871 strings out of 493334
- 474362 string characters out of 3136655
+ 24889 strings out of 493334
+ 474708 string characters out of 3136655
  896269 words of memory out of 3000000
- 27669 multiletter control sequences out of 15000+200000
+ 27681 multiletter control sequences out of 15000+200000
  22051 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,21n,57p,807b,1432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,22n,57p,807b,1432s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb>
@@ -1864,9 +1879,9 @@ ic/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/symbols/msam7.pfb>
-Output written on defense_presentation.pdf (68 pages, 16772085 bytes).
+Output written on defense_presentation.pdf (70 pages, 17183536 bytes).
 PDF statistics:
- 7701 PDF objects out of 8907 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7850 PDF objects out of 8907 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
